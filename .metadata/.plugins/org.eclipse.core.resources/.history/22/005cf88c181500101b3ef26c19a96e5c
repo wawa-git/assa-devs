@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import java.util.List;
+import com.assaassociates.syraway.model.Time;
+
+/**
+ * @author waheb
+ *
+ */
+public interface ITimeDAO {
+	public Time getTimeById(String pTimeId);
+	public List<Time> getTimeOfEmployee(String pEmployeeId);
+	public List<Time> getTimeOfTask(String pTaskId);
+	public List<Time> getTimeOfTeam(String pTeamId);
+	public void addTime(Time oTime);
+	public void updateTime(Time pTime);
+	public void removeTime(Time pTime);
+	public void removeTime(String pTimeId);
+}

@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.exts.convertes;
+
+import java.io.Serializable;
+
+/**
+ * @author waheb
+ *
+ */
+public class converterMapper implements Serializable {
+
+}

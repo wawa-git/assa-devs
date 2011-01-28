@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+/home/waheb/devs/workspace.git/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1375137125.index
+2647079736.index
+22034887.index
+2573888321.index
+2213946877.index

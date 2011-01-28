@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:a4j="http://richfaces.org/a4j"
+	  xmlns:rich="http://richfaces.org/rich"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+  	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+
+	<h:head>
+		<title>Manage Business Unit</title>
+	</h:head>
+	<h:body>
+		<h1>Manage Business Unit</h1>
+		<h:form id="addBusinessUnitForm" >
+<!--			<h:outputText value="BU ID : " />-->
+<!--			<h:inputText value="#{businessUnit.businessUnit.buId}" id="buId" />-->
+<!--			<br/>-->
+			<h:outputText value="BU EX ID : " />
+<!--			<h:inputText value="#{businessUnit.buExId}" id="buExId" />-->
+				<h:selectOneMenu id="buExId" value="#{businessUnit.buExId}">
+					<f:selectItem itemValue="null" itemLabel=""/>
+  					<f:selectItems value="#{businessUnit.allBuEx}" />
+				</h:selectOneMenu>
+			<br />
+			<h:outputText value="BU PC ID : " />
+<!--			<h:inputText value="#{businessUnit.buPcId}" id="buPcId" />-->
+			<h:selectOneMenu id="buPcId" value="#{businessUnit.buPcId}">
+				<f:selectItem itemValue="null" itemLabel=""/>
+				<f:selectItems value="#{businessUnit.allBuPc}" />
+			</h:selectOneMenu>
+			<br />
+			<h:commandButton action="#{businessUnit.addBusinessUnit}" value="save" />
+		</h:form>
+		<h:form id="BUList">
+			<h:commandButton value="list all business unit">
+				<f:ajax render="listOfBu" listener="#{businessUnit.listBusinessUnitListener}" />
+			</h:commandButton>
+			<h:dataTable id="listOfBu" border="1" value="#{businessUnit.businessUnitList}" var="bu">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU_ID" />
+					</f:facet>
+					<h:link outcome="addBusinessUnit" value="#{bu.buId}" >
+						<f:param name="buId" value="#{bu.buId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU EX ID" />
+					</f:facet>
+					<h:link outcome="addBusinessUnitEx" value="(#{bu.swBuEx}) #{bu.swBuEx.bseCur}" >
+						<f:param name="buExId" value="#{bu.swBuEx.buExId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU PC ID" />
+					</f:facet>
+					<h:link outcome="addBusinessUnitPc" value="(#{bu.swBuPc}) #{bu.swBuPc.descr}" >
+						<f:param name="buPcId" value="#{bu.swBuPc.buPcId}"/>
+					</h:link>
+				</h:column>
+			</h:dataTable>
+		</h:form>
+		<h:form id="AddBUEX_PCForm">
+			<f:view id="EX_PCView">
+			
+			</f:view>
+		</h:form>
+	</h:body>
+</html>

@@ -1,0 +1,65 @@
+package com.assaassosiates.syraway.security.authentication;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.stereotype.Component;
+import com.assaassociates.syraway.model.Employee;
+
+@Component
+@Scope(value="session", proxyMode=ScopedProxyMode.TARGET_CLASS)
+public class UserProfile implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	private boolean oTransient = true;
+	private Employee oEmpl;
+	private List<GrantedAuthority> oListAuthorities;
+
+	public boolean isTransient() {
+		return oTransient;
+	}
+
+	public void setTransient(boolean pTransient) {
+		this.oTransient = pTransient;
+	}
+
+	public Employee getEmpl() {
+		return oEmpl;
+	}
+
+	public void setEmpl(Employee oEmpl) {
+		this.oEmpl = oEmpl;
+	}
+
+	public List<GrantedAuthority> getListAuthorities() {
+		return oListAuthorities;
+	}
+
+	public void setListAuthorities(List<GrantedAuthority> pListAuthorities) {
+		this.oListAuthorities = pListAuthorities;
+	}
+	
+	public List<String> getListAuthoritiesName(){
+		List<String> result = null;
+		if(oListAuthorities != null){
+			result = new ArrayList<String>();
+			for (GrantedAuthority oGrantedAuthority : oListAuthorities) {
+				result.add(oGrantedAuthority.getAuthority());
+				System.out.println("LIST AUTHOTIRY : " + oGrantedAuthority.getAuthority());
+			}
+		}
+		return result;
+	}
+	
+	public boolean listAuthoritiesContains(String pAuthority){
+		List<String> oList = getListAuthoritiesName(); 
+		if(oList != null){
+			return oList.contains(pAuthority);
+		}
+		return false;
+	}
+}

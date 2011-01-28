@@ -1,0 +1,25 @@
+
+* CONVENTION :
+Le nommage des variables se fait tout en minuscule avec des "_" entre chaque mot.
+On mettra toujours des espaces à l'intérieur des parenthèses, ainsi qu'autour des
+virgules.
+Ex:	def get_browser(self, request_handler ) 	# good
+	page_template = ...							# good
+	def getBrowser( self , requestHandler  )	# bad
+	def Get_browser( self ,requestHandler )		# bad
+
+
+* CODE :
+*******
+wmp.engine.Engine:
+Moteur de génération des pages html, l'état des pages est contenu en partie 
+dans l'url (ex: wmp.com/golf/stats -> sport=golf & page=stats
+
+
+* SPINNER :
+***********
+Le spinner de chargement a été généré depuis http://www.ajaxload.info/
+Les paramètres utilisés sont:
+Indicator type: "Indicator lite"
+Background color: "Transparent background"
+Foreground color: "#E35218"

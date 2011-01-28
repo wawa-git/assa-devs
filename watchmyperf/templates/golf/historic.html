@@ -1,0 +1,27 @@
+<style>
+	.golf_entry{
+		width: 500px;
+		margin: 10px 0px 0px 10px;
+		padding: 10px;
+		text-align: left;
+	    overflow: hidden;
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: #e1e1e1;
+	    background-color:#EAE9E2;
+	}
+</style>
+
+Historique des parcours enregistrés:
+
+{% for entry in entries %}
+	<div class="golf_entry">
+		<b>Golf</b>: {{entry.golf_course.golf.name}} <br />
+		<b>Parcours</b>: {{entry.golf_course.name}} <br />
+		<b>Date</b>: {{entry.date}} <br />
+		<b>Score</b>: {{entry.relative_score|force_sign}} <br />
+		<b>GIR</b>: {{entry.gir}}% <br />
+		<b>Put</b>: {{entry.avg_put}} <br />
+		<b>Fairway</b>: {{entry.fairway}}% <br />
+	</div>
+{% endfor %}

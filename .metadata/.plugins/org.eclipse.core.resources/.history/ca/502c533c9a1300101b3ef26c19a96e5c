@@ -1,0 +1,94 @@
+/**
+ * 
+ */
+package com.assaasoociates.syraway.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import com.assaassociates.syraway.dao.IBusinessUnitExDAO;
+import com.assaassociates.syraway.dao.IDepartmentDAO;
+import com.assaassociates.syraway.dao.IEmployeeDAO;
+import com.assaassociates.syraway.dao.IOprIdDAO;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.Department;
+import com.assaassociates.syraway.model.Employee;
+import com.assaassociates.syraway.model.Oprid;
+
+/**
+ * @author waheb
+ *
+ */
+
+@Component("opridController")
+public class OpridControllerImpl implements IOpridController {
+
+	@Autowired
+	private IEmployeeDAO emplDAO;
+	
+	@Autowired
+	private IOprIdDAO opridDAO;
+
+	public IEmployeeDAO getEmplDAO() {
+		return emplDAO;
+	}
+
+	public void setEmplDAO(IEmployeeDAO emplDAO) {
+		this.emplDAO = emplDAO;
+	}
+
+	public IOprIdDAO getOpridDAO() {
+		return opridDAO;
+	}
+
+	public void setOpridDAO(IOprIdDAO opridDAO) {
+		this.opridDAO = opridDAO;
+	}
+
+	public void addOprid(Oprid pOprid) {
+		if(opridDAO != null){
+			opridDAO.addOprid(pOprid);
+		}
+	}
+
+	public void updateOprid(Oprid pOprid) {
+		if(opridDAO != null){
+			opridDAO.updateOprid(pOprid);
+		}
+	}
+
+	public Employee getEmployee(String pEmplId) {
+		Employee result = null;
+		if(emplDAO != null){
+			result = emplDAO.getEmployeeById(pEmplId);
+		}
+		return result;
+	}
+
+	public List<Department> getAllDepts() {
+		List<Department> result = new ArrayList<Department>();
+		if(deptDAO != null)
+			result = deptDAO.getAllDepts();
+		return result;
+	}
+
+	public List<Employee> getAllEmpls() {
+		// TODO Auto-generated method stub
+		return new ArrayList<Employee>();
+	}
+
+	public List<BusinessUnitEx> getAllBuEx() {
+		if(businessUnitExDAO != null){
+			return businessUnitExDAO.getAllBusinessUnitEx();
+		}
+		return new ArrayList<BusinessUnitEx>();
+	}
+
+	public void addDepartment(Department pDept) {
+		if(deptDAO != null){
+			deptDAO.addDepartment(pDept);
+		}
+		
+	}
+}

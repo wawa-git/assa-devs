@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291942705650
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291942707724
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291942710602
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942714528
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942731683
+error,log,,,"Could not update workspace index",1291942731926
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291942736885
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291942739647
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291942743688
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291942749561
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942755669
+opened,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291942762434
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942762627
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291942762725
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.navigate.openResource",1291942762757
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942783966
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942815209
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291942819201
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291942826195
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291942832268
+error,log,,,"Could not update workspace index",1291942833020
+error,log,,,"Could not update workspace index",1291942833023
+error,log,,,"Could not update workspace index",1291942833025
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291942835381
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291942837309
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942841346
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942841686
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291942843700
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942844957
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942845834
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291942847876
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942848987
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942849284
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291942850686
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942852015
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942852284
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291942860618
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942869946
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942872653
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291942872990
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943055665
+activated,editor,org.eclipse.jpt.ui,2.3.2.v201008252310,"org.eclipse.jpt.ui.internal.editors.PersistenceEditor",1291943064771
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291943066533
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943071525
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943124442
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291943125925
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291943128157
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291943134948
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943139188
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943204740
+activated,editor,org.eclipse.jpt.ui,2.3.2.v201008252310,"org.eclipse.jpt.ui.internal.editors.PersistenceEditor",1291943207031
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943229370
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943248581
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291943252064
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291943272325
+executed,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.edit.text.java.open.editor",1291943272330
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291943280689
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291943308630
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291943317554
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291943325971
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291943328882
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943331921
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943411923
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943430471
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291943430651
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943432341
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291943432500
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943435156
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943435347
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943435472
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943435681
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943436008
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943443281
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291943443414
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943459042
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291943459602
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943474476
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943475546
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943477766
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291943477961
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943479808
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943480232
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943480355
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943481602
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943481644
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943481721
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943481955
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943482469
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943485809
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943499592
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943500597
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943500851
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943501045
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943501267
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943524055
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291943524263
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943529191
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943573278
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943584509
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943584865
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291943589233
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943601567
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943601747
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943601905
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943602070
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943602211
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943602364
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943602518
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943602677
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943602826
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943602984
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943603134
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943603282
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943603441
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943603837
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943604138
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943604367
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291943606312
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291943621321
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943624609
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943624766
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943624922
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943625090
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943625246
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943625396
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943625895
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943625928
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943625961
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943625993
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943626029
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943626063
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943626094
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943626127
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943626287
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943626460
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943626635
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943631520
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291943631561
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943632592
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943632782
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291943633814
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943635613
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943635853
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291943637163
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943638056
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943638214
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943638363
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291943638870
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943639243
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291943640599
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291943640951
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943645375
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943694640
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291943715714
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943717205
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943793523
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291943807202
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291943808526
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291943809903
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291943811760
+error,log,,,"src/main/java/com/assaassociates/syraway/proto [in exts] does not exist",1291943818846
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291943818870
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291943820113
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291943824301
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943859214
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943859537
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943863946
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291943949524
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291943956236
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943968070
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943968226
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943968456
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291943968685
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1291943970013
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291943974077
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1291943979982
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1291943980308
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1291943980599
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1291943981083
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291943987168
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944001131
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944001825
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944002604
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944003809
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944005022
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944009080
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291944040017
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291944043607
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291944046355
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291944073613
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944126599
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944136532
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291944139174
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944147589
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944160047
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291944189070
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291944192867
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291944195363
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291944195571
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291944195791
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291944195981
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291944196171
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291944196391
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291944196637
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291944196907
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291944198889
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291944200947
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291944212213
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944216486
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944239852
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291944243787
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291944251264
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291944254276
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291944260189
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291944263118
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291944265304
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291944265528
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291944265693
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291944268522
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291944279581
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291944283707
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944291756
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944321720
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944324321
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944326940
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944331255
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944383690
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291944390901
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1291944393605
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1291944394930
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1291944398362
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291944400455
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944402011
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944471451
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291944474732
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291944486960
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944492306
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944554137
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291944559498
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944573573
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944619063
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291944622908
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944624969
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944642897
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944645400
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944650536
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944652021
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944654956
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944656831
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291944705062

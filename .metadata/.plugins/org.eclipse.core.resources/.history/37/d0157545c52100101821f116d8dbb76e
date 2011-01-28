@@ -1,0 +1,71 @@
+/**
+ * 
+ */
+package com.assaassosiates.syraway.security.authentication;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.dao.DataAccessException;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Component;
+import com.assaasoociates.syraway.controller.IEmployeeController;
+import com.assaassociates.syraway.model.Employee;
+
+/**
+ * @author waheb
+ *
+ */
+@Component("SywUserDetailsService")
+@Scope(value="session")
+public class SywUserDetailsService implements UserDetailsService {
+
+	@Autowired
+	IEmployeeController oEmployeeController;
+	
+	/* (non-Javadoc)
+	 * @see org.springframework.security.core.userdetails.UserDetailsService#loadUserByUsername(java.lang.String)
+	 */
+	public UserDetails loadUserByUsername(String pUsername)
+			throws UsernameNotFoundException, DataAccessException {
+		if(this.oEmployeeController != null){
+			Employee oEmpl = this.oEmployeeController.getEmployeeFromEmail(pUsername);
+			if(oEmpl != null){
+				List<GrantedAuthority> oListAuthorities = getGrantedAuthorityList(oEmpl.getEmplId());
+				
+				return createUserDetails(pUsername, oListAuthorities);
+			}else{
+				throw new UsernameNotFoundException("email : " + pUsername + " not found");
+			}
+		}else{
+			throw new UsernameNotFoundException("can't access Employee Controller");
+		}
+	}
+	
+	public UserDetails createUserDetails(String pUsername, List<GrantedAuthority> pListAuthorities){
+		User oResult = new User(pUsername, "admin", true, true, true, true, pListAuthorities);
+		
+		return oResult;
+	}
+	
+	public List<GrantedAuthority> getGrantedAuthorityList(int pEmplId){
+		List<GrantedAuthority> oResult = new ArrayList<GrantedAuthority>();
+		
+		return oResult;
+	}
+
+	public IEmployeeController getEmployeeController() {
+		return oEmployeeController;
+	}
+
+	public void setEmployeeController(IEmployeeController pEmployeeController) {
+		this.oEmployeeController = pEmployeeController;
+	}
+
+}

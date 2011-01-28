@@ -1,0 +1,52 @@
+package test.test;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the SW_DEPT database table.
+ * 
+ */
+@Entity
+@Table(name="SW_DEPT")
+public class SwDept implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@EmbeddedId
+	private SwDeptPK id;
+
+	@Column(name="ACTIVE")
+	private byte active;
+
+	@Column(name="DESCR", length=120)
+	private String descr;
+
+    public SwDept() {
+    }
+
+	public SwDeptPK getId() {
+		return this.id;
+	}
+
+	public void setId(SwDeptPK id) {
+		this.id = id;
+	}
+	
+	public byte getActive() {
+		return this.active;
+	}
+
+	public void setActive(byte active) {
+		this.active = active;
+	}
+
+	public String getDescr() {
+		return this.descr;
+	}
+
+	public void setDescr(String descr) {
+		this.descr = descr;
+	}
+
+}

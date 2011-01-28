@@ -1,45 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="32" version="2.0">
+<workbench progressCount="60" version="2.0">
 <workbenchAdvisor/>
 <window height="752" maximized="true" width="1020" x="0" y="24">
 <fastViewData fastViewLocation="1024"/>
-<intro standby="true"/>
 <perspectiveBar>
-<itemSize x="226"/>
+<itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
+<coolItem id="org.eclipse.jpt.ui.JptCreationActionSet" itemType="typeToolBarContribution" x="48" y="30"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="84" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="132" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
-<coolItem id="org.eclipse.wst.web.ui.wizardsActionSet" itemType="typeToolBarContribution" x="96" y="30"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.maven.ide.eclipse.editor.MavenPomEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jpt.ui.internal.editors.PersistenceEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1291822919474" focus="true" label="Workspace - Java EE">
+<page aggregateWorkingSetId="Aggregate for window 1292772073108" focus="true" label="Workspace - Java EE">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.internal.EditorStack@1d69138" ratio="0.32793522" ratioLeft="405" ratioRight="830" relationship="2" relative="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="addBusinessUnit.xhtml" partName="addBusinessUnit.xhtml" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/webapp/addBusinessUnit.xhtml" title="addBusinessUnit.xhtml" tooltip="exts/src/main/webapp/addBusinessUnit.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/webapp/addBusinessUnit.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="31" selectionOffset="1509" selectionTopPixel="323"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="addCollaborator.xhtml" partName="addCollaborator.xhtml" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/webapp/addCollaborator.xhtml" title="addCollaborator.xhtml" tooltip="exts/src/main/webapp/addCollaborator.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/webapp/addCollaborator.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="addDepartment.xhtml" partName="addDepartment.xhtml" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/webapp/addDepartment.xhtml" title="addDepartment.xhtml" tooltip="exts/src/main/webapp/addDepartment.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/webapp/addDepartment.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="addEmployee.xhtml" partName="addEmployee.xhtml" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/webapp/addEmployee.xhtml" title="addEmployee.xhtml" tooltip="exts/src/main/webapp/addEmployee.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/webapp/addEmployee.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="default.xhtml" partName="default.xhtml" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/webapp/default.xhtml" title="default.xhtml" tooltip="exts/src/main/webapp/default.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/webapp/default.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="addBusinessUnitEx.xhtml" partName="addBusinessUnitEx.xhtml" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/webapp/addBusinessUnitEx.xhtml" title="addBusinessUnitEx.xhtml" tooltip="exts/src/main/webapp/addBusinessUnitEx.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/webapp/addBusinessUnitEx.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="129" selectionOffset="1791" selectionTopPixel="514"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="addBusinessUnitPc.xhtml" partName="addBusinessUnitPc.xhtml" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/webapp/addBusinessUnitPc.xhtml" title="addBusinessUnitPc.xhtml" tooltip="exts/src/main/webapp/addBusinessUnitPc.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/webapp/addBusinessUnitPc.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1668" selectionTopPixel="289"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitPcService.java" partName="IBusinessUnitPcService.java" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/IBusinessUnitPcService.java" title="IBusinessUnitPcService.java" tooltip="exts/src/main/java/com/assaassociates/syraway/exts/mbeans/IBusinessUnitPcService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/IBusinessUnitPcService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="101" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitExDAO.java" partName="IBusinessUnitExDAO.java" path="/home/waheb/devs/workspace.git/syraway/model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitExDAO.java" title="IBusinessUnitExDAO.java" tooltip="model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitExDAO.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitExDAO.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="21" selectionOffset="225" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitExDAOImpl.java" partName="BusinessUnitExDAOImpl.java" path="/home/waheb/devs/workspace.git/syraway/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitExDAOImpl.java" title="BusinessUnitExDAOImpl.java" tooltip="persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitExDAOImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitExDAOImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2572" selectionTopPixel="998"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitPcDAOImpl.java" partName="BusinessUnitPcDAOImpl.java" path="/home/waheb/devs/workspace.git/syraway/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitPcDAOImpl.java" title="BusinessUnitPcDAOImpl.java" tooltip="persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitPcDAOImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitPcDAOImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="443" selectionTopPixel="584"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitPcDAO.java" partName="IBusinessUnitPcDAO.java" path="/home/waheb/devs/workspace.git/syraway/model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitPcDAO.java" title="IBusinessUnitPcDAO.java" tooltip="model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitPcDAO.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitPcDAO.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="314" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitPcController.java" partName="IBusinessUnitPcController.java" path="/home/waheb/devs/workspace.git/syraway/controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitPcController.java" title="IBusinessUnitPcController.java" tooltip="controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitPcController.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitPcController.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="284" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitExService.java" partName="IBusinessUnitExService.java" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/IBusinessUnitExService.java" title="IBusinessUnitExService.java" tooltip="exts/src/main/java/com/assaassociates/syraway/exts/mbeans/IBusinessUnitExService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/IBusinessUnitExService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="199" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" partName="index.jsp" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/webapp/index.jsp" title="index.jsp" tooltip="exts/src/main/webapp/index.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/webapp/index.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="126" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.wst.html.core.htmlsource.source" name="index.xhtml" partName="index.xhtml" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/webapp/index.xhtml" title="index.xhtml" tooltip="exts/src/main/webapp/index.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/webapp/index.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="431" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitControllerImpl.java" partName="BusinessUnitControllerImpl.java" path="/home/waheb/devs/workspace.git/syraway/controller/src/main/java/com/assaasoociates/syraway/controller/BusinessUnitControllerImpl.java" title="BusinessUnitControllerImpl.java" tooltip="controller/src/main/java/com/assaasoociates/syraway/controller/BusinessUnitControllerImpl.java" workbook="org.eclipse.ui.internal.EditorStack@1d69138">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/controller/src/main/java/com/assaasoociates/syraway/controller/BusinessUnitControllerImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="717" selectionTopPixel="102"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitServiceImpl.java" partName="BusinessUnitServiceImpl.java" path="/home/waheb/devs/workspace.git/syraway/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/BusinessUnitServiceImpl.java" title="BusinessUnitServiceImpl.java" tooltip="exts/src/main/java/com/assaassociates/syraway/exts/mbeans/BusinessUnitServiceImpl.java" workbook="org.eclipse.ui.internal.EditorStack@1d69138">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/BusinessUnitServiceImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="23" selectionOffset="753" selectionTopPixel="34"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitEx.java" partName="BusinessUnitEx.java" path="/home/waheb/devs/workspace.git/syraway/model/src/main/java/com/assaassociates/syraway/model/BusinessUnitEx.java" title="BusinessUnitEx.java" tooltip="model/src/main/java/com/assaassociates/syraway/model/BusinessUnitEx.java" workbook="org.eclipse.ui.internal.EditorStack@1d69138">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/model/src/main/java/com/assaassociates/syraway/model/BusinessUnitEx.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2495" selectionTopPixel="1719"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitPc.java" partName="BusinessUnitPc.java" path="/home/waheb/devs/workspace.git/syraway/model/src/main/java/com/assaassociates/syraway/model/BusinessUnitPc.java" title="BusinessUnitPc.java" tooltip="model/src/main/java/com/assaassociates/syraway/model/BusinessUnitPc.java" workbook="org.eclipse.ui.internal.EditorStack@1d69138">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/model/src/main/java/com/assaassociates/syraway/model/BusinessUnitPc.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1853" selectionTopPixel="1124"/>
+</editor>
+<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitController.java" partName="IBusinessUnitController.java" path="/home/waheb/devs/workspace.git/syraway/controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitController.java" title="IBusinessUnitController.java" tooltip="controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitController.java" workbook="org.eclipse.ui.internal.EditorStack@1d69138">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitController.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="397" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitDAO.java" partName="IBusinessUnitDAO.java" path="/home/waheb/devs/workspace.git/syraway/model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitDAO.java" title="IBusinessUnitDAO.java" tooltip="model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitDAO.java" workbook="org.eclipse.ui.internal.EditorStack@1d69138">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitDAO.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="334" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitDAOImpl.java" partName="BusinessUnitDAOImpl.java" path="/home/waheb/devs/workspace.git/syraway/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitDAOImpl.java" title="BusinessUnitDAOImpl.java" tooltip="persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitDAOImpl.java" workbook="org.eclipse.ui.internal.EditorStack@1d69138">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitDAOImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="1799" selectionTopPixel="443"/>
+</editor>
 </editors>
 <views>
-<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy">
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=controller/src\/main\/java&lt;com.assaasoociates.syraway.controller{IBusinessUnitController.java[IBusinessUnitController" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" selection="=controller/src\/main\/java&lt;com.assaasoociates.syraway.controller{BusinessUnitControllerImpl.java[BusinessUnitControllerImpl" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
+</view>
+<view id="org.eclipse.jpt.ui.jpaStructureView" partName="JPA Structure">
+<viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<columnWidths org.eclipse.ui.ide.allSeverityField="350" org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="108" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108"/>
+<columnWidths org.eclipse.ui.ide.allSeverityField="350" org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="558" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -47,29 +194,71 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
-<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
-<view id="org.eclipse.ui.internal.introview" partName="Welcome">
-<viewState>
-<presentation currentPage="root" restore="true"/>
-<standbyPart/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>
+<filter element="*.class" isEnabled="false"/>
+<filter element="RemoteSystemsConnections" isEnabled="true"/>
+<filter element="RemoteSystemsTempFiles" isEnabled="true"/>
+<filter element=".*" isEnabled="false"/>
+<filter element="*.class" isEnabled="false"/>
+<filter element="*.pyc" isEnabled="true"/>
+<filter element="*.class" isEnabled="false"/>
+<filter element="*.pyo" isEnabled="true"/>
+</filters>
+<expanded>
+<element path="/controller"/>
+<element path="/controller/src"/>
+<element path="/controller/src/main"/>
+<element path="/controller/src/main/java"/>
+<element path="/controller/src/main/java/com"/>
+<element path="/controller/src/main/java/com/assaasoociates"/>
+<element path="/controller/src/main/java/com/assaasoociates/syraway"/>
+<element path="/controller/src/main/java/com/assaasoociates/syraway/controller"/>
+<element path="/exts"/>
+<element path="/exts/src"/>
+<element path="/exts/src/main"/>
+<element path="/exts/src/main/conf"/>
+<element path="/exts/src/main/java"/>
+<element path="/exts/src/main/java/com"/>
+<element path="/exts/src/main/java/com/assaassociates"/>
+<element path="/exts/src/main/java/com/assaassociates/syraway"/>
+<element path="/exts/src/main/java/com/assaassociates/syraway/exts"/>
+<element path="/exts/src/main/java/com/assaassociates/syraway/exts/mbeans"/>
+<element path="/exts/src/main/webapp"/>
+<element path="/model"/>
+<element path="/model/src"/>
+<element path="/model/src/main"/>
+<element path="/model/src/main/java"/>
+<element path="/model/src/main/java/com"/>
+<element path="/model/src/main/java/com/assaassociates"/>
+<element path="/model/src/main/java/com/assaassociates/syraway"/>
+<element path="/model/src/main/java/com/assaassociates/syraway/dao"/>
+<element path="/persistence"/>
+<element path="/persistence/conf"/>
+<element path="/persistence/src"/>
+<element path="/persistence/src/main"/>
+<element path="/persistence/src/main/java"/>
+<element path="/persistence/src/main/java/com"/>
+<element path="/persistence/src/main/java/com/assaassociates"/>
+<element path="/persistence/src/main/java/com/assaassociates/syraway"/>
+<element path="/persistence/src/main/java/com/assaassociates/syraway/persistence"/>
+<element path="/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa"/>
+</expanded>
+<selection>
+<element path="/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitDAOImpl.java"/>
+</selection>
 </viewState>
 </view>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
-</view>
-<view id="org.eclipse.egit.ui.RepositoriesView" partName="Git Repositories">
-<viewState CommonNavigator.LINKING_ENABLED="0"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" showCategories="true"/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (10 items)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="108" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -78,8 +267,13 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="org.eclipse.jpt.ui.jpaDetailsView" partName="JPA Details">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="org.eclipse.wst.html.core.htmlsource.source" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -94,14 +288,14 @@
 <alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
-<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.ActionSet"/>
-<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.matcher.actionSet"/>
-<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
-<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.team.svn.ui.menu.help"/>
 <alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
 <alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
 <alwaysOnActionSet id="org.maven.ide.eclipse.help.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.matcher.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.jst.j2ee.J2eeMainActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
@@ -122,6 +316,8 @@
 <show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <show_view_action id="org.eclipse.search.ui.views.SearchView"/>
 <show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_in_time id="org.eclipse.ui.navigator.ProjectExplorer" time="1292832834933"/>
+<show_in_time id="org.eclipse.ui.views.ResourceNavigator" time="1293003878727"/>
 <new_wizard_action id="org.eclipse.jpt.ui.wizard.newJpaProject"/>
 <new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.EarProjectWizard"/>
 <new_wizard_action id="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
@@ -144,80 +340,82 @@
 <perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.AllMarkersView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="org.eclipse.wst.server.ui.ServersView"/>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<view id="org.eclipse.ui.internal.introview"/>
-<view id="org.eclipse.egit.ui.RepositoriesView"/>
-<fastViewBars/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.views.ResourceNavigator" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.2996769"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.2998339"/>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" ratio="0.2996769"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@16686c8" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder activePageID="org.eclipse.egit.ui.RepositoriesView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.internal.introview" label="Welcome"/>
-<page content="org.eclipse.egit.ui.RepositoriesView" label="Git Repositories"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6998395" ratioLeft="436" ratioRight="187" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@d0dc9b" ratio="0.32702917" ratioLeft="415" ratioRight="854" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="bottomRight" ratio="0.7951613" ratioLeft="493" ratioRight="127" relationship="4" relative="org.eclipse.ui.internal.ViewStack@d0dc9b">
 <folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
 <page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.69920844" ratioLeft="530" ratioRight="228" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<info folder="true" part="topRight" ratio="0.69920844" ratioLeft="530" ratioRight="228" relationship="2" relative="org.eclipse.ui.internal.ViewStack@d0dc9b">
+<folder appearance="2" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="261" ratioRight="783" relationship="2" relative="org.eclipse.ui.internal.ViewStack@d0dc9b"/>
 </mainWindow>
 </layout>
 </perspective>
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
-<descriptor class="org.eclipse.wst.web.ui.internal.WebDevelopmentPerspective" id="org.eclipse.wst.web.ui.webDevPerspective" label="Web"/>
+<descriptor class="org.eclipse.jpt.ui.internal.perspective.JpaPerspectiveFactory" id="org.eclipse.jpt.ui.jpaPerspective" label="JPA"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
@@ -230,91 +428,91 @@
 <alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
-<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.ActionSet"/>
-<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.matcher.actionSet"/>
-<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
-<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.team.svn.ui.menu.help"/>
 <alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
 <alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
 <alwaysOnActionSet id="org.maven.ide.eclipse.help.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.matcher.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
-<alwaysOnActionSet id="org.eclipse.wst.web.ui.wizardsActionSet"/>
-<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
-<alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jpt.ui.JptCreationActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <show_view_action id="org.eclipse.ui.views.ContentOutline"/>
-<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
 <show_view_action id="org.eclipse.ui.views.ProblemView"/>
-<show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
-<new_wizard_action id="org.eclipse.jst.jsp.ui.internal.wizard.NewJSPWizard"/>
-<new_wizard_action id="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
-<new_wizard_action id="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
-<new_wizard_action id="org.eclipse.wst.css.ui.internal.wizard.NewCSSWizard"/>
-<new_wizard_action id="org.eclipse.wst.html.ui.internal.wizard.NewHTMLWizard"/>
-<new_wizard_action id="org.eclipse.wst.jsdt.ui.NewJSWizard"/>
-<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.jpt.ui.jpaStructureView"/>
+<show_view_action id="org.eclipse.jpt.ui.jpaDetailsView"/>
+<show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<new_wizard_action id="org.eclipse.jpt.eclipselink.ui.wizard.newEclipseLinkMappingFile"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newEntity"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newMappingFile"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
 <new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
-<perspective_action id="org.eclipse.jst.j2ee.J2EEPerspective"/>
-<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jst.j2ee.J2EEPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.wst.server.ui.ServersView"/>
-<view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.ui.internal.introview"/>
+<view id="org.eclipse.jpt.ui.jpaDetailsView"/>
+<view id="org.eclipse.jpt.ui.jpaStructureView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c3dfe" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="topLeft">
-<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">
-<page content="org.eclipse.ui.internal.introview" label="Welcome"/>
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="topLeft"/>
-<info folder="true" part="topRight" ratio="0.7997904" ratioLeft="763" ratioRight="191" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="bottom" ratio="0.7" ratioLeft="462" ratioRight="198" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
-<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.5987159" ratioLeft="373" ratioRight="250" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@19575e6" ratio="0.5995807" ratioLeft="572" ratioRight="382" relationship="2" relative="bottom">&#x0A;<folder activePageID="org.eclipse.jpt.ui.jpaDetailsView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jpt.ui.jpaDetailsView" label="JPA Details"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.jpt.ui.jpaStructureView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jpt.ui.jpaStructureView" label="JPA Structure"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
-<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b4be09" ratio="0.5987159" ratioLeft="373" ratioRight="250" relationship="4" relative="left">&#x0A;<folder activePageID="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -323,12 +521,183 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/exts/src/main/webapp/addBusinessUnitEx.xhtml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/exts/src/main/webapp/addBusinessUnitPc.xhtml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/controller/src/main/java/com/assaasoociates/syraway/controller/BusinessUnitControllerImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/exts/src/main/webapp/addBusinessUnit.xhtml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/BusinessUnitServiceImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/model/src/main/java/com/assaassociates/syraway/model/BusinessUnitEx.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/model/src/main/java/com/assaassociates/syraway/model/BusinessUnitPc.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/model/src/main/java/com/assaassociates/syraway/model/BusinessUnit.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/exts/src/main/webapp/index.xhtml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitController.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitDAO.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitDAOImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/exts/src/main/webapp/addBusinessUnit.xhtml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitController.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/exts/src/main/webapp/index.xhtml"/>
+</editors>
+<item historyLabel="BusinessUnitEx.java" index="5">
+<position info="not_deleted" x="450" y="6"/>
+</item>
+<item historyLabel="addBusinessUnit.xhtml" index="3">
+<position info="not_deleted" x="1946" y="117"/>
+</item>
+<item historyLabel="addBusinessUnitEx.xhtml" index="0">
+<position info="not_deleted" x="1791" y="129"/>
+</item>
+<item historyLabel="addBusinessUnitPc.xhtml" index="1">
+<position info="not_deleted" x="1668" y="0"/>
+</item>
+<item historyLabel="index.xhtml" index="8">
+<position info="not_deleted" x="431" y="0"/>
+</item>
+<item historyLabel="BusinessUnitEx.java" index="5">
+<position info="not_deleted" x="334" y="0"/>
+</item>
+<item historyLabel="BusinessUnit.java" index="7">
+<position/>
+</item>
+<item historyLabel="BusinessUnitEx.java" index="5">
+<position info="not_deleted" x="334" y="0"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="3434" y="7"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="753" y="23"/>
+</item>
+<item historyLabel="IBusinessUnitController.java" index="9">
+<position info="not_deleted" x="256" y="23"/>
+</item>
+<item historyLabel="IBusinessUnitController.java" index="9">
+<position info="not_deleted" x="421" y="15"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="753" y="23"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="1477" y="0"/>
+</item>
+<item historyLabel="BusinessUnitControllerImpl.java" index="2">
+<position info="not_deleted" x="2622" y="0"/>
+</item>
+<item historyLabel="BusinessUnitControllerImpl.java" index="2">
+<position info="not_deleted" x="1741" y="0"/>
+</item>
+<item historyLabel="IBusinessUnitController.java" index="9">
+<position info="not_deleted" x="421" y="15"/>
+</item>
+<item historyLabel="BusinessUnitControllerImpl.java" index="2">
+<position info="not_deleted" x="1741" y="0"/>
+</item>
+<item historyLabel="BusinessUnitControllerImpl.java" index="2">
+<position info="not_deleted" x="1716" y="0"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position/>
+</item>
+<item historyLabel="addBusinessUnit.xhtml" index="3">
+<position/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position/>
+</item>
+<item historyLabel="addBusinessUnit.xhtml" index="3">
+<position info="not_deleted" x="640" y="0"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="1711" y="0"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="1814" y="0"/>
+</item>
+<item historyLabel="BusinessUnit.java" index="7">
+<position info="not_deleted" x="2128" y="0"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="1814" y="0"/>
+</item>
+<item historyLabel="BusinessUnitEx.java" index="5">
+<position info="not_deleted" x="2495" y="0"/>
+</item>
+<item historyLabel="BusinessUnitPc.java" index="6">
+<position info="not_deleted" x="1853" y="0"/>
+</item>
+<item historyLabel="addBusinessUnit.xhtml" index="3">
+<position info="not_deleted" x="1509" y="31"/>
+</item>
+<item historyLabel="BusinessUnitPc.java" index="6">
+<position info="not_deleted" x="1853" y="0"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="1814" y="0"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="2402" y="0"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="2334" y="23"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="753" y="23"/>
+</item>
+<item historyLabel="IBusinessUnitController.java" index="9">
+<position info="not_deleted" x="256" y="23"/>
+</item>
+<item historyLabel="IBusinessUnitController.java" index="9">
+<position info="not_deleted" x="397" y="0"/>
+</item>
+<item historyLabel="BusinessUnitPc.java" index="6">
+<position info="not_deleted" x="1853" y="0"/>
+</item>
+<item historyLabel="BusinessUnitServiceImpl.java" index="4">
+<position info="not_deleted" x="753" y="23"/>
+</item>
+<item historyLabel="BusinessUnitControllerImpl.java" index="2">
+<position info="not_deleted" x="1716" y="0"/>
+</item>
+<item historyLabel="BusinessUnitControllerImpl.java" index="2">
+<position info="not_deleted" x="1169" y="15"/>
+</item>
+<item historyLabel="BusinessUnitControllerImpl.java" index="2">
+<position info="not_deleted" x="717" y="16"/>
+</item>
+<item historyLabel="IBusinessUnitDAO.java" index="10">
+<position info="not_deleted" x="334" y="0"/>
+</item>
+<item historyLabel="BusinessUnitDAOImpl.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="addBusinessUnit.xhtml" index="12">
+<position info="not_deleted" x="1509" y="31"/>
+</item>
+<item historyLabel="BusinessUnitDAOImpl.java" index="11">
+<position info="not_deleted" x="1799" y="8"/>
+</item>
+<item historyLabel="IBusinessUnitController.java" index="13">
+<position info="not_deleted" x="397" y="0"/>
+</item>
+<item active="true" historyLabel="index.xhtml" index="14">
+<position info="not_deleted" x="431" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -339,5 +708,51 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitDAOImpl.java" tooltip="persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitDAOImpl.java">
+<persistable path="/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitDAOImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitDAO.java" tooltip="model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitDAO.java">
+<persistable path="/model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitDAO.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnit.java" tooltip="model/src/main/java/com/assaassociates/syraway/model/BusinessUnit.java">
+<persistable path="/model/src/main/java/com/assaassociates/syraway/model/BusinessUnit.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitController.java" tooltip="controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitController.java">
+<persistable path="/controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitController.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.xhtml" tooltip="exts/src/main/webapp/index.xhtml">
+<persistable path="/exts/src/main/webapp/index.xhtml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" tooltip="exts/src/main/webapp/index.jsp">
+<persistable path="/exts/src/main/webapp/index.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitPc.java" tooltip="model/src/main/java/com/assaassociates/syraway/model/BusinessUnitPc.java">
+<persistable path="/model/src/main/java/com/assaassociates/syraway/model/BusinessUnitPc.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitEx.java" tooltip="model/src/main/java/com/assaassociates/syraway/model/BusinessUnitEx.java">
+<persistable path="/model/src/main/java/com/assaassociates/syraway/model/BusinessUnitEx.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitControllerImpl.java" tooltip="controller/src/main/java/com/assaasoociates/syraway/controller/BusinessUnitControllerImpl.java">
+<persistable path="/controller/src/main/java/com/assaasoociates/syraway/controller/BusinessUnitControllerImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitPcServiceImpl.java" tooltip="exts/src/main/java/com/assaassociates/syraway/exts/mbeans/BusinessUnitPcServiceImpl.java">
+<persistable path="/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/BusinessUnitPcServiceImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessUnitServiceImpl.java" tooltip="exts/src/main/java/com/assaassociates/syraway/exts/mbeans/BusinessUnitServiceImpl.java">
+<persistable path="/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/BusinessUnitServiceImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitExService.java" tooltip="exts/src/main/java/com/assaassociates/syraway/exts/mbeans/IBusinessUnitExService.java">
+<persistable path="/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/IBusinessUnitExService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitExController.java" tooltip="controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitExController.java">
+<persistable path="/controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitExController.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitPcController.java" tooltip="controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitPcController.java">
+<persistable path="/controller/src/main/java/com/assaasoociates/syraway/controller/IBusinessUnitPcController.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBusinessUnitPcDAO.java" tooltip="model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitPcDAO.java">
+<persistable path="/model/src/main/java/com/assaassociates/syraway/dao/IBusinessUnitPcDAO.java"/>
+</file>
+</mruList>
 </workbench>

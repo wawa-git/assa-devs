@@ -1,0 +1,75 @@
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/ui-lightness/jquery-ui.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/js/jquery.autocomplete.1.1.pack.js"></script>
+<script type="text/javascript" src="/js/jquery.bgiframe.2.1.1.min.js"></script>
+
+<link rel="stylesheet" href="/style/jquery.checkbox.css" />
+<script type="text/javascript" src="/js/jquery.checkbox.1.3.0.min.js"></script>
+
+<style type="text/css">
+.selectitems {
+	height: 24px;
+	width: 24px;
+}
+.selectoptions {
+	position:absolute;
+}
+#iconselectholder {
+	width: 40px;
+	display:none;
+	position:absolute;
+}
+.hoverclass{
+	background-color:#EEEEEE;
+}
+.selectedclass{
+	background-color:#FFFF99;
+}
+ </style>
+
+<form method="get">
+<!-- 
+	<input type="text" name="puts1" id="puts1" class="assisted text ui-widget-content ui-corner-all number-only" 
+		style="width:24px; padding: 2px; text-align:center;" autocomplete="off" />
+	<input type="text" name="puts2" id="puts2" class="assisted text ui-widget-content ui-corner-all number-only" 
+		style="width:24px; padding: 2px; text-align:center;" autocomplete="off" />
+	<input type="text" name="puts3" id="puts3" class="assisted text ui-widget-content ui-corner-all number-only" 
+		style="width:24px; padding: 2px; text-align:center;" autocomplete="off" />
+-->				
+
+	<table>
+		<tr>
+		<td>
+			<select class="customselect" name="club1" title="/img/b3.png">
+			  <option value="B3" title="/img/b3.png" selected></option>
+			  <option value="B5" title="/img/b5.png"></option>
+			  <option value="B7" title="/img/b7.png"></option>
+			</select>
+		</td>
+	
+		<td>
+			<select class="customselect" name="club2" title="/img/f1.png">
+			  <option value="F3" title="/img/f3.png" selected></option>
+			  <option value="F5" title="/img/f5.png"></option>
+			  <option value="F7" title="/img/f7.png"></option>
+			</select>
+		</td>
+		</tr>
+	</table>
+	Coucou
+
+	<input type="submit" value="Send" />
+</form>
+
+<script type="text/javascript">
+	$().ready(function() {
+		/*
+		$('.assisted').assistedInput([
+			{value:1, img:"/img/1.png"},
+	        {value:2, img:"/img/2.png"},
+	        {value:3, img:"/img/3.png"}
+	    ]);
+	    */
+		$('.customselect').customSelect();
+	})
+</script>

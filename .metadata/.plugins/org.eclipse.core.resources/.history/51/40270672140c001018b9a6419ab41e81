@@ -1,0 +1,157 @@
+-- -----------------------------------------------------
+-- Table `SW_SETID`
+-- -----------------------------------------------------
+ALTER TABLE `SW_SETID`  CONSTRAINT `PK_SETID` ADD  PRIMARY KEY (`SETID_ID`);
+
+-- -----------------------------------------------------
+-- Table `SW_BU_EX`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_BU_EX`  CONSTRAINT `PK_BU_EX` ADD PRIMARY KEY (`BU_EX_ID`);
+
+-- -----------------------------------------------------
+-- Table `SW_DEPT`
+-- -----------------------------------------------------
+ALTER  TABLE  `SW_DEPT` CONSTRAINT `PK_DEPARTMENT` ADD PRIMARY KEY (`DEPT_ID`);
+
+ALTER TABLE `SW_DEPT` CONSTRAINT `FK_DEFAULT_BU_EXON_DEPT` ADD FOREIGN KEY (`DEFAULT_BU_EX_ID` )
+    REFERENCES `SW_BU_EX` (`BU_EX_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_CURRENCY_CD`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_CURRENCY_CD` CONSTRAINT `PK_CURRENCY` ADD PRIMARY KEY (`CURRENCY_ID`) ;
+
+-- -----------------------------------------------------
+-- Table `SW_OPRID`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_OPRID` CONSTRAINT `PK_OPRID` ADD PRIMARY KEY (`OPRID_ID`);
+
+-- -----------------------------------------------------
+-- Table `SW_EMPLOYEES`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_EMPLOYEES` CONSTRAINT `PK_EMPLOYEES` ADD PRIMARY KEY (`EMPL_ID`);
+
+ALTER  TABLE `SW_EMPLOYEES`  CONSTRAINT `FK_DEPARTMENT_ON_EMPLOYEES` ADD FOREIGN KEY (`DEPTID` )
+    REFERENCES `SW_DEPT` (`DEPT_ID` );
+
+ALTER  TABLE `SW_EMPLOYEES`  CONSTRAINT `FK_BU_EX_ON_EMPLOYEES` ADD FOREIGN KEY (`BU_EX_ID` )
+    REFERENCES `SW_BU_EX` (`BU_EX_ID` );
+
+ALTER  TABLE `SW_EMPLOYEES`  CONSTRAINT `FK_MANAGER_ON_EMPLOYEES` ADD FOREIGN KEY (`MANAGER_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+
+ALTER  TABLE `SW_EMPLOYEES`  CONSTRAINT `FK_OPRID_ON_EMPLOYEES` ADD FOREIGN KEY (`OPRID_ID` )
+    REFERENCES `SW_OPRID` (`OPRID_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_BU_PC`
+-- -----------------------------------------------------
+ALTER TABLE `SW_BU_PC` CONSTRAINT `PK_BU_PC` ADD PRIMARY KEY (`BU_PC_ID`);
+
+-- -----------------------------------------------------
+-- Table `SW_PROJECT`
+-- -----------------------------------------------------
+ALTER TABLE `SW_PROJECT` CONSTRAINT `PK_PROJECT` ADD  PRIMARY KEY (`PROJECT_ID`);
+
+ALTER TABLE `SW_PROJECT` CONSTRAINT `FK_BU_PC_ON_PROJECT` ADD FOREIGN KEY (`BU_PC_ID` )
+    REFERENCES `SW_BU_PC` (`BU_PC_ID` );
+
+ALTER TABLE `SW_PROJECT`  CONSTRAINT `FK_MANAGER_ON_PROJECT` ADD FOREIGN KEY (`MANAGER_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_TASK`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_TASK` CONSTRAINT `PK_TASK` ADD PRIMARY KEY (`TASK_ID`);
+
+ALTER  TABLE `SW_TASK` CONSTRAINT `FK_PROJECT_ON_TASK` ADD FOREIGN KEY (`PROJECT_ID` )
+    REFERENCES `SW_PROJECT` (`PROJECT_ID` );
+
+ALTER  TABLE `SW_TASK`  CONSTRAINT `FK_EMPLOYEE_ON_TASK` ADD FOREIGN KEY (`EMPL_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_TEAM`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_TEAM` CONSTRAINT `PK_TEAM` ADD PRIMARY KEY (`TEAM_ID`);
+
+ALTER  TABLE `SW_TEAM` CONSTRAINT `FK_MANAGER_ON_TEAM` ADD FOREIGN KEY (`MANAGER_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_TIME`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_TIME` CONSTRAINT `PK_TIME` ADD PRIMARY KEY (`TIME_ID`);
+
+ALTER  TABLE `SW_TIME`  CONSTRAINT `FK_EMPLOYEE_ON_TIME` ADD FOREIGN KEY (`EMPL_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+
+ALTER  TABLE `SW_TIME`  CONSTRAINT `FK_TASK_ON_TIME` ADD FOREIGN KEY (`TASK_ID` )
+    REFERENCES `SW_TASK` (`TASK_ID` );
+
+ALTER  TABLE `SW_TIME`  CONSTRAINT `FK_TEAM_ON_TIME` ADD FOREIGN KEY (`TEAM_ID` )
+    REFERENCES `SW_TEAM` (`TEAM_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_BU`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_BU`  CONSTRAINT `PK_BU` ADD PRIMARY KEY (`BU_ID`);
+
+ALTER  TABLE `SW_BU`  CONSTRAINT `FK_BU_EX_ON_BU` ADD FOREIGN KEY (`BU_EX_ID` )
+    REFERENCES `SW_BU_EX` (`BU_EX_ID` );
+
+ALTER  TABLE `SW_BU`  CONSTRAINT `FK_BU_PC_ON_BU` ADD FOREIGN KEY (`BU_PC_ID` )
+    REFERENCES `SW_BU_PC` (`BU_PC_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_BU_DEPT`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_BU_DEPT` CONSTRAINT `PK_BU_DEPT` ADD PRIMARY KEY (`BU_ID`, `DEPT_ID`);
+
+ALTER  TABLE `SW_BU_DEPT` CONSTRAINT `FK_BU_ON_BU_DEPT` ADD FOREIGN KEY (`BU_ID` )
+    REFERENCES `SW_BU` (`BU_ID` );
+    
+ALTER  TABLE `SW_BU_DEPT` CONSTRAINT `FK_DEPARTMENT_ON_BU_DEPT`ADD FOREIGN KEY (`DEPT_ID` )
+    REFERENCES `SW_DEPT` (`DEPT_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_SETID_BU`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_SETID_BU` CONSTRAINT `PK_SETID_BU` ADD PRIMARY KEY (`SETID_ID`, `BU_ID`);
+
+ALTER  TABLE `SW_SETID_BU` CONSTRAINT `FK_SETID_ON_SETID_BU` ADD FOREIGN KEY (`SETID_ID` )
+    REFERENCES `SW_SETID` (`SETID_ID` );
+
+ALTER  TABLE `SW_SETID_BU` CONSTRAINT `FK_BU_ONSETID_BU` ADD FOREIGN KEY (`BU_ID` )
+    REFERENCES `SW_BU` (`BU_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_TEAM_EMPLOYEES`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_TEAM_EMPLOYEES` CONSTRAINT `PK_TEAM_EMPLOYEES` ADD PRIMARY KEY (`TEAM_ID`, `EMPL_ID`) ,
+
+ALTER  TABLE `SW_TEAM_EMPLOYEES` CONSTRAINT `FK_TEAM_ON_TEAM_EMPLOYEES` ADD  FOREIGN KEY (`TEAM_ID` )
+    REFERENCES `SW_TEAM` (`TEAM_ID` );
+    
+ALTER  TABLE `SW_TEAM_EMPLOYEES` CONSTRAINT `FK_EMPLOYEE_ON_TEAM_EMPLOYEES` ADD FOREIGN KEY (`EMPL_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_ROLE`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_ROLE` CONSTRAINT `PK_ROLE` ADD PRIMARY KEY (`ROLE_ID`);
+
+-- -----------------------------------------------------
+-- Table `SW_USER_ROLE`
+-- -----------------------------------------------------
+CREATE  TABLE  `SW_USER_ROLE` CONSTRAINT `PK_USER_ROLE` ADD  PRIMARY KEY (`USER_ROLE_ID`) ,
+
+CREATE  TABLE  `SW_USER_ROLE` CONSTRAINT `FK_ROLE` ADD FOREIGN KEY (`ROLE_ID` )
+    REFERENCES `SW_ROLE` (`ROLE_ID` );
+    
+CREATE  TABLE  `SW_USER_ROLE` CONSTRAINT `FK_EMPLOYEE` ADD FOREIGN KEY (`EMPL_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+    
+CREATE  TABLE  `SW_USER_ROLE` CONSTRAINT `FK_BU` ADD FOREIGN KEY (`BU_ID` )
+    REFERENCES `SW_BU` (`BU_ID` );
+

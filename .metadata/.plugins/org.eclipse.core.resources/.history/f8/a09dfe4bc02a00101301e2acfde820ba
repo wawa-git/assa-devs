@@ -1,0 +1,59 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.faces.context.FacesContext;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaasoociates.syraway.controller.IPageController;
+import com.assaassociates.syraway.model.Page;
+
+@ManagedBean(name="menu")
+@SessionScoped
+public class MenuServiceImpl implements IMenuService {
+
+private static final long serialVersionUID = 6726658729223350876L;
+	
+	private IPageController oPageController;
+	private List<Page> oAllMenus;
+
+	public MenuServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oPageController = appContext.getBean("pageController", IPageController.class);
+	}
+
+	public IPageController getPageController() {
+		return oPageController;
+	}
+
+	public void setPageController(IPageController pPageController) {
+		this.oPageController = pPageController;
+	}
+
+	@Override
+	public List<Page> getAllMenus() {
+		if(oAllMenus == null){
+			if(oPageController != null){
+				oAllMenus =  oPageController.getAllPages();
+				Collections.sort(oAllMenus);
+			}else{
+				oAllMenus = new ArrayList<Page>();
+			}
+		}
+		return oAllMenus;
+	}
+	
+	@Override
+	public List<Page> getAllVisibleMenus(){
+		List<Page> result = new ArrayList<Page>(); 
+		if(oPageController != null){
+			result = oPageController.getAllVisibleMenus();
+			Collections.sort(result);
+		}
+		return result;
+	}
+}

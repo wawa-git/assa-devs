@@ -1,0 +1,82 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaassociates.syraway.dao.IDepartmentDAO;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.Department;
+
+@ManagedBean(name="department")
+public class DepartmentServiceImpl implements IDepartmentService {
+
+private static final long serialVersionUID = 6726658729223350876L;
+	
+
+	private IDepartmentDAO oDepartmentDAO;
+	private Department oDepartment;
+	private List<Department> departmentList;
+	
+	public DepartmentServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oDepartmentDAO = appContext.getBean("DepartmentDAO", IDepartmentDAO.class);
+		this.oDepartment = new Department();
+	}
+	
+	public IDepartmentDAO getDepartmentDAO() {
+		return oDepartmentDAO;
+	}
+	
+	public void setDepartmentDAO(IDepartmentDAO pDepartmentDao) {
+		this.oDepartmentDAO = pDepartmentDao;
+	}
+
+	public Department getDepartment() {
+		return oDepartment;
+	}
+
+	public void setDepartment(Department oDepartment) {
+		this.oDepartment = oDepartment;
+	}
+
+	public List<Department> getDepartmentList() {
+		return departmentList;
+	}
+
+	public void setDepartmentList(List<Department> departmentList) {
+		this.departmentList = departmentList;
+	}
+
+	public void addDepartment(){
+		if(this.oDepartmentDAO != null)
+			this.oDepartmentDAO.addDepartment(oDepartment);
+	}
+
+	@Override
+	public void listDepartmentListener(AjaxBehaviorEvent event) {
+		departmentList = oDepartmentDAO.getAllDepts();
+		
+	}
+
+	@Override
+	public List<BusinessUnitEx> getAllBuEx() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Department> departmentList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+}

@@ -1,0 +1,30 @@
+package com.assaassociates.syraway.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the SW_SETID_has_SW_BU database table.
+ * 
+ */
+@Entity
+@Table(name="SW_SETID_has_SW_BU")
+public class SETID_BU implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@EmbeddedId
+	private SETID_BUPK id;
+
+    public SETID_BU() {
+    }
+
+	public SETID_BUPK getId() {
+		return this.id;
+	}
+
+	public void setId(SETID_BUPK id) {
+		this.id = id;
+	}
+	
+}

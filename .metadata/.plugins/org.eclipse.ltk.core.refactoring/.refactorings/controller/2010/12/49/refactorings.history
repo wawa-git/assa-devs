@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;controller/src/main/conf/spring/spring-persistence.xml&apos; to &apos;spring-controller.xml&apos;" description="Rename resource &apos;spring-persistence.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/conf/spring/spring-persistence.xml" name="spring-controller.xml" stamp="1292178612938" updateReferences="true"/>
+</session>

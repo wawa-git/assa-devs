@@ -1,0 +1,58 @@
+package test.test;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * The primary key class for the SW_SETID_has_SW_BU database table.
+ * 
+ */
+@Embeddable
+public class SW_SETID_has_SW_BUPK implements Serializable {
+	//default serial version id, required for serializable classes.
+	private static final long serialVersionUID = 1L;
+
+	@Column(name="SETID", unique=true, nullable=false, length=6)
+	private String setid;
+
+	@Column(name="BU_ID", unique=true, nullable=false, length=6)
+	private String buId;
+
+    public SW_SETID_has_SW_BUPK() {
+    }
+	public String getSetid() {
+		return this.setid;
+	}
+	public void setSetid(String setid) {
+		this.setid = setid;
+	}
+	public String getBuId() {
+		return this.buId;
+	}
+	public void setBuId(String buId) {
+		this.buId = buId;
+	}
+
+	public boolean equals(Object other) {
+		if (this == other) {
+			return true;
+		}
+		if (!(other instanceof SW_SETID_has_SW_BUPK)) {
+			return false;
+		}
+		SW_SETID_has_SW_BUPK castOther = (SW_SETID_has_SW_BUPK)other;
+		return 
+			this.setid.equals(castOther.setid)
+			&& this.buId.equals(castOther.buId);
+
+    }
+    
+	public int hashCode() {
+		final int prime = 31;
+		int hash = 17;
+		hash = hash * prime + this.setid.hashCode();
+		hash = hash * prime + this.buId.hashCode();
+		
+		return hash;
+    }
+}

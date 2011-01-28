@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import java.util.List;
+
+import com.assaassociates.syraway.model.Department;
+import com.assaassociates.syraway.model.Employee;
+
+/**
+ * @author waheb
+ *
+ */
+public interface IEmployeeDAO {
+	public Employee getEmployeeById(String pEmployeePK);
+	public List<Employee> getEmployeeByBuExId(String pBuExId);
+	public void addEmployee(Employee pEmployee);
+	public void removeEmployee(Employee pEmployee);
+	public List<Employee> getAllEmployee();
+	
+	public Department getDepartmentById(int pId);
+	public List<Department> getDepartmentOfBu(String pBuisnessUnitId);
+	public List<Department> getAllDepts();
+	public void addDepartment(Department pDepartment);
+	public void removeDepartment(Department pDepartment);
+	public void removeDepartment(int pDepartmentPk);
+}

@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import java.util.List;
+import com.assaassociates.syraway.model.Employee;
+import com.assaassociates.syraway.model.Oprid;
+
+/**
+ * @author waheb
+ *
+ */
+public interface IOprIdDAO {
+	public Oprid getOpridById(String popridId);
+	public Oprid getOpridOfEmployee(String pEmployeeId);
+	public void addEmployee(Oprid pEmployee);
+	public void removeEmployee(Oprid pEmployee);
+	public void removeEmployee(String pEmploStringId);
+}

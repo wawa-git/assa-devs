@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" lang="fr-fr">
+	<head>
+		<title>Watch my perf</title>
+ 		<link rel="stylesheet" type="text/css" href="/style/style.css" />
+		<!--[if IE 6]>
+		<link rel="stylesheet" type="text/css" href="/style/ie6.css" />
+		<![endif]-->
+	</head>
+
+	<body>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+		<script type="text/javascript" src="/js/wmp.js"></script>
+		<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php"></script>
+		<script type="text/javascript">
+			FB.init("{{ fb_api_key }}","/xd_receiver.htm", {"ifUserConnected": onConnectedToFB, "doNotUseCachedConnectState": true});
+	   		function onConnectedToFB(fbuid) {}
+	   		function connectToFB() {
+	   			FB.Connect.requireSession( function(){
+	       			document.location = "/do_login?goto=" + document.location.pathname;
+	       		});
+	       		return false;
+	       	}
+		</script>
+		<script type="text/javascript" src="/js/facebook.js"></script>
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+
+
+	<div id="wrapper">
+
+		<div id="header">
+			<div id="logo"><a href="/" title="Retour à l'accueil">Watch My Perf</a></div>
+			<div id="navigation">
+				<a href="/golf/" class="{{ sport|is_current:"golf" }}">Golf</a>
+				<a href="/cycling/" class="{{ sport|is_current:"cycling" }}">Vélo</a>
+				<a href="/trekking/" class="{{ sport|is_current:"trekking" }}">Trek</a>
+				<a href="/running/" class="{{ sport|is_current:"running" }}">Running</a>
+			</div>
+			<div id="connexion">
+				<ul>
+					{% if user %}
+						<li>{{ user.pseudo }}</li>
+						<li><a href="/edit_user_info">Mes infos</a></li>
+						<li class="facebook-logout"><a title="Logout" href="/logout"></a></li>
+					{% else %}
+						<li><a href="/register">s'inscrire</a></li>
+						<li><a href="/login">se connecter</a></li>
+						<li class="facebook-connect"><a title="S'identifier avec son compte Facebook" href="/login" onclick="return connectToFB();"></a></li>
+					{% endif %}
+				</ul>
+			</div>
+
+			<div id="subnavigation">
+				{{ submenu }}
+			</div>
+
+		</div>
+		<div id="middle">
+			<div id="content" style="min-height:250px;">
+
+				<div id="publicite">
+					<img src="https://www.google.com/adsense/static/fr/images/inline_rectangle.gif" />
+				</div>
+
+				{{ content }}
+
+			</div>
+			<div id="footer">
+				<a href="/about">Qui sommes nous ?</a> | <a href="/golf/">golf</a> | <a href="/cycling/">v&eacute;lo</a> | <a href="/trekking/">trek</a> | <a href="/running/">running</a><br />
+				Ce site est r&eacute;alis&eacute; par les petits suisses | mentions l&eacute;gales<br />
+				<a href="/about">Des informations compl&eacute;mentaires</a> | <a href="/contact">nous contacter</a><br />
+				Dernière mise à jour: {{deploy_date}} {{deploy_time}}
+			</div>
+		</div>
+		<div id="shadow-bottom"></div> 
+
+	</div>
+
+	<script type="text/javascript">
+	    try {
+		    var pageTracker = _gat._getTracker("UA-4529383-5");
+	        pageTracker._trackPageview();
+	    } catch(err) {}
+	</script>
+	</body>
+</html>

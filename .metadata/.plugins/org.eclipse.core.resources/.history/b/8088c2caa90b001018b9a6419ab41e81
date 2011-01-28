@@ -1,0 +1,176 @@
+package com.assaassociates.syraway.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.math.BigDecimal;
+import java.util.Date;
+
+
+/**
+ * The persistent class for the SW_TIME database table.
+ * 
+ */
+@Entity
+@Table(name="SW_TIME")
+public class Time implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@EmbeddedId
+	private TimePK id;
+
+	@Column(name="ACTIVITY_ID", length=10)
+	private String activityId;
+
+    @Temporal( TemporalType.TIMESTAMP)
+	@Column(name="BEGIN_DT")
+	private Date beginDt;
+
+	@Column(name="DAY1", precision=10, scale=1)
+	private BigDecimal day1;
+
+	@Column(name="DAY2", precision=10, scale=1)
+	private BigDecimal day2;
+
+	@Column(name="DAY3", precision=10, scale=1)
+	private BigDecimal day3;
+
+	@Column(name="DAY4", precision=10, scale=1)
+	private BigDecimal day4;
+
+	@Column(name="DAY5", precision=10, scale=1)
+	private BigDecimal day5;
+
+	@Column(name="DAY6", precision=10, scale=1)
+	private BigDecimal day6;
+
+	@Column(name="DAY7", precision=10, scale=1)
+	private BigDecimal day7;
+
+	@Column(name="DESCR", length=45)
+	private String descr;
+
+	@Column(name="EMPLID", length=10)
+	private String emplid;
+
+	@Column(name="PROJECT_ID", length=10)
+	private String projectId;
+
+	@Column(name="STATUS", length=1)
+	private String status;
+
+    public Time() {
+    }
+
+	public TimePK getId() {
+		return this.id;
+	}
+
+	public void setId(TimePK id) {
+		this.id = id;
+	}
+	
+	public String getActivityId() {
+		return this.activityId;
+	}
+
+	public void setActivityId(String activityId) {
+		this.activityId = activityId;
+	}
+
+	public Date getBeginDt() {
+		return this.beginDt;
+	}
+
+	public void setBeginDt(Date beginDt) {
+		this.beginDt = beginDt;
+	}
+
+	public BigDecimal getDay1() {
+		return this.day1;
+	}
+
+	public void setDay1(BigDecimal day1) {
+		this.day1 = day1;
+	}
+
+	public BigDecimal getDay2() {
+		return this.day2;
+	}
+
+	public void setDay2(BigDecimal day2) {
+		this.day2 = day2;
+	}
+
+	public BigDecimal getDay3() {
+		return this.day3;
+	}
+
+	public void setDay3(BigDecimal day3) {
+		this.day3 = day3;
+	}
+
+	public BigDecimal getDay4() {
+		return this.day4;
+	}
+
+	public void setDay4(BigDecimal day4) {
+		this.day4 = day4;
+	}
+
+	public BigDecimal getDay5() {
+		return this.day5;
+	}
+
+	public void setDay5(BigDecimal day5) {
+		this.day5 = day5;
+	}
+
+	public BigDecimal getDay6() {
+		return this.day6;
+	}
+
+	public void setDay6(BigDecimal day6) {
+		this.day6 = day6;
+	}
+
+	public BigDecimal getDay7() {
+		return this.day7;
+	}
+
+	public void setDay7(BigDecimal day7) {
+		this.day7 = day7;
+	}
+
+	public String getDescr() {
+		return this.descr;
+	}
+
+	public void setDescr(String descr) {
+		this.descr = descr;
+	}
+
+	public String getEmplid() {
+		return this.emplid;
+	}
+
+	public void setEmplid(String emplid) {
+		this.emplid = emplid;
+	}
+
+	public String getProjectId() {
+		return this.projectId;
+	}
+
+	public void setProjectId(String projectId) {
+		this.projectId = projectId;
+	}
+
+	public String getStatus() {
+		return this.status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.assaassosiates.syraway.security;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import org.springframework.security.authentication.AuthenticationManager;
+
+
+@ManagedBean(name="loginBean")
+@RequestScoped
+public class LoginBean {
+	
+	private final AuthenticationManager oAuthenticationManager;
+	
+	@Inject
+	public LoginBean(@Named("authenticationManager") AuthenticationManager pAm){
+		this.oAuthenticationManager = pAm;
+	}
+
+}

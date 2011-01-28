@@ -1,0 +1,15 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.io.Serializable;
+import java.util.List;
+
+import com.assaassociates.syraway.model.Page;
+
+public interface IMenuService extends Serializable{
+
+	public List<Page> getAllMenus();
+	public void setAllMenus(List<Page> oParam);
+	public List<Page> getAllAuthorizedMenus();
+	public void setAllAthorizedMenus(List<Page> oParam);
+	public void invalidateMenusCache();
+}

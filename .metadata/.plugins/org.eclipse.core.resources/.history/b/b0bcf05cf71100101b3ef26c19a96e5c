@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<h:head>
+		<title>
+			<ui:insert name="title">
+				Page Title...
+			</ui:insert>
+		</title>
+		<h:outputStylesheet library="css" name="template.css"  />
+		<link type="text/css" rel="stylesheet" href="/exts/templates/template.css" />
+	</h:head>
+	
+	<h:body>
+		<div id="page">
+			<div id="header">
+				<ui:insert name="header">
+					<br/>
+					<h:outputText value="SYRAWAY" />
+				</ui:insert>
+			</div>
+			<div id="menu">
+				<ui:insert name="menu">
+
+				</ui:insert>
+			</div>
+			<div id="content">
+				<ui:insert name="content">
+
+				</ui:insert>
+			</div>
+			<div id="footer">
+				<ui:insert name="footer">
+					<h:outputText value="Copyright © 2010 ASSA Associates. All Rights Reserved." />
+				</ui:insert>
+			</div>
+		</div>
+	</h:body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+          http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.3.xsd">
+
+	<security:global-method-security
+		pre-post-annotations="enabled" />
+
+
+	<!-- When using use-exepressions = true use hasRole('ROLE_USER') -->
+	<security:http disable-url-rewriting="true">
+		<security:intercept-url pattern="/templates/*.css"
+			filters="none" />
+		<security:intercept-url pattern="/login.xhtml"
+			filters="none" />
+		<security:intercept-url pattern="/**" access="ROLE_USER" />
+		<!-- <security:form-login login-page="/login.html" default-target-url="/index.xhtml"/> -->
+		<security:form-login login-processing-url="/j_spring_security_check"
+			login-page="/login.xhtml" />
+		<security:logout invalidate-session="true" />
+		<security:session-management>
+			<security:concurrency-control
+				max-sessions="1" error-if-maximum-exceeded="false" />
+		</security:session-management>
+	</security:http>
+
+	<security:authentication-manager alias="authenticationManager">
+		<security:authentication-provider>
+			<security:user-service>
+				<security:user name="su" password="su"
+					authorities="ROLE_USER, ROLE_ADMIN, ROLE_SU" />
+				<security:user name="admin" password="admin"
+					authorities="ROLE_USER, ROLE_ADMIN" />
+				<security:user name="manager" password="manager"
+					authorities="ROLE_USER,ROLE_MANAGER" />
+				<security:user name="wawa" password="wawa"
+					authorities="ROLE_USER" />
+			</security:user-service>
+		</security:authentication-provider>
+	</security:authentication-manager>
+
+	<bean id="loggerListener"
+		class="org.springframework.security.authentication.event.LoggerListener" />
+
+	<bean id="sywAuthenticationProvider"
+		class="com.assaassociates.syraway.security.authentication.dao.SywAuthenticationProvider">
+	</bean>
+
+
+</beans>

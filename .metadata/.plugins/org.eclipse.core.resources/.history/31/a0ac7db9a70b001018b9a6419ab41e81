@@ -1,0 +1,30 @@
+package test.test;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the SW_SETID_has_SW_BU database table.
+ * 
+ */
+@Entity
+@Table(name="SW_SETID_has_SW_BU")
+public class SW_SETID_has_SW_BU implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@EmbeddedId
+	private SW_SETID_has_SW_BUPK id;
+
+    public SW_SETID_has_SW_BU() {
+    }
+
+	public SW_SETID_has_SW_BUPK getId() {
+		return this.id;
+	}
+
+	public void setId(SW_SETID_has_SW_BUPK id) {
+		this.id = id;
+	}
+	
+}

@@ -1,0 +1,44 @@
+package com.assaassosiates.syraway.security.authentication;
+
+import java.io.Serializable;
+import java.util.List;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.stereotype.Component;
+import com.assaassociates.syraway.model.Employee;
+
+@Component
+@Scope("globalSession")
+
+public class UserProfile implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	private boolean oTransient;
+	private Employee oEmpl;
+	private List<GrantedAuthority> oListAuthorities;
+
+	public boolean isTransient() {
+		return oTransient;
+	}
+
+	public void setTransient(boolean pTransient) {
+		this.oTransient = pTransient;
+	}
+
+	public Employee getEmpl() {
+		return oEmpl;
+	}
+
+	public void setEmpl(Employee oEmpl) {
+		this.oEmpl = oEmpl;
+	}
+
+	public List<GrantedAuthority> getListAuthorities() {
+		return oListAuthorities;
+	}
+
+	public void setListAuthorities(List<GrantedAuthority> pListAuthorities) {
+		this.oListAuthorities = pListAuthorities;
+	}
+}

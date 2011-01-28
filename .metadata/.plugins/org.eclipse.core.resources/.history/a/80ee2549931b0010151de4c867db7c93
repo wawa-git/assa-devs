@@ -1,0 +1,9 @@
+package com.assaassosiates.syraway.security;
+
+import org.springframework.context.annotation.Scope;
+
+@ManagedBean("loginBean")
+@RequestScoped
+public class LoginBean {
+
+}

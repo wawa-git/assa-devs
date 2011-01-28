@@ -1,0 +1,475 @@
+/*
+** Watch My Perf CSS stylesheet.
+** 2010 WatchMyPerf (c)
+**
+**
+*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{
+margin:0;padding:0;}
+
+table{border-collapse:collapse;border-spacing:0;}
+
+fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+
+
+body {
+	margin:0;
+	padding: 0;
+	background-color:#a8b629;
+	background-image: url("images/background.gif");
+	background-repeat: repeat-x;
+	background-position:top center;
+	height: 100%;
+}
+
+/*
+************************************************************************************
+** Styles communs
+************************************************************************************
+*/
+body, p, div, a, table, tr, td, h1, h2, h3, h4, h5 {
+	font-family: Verdana;
+	font-size: 14px;
+	text-align: justify;
+}
+
+/*
+** Titres (h1, h2, h3...)
+*/
+
+h1, h2, h3, h4, h5 {
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+
+
+h1 {
+	font-weight: bold;
+	font-size: 28px;
+	color:#2789d7;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 28px;
+	color:#2789d7;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 24px;
+	color:#2789d7;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+	color:black;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 18px;
+	color:black;
+}
+
+h5 {
+	font-weight: bold;
+	font-size: 16px;
+	color:#3591da;
+}
+
+/*
+** Liens
+*/
+a, a:link, a:hover {
+	color:#e35218;
+	text-decoration:none;
+	font-weight: bold;
+	outline: none;
+}
+
+
+/*
+************************************************************************************
+** Styles customs
+************************************************************************************
+*/
+.surtitre {
+	font-size: 16px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+
+.bouton-gris {
+	font-size: 12px;
+	font-weight: bold;
+	outline: none;
+	color:black;
+	height: 31px;
+	margin: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border:1px solid #c0c0c0;
+	background-image:url("images/bg-bouton-gris.png");	
+}
+
+.bouton-gris:hover, .bouton-gris:focus {
+	background-position-y: 31px;	
+}
+
+.bouton-orange {
+	font-size: 12px;
+	font-weight: bold;
+	outline: none;
+	color:black;
+	height: 31px;
+	margin: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border:1px solid #c0c0c0;
+	background-image:url("images/bg-bouton-orange.png");	
+}
+
+.bouton-orange:hover, .bouton-orange:focus {
+	background-position-y: 31px;	
+}
+
+.bouton-inscription {
+	background-color: white;
+	background-image: url("images/inscrivez-vous.png");
+	background-repeat: no-repeat;
+	width: 238px;
+	height: 35px;
+	border: none;
+	text-indent: -9999px;
+}
+
+
+/*
+************************************************************************************
+** Mise en page
+************************************************************************************
+*/
+
+/*
+** Conteneur de toute la page. Largeur de 994px (prend en compte les ombrages du bord du contenu)
+*/
+div#wrapper {
+	width: 994px;
+	margin:auto;
+	
+}
+
+
+/*
+** Header contenant le menu navigation, le logo, le menu connexion et les onglets
+*/
+div#header {
+	width: 100%;
+	margin: 0;
+	background-image: url("images/bg-header.png");
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	height: 170px;
+	position: relative;
+}
+
+
+/*
+** Menu Navigation
+******************
+*/
+
+/*
+** Container du menu navigation
+*/
+div#navigation {
+	width: 700px;
+	height: 98px;
+	right: 16px;
+	top:20px;
+	position: absolute;	
+}
+
+/*
+** Liens du menu
+*/
+div#navigation a {
+	outline: none;
+	float:left;
+	height: 104px;
+	text-indent: -9999px;
+	width: 175px;
+	background-image: url("images/menu.sprite.png");
+}
+
+/*
+** Style personnalisé des lien (golf, cycling, trekking, running) l'image de background (sprite) déplacé
+*/
+div#navigation a.golf {
+	background-position: 0 0;
+}
+
+div#navigation a.cycling {
+	background-position: -175px 0;
+}
+
+div#navigation a.trekking {
+	background-position: -350px 0;
+}
+
+div#navigation a.running {
+	background-position: -525px 0;
+}
+
+
+/*
+** Style de survol de liens (hover) et des liens actifs (.current)
+*/
+div#navigation a.golf.current, div#navigation a.golf:hover {
+	background-position: 0px 104px;
+}
+
+div#navigation a.cycling.current, div#navigation a.cycling:hover {
+	background-position: -175px 104px;
+}
+
+div#navigation a.trekking.current, div#navigation a.trekking:hover {
+	background-position: -350px 104px;
+}
+
+div#navigation a.running.current, div#navigation a.running:hover {
+	background-position: -525px 104px;
+}
+
+
+
+
+/*
+** Menu Connexion
+*****************
+*/
+div#connexion {
+	width: 333px;
+	color:#2d6a93;
+	position: absolute;
+	top:140px;
+	right:16px;
+}
+
+div#connexion ul {
+
+}
+
+div#connexion li {
+	float: left;
+	width: 100px;
+	height: 28px;
+	text-align: center;
+	vertical-align: center;
+	border:none;
+}
+
+div#connexion li.facebook-connect, div#connexion li.facebook-logout {
+	width: 130px;
+	border: none;
+}
+
+div#connexion a, div#connexion a:link {
+	color:#2d6a93;
+	text-decoration: none;
+	font-weight: normal;
+	margin-top: 14px;
+}
+
+div#connexion li.facebook-connect a {	
+	margin-top: 0px;
+	margin-left: 10px;
+	width: 90px;
+	height: 31px;
+	vertical-align: middle;
+	background-image: url("images/facebook-login.png");
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	display: block;
+	border: none;
+}
+
+div#connexion li.facebook-logout a {	
+	margin-top: 0px;
+	margin-left: 10px;
+	width: 90px;
+	height: 31px;
+	vertical-align: middle;
+	background-image: url("images/facebook-logout.png");
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	display: block;
+	border: none;
+}
+
+
+
+/*
+** Menu Sub-Navigation (onglets)
+********************************
+*/
+div#subnavigation {
+	height: 34px;
+	position: absolute;
+	bottom: 0px;
+	left:15px;
+}
+
+div#subnavigation li {
+	float: left;
+	height: 34px;
+	float: left;
+	background-image: url("images/onglet-li.png");
+	background-position:left top;
+	background-repeat: no-repeat;
+}
+
+div#subnavigation li a {
+	float: left;
+	height: 24px;
+	margin-left: 13px;
+	padding-top: 10px;
+	padding-right: 13px;
+	background-image: url("images/onglet-a.png");
+	background-position:right top;
+	background-repeat: no-repeat;
+	color:black;
+	display: block;
+}
+
+div#subnavigation li.current, div#subnavigation li:hover {
+	background-position-y: -34px;	
+}
+
+
+div#subnavigation li.current a, div#subnavigation li:hover a {
+	background-position-y: -34px;
+}
+
+
+
+/*
+** Logo
+********************************
+*/
+div#logo {
+	width: 199px;
+	height: 85px;
+	margin:0;
+	padding: 0;
+	position: absolute;
+	top:20px;
+	left:16px;
+}
+
+div#logo a {
+	margin: 0;
+	padding: 0;
+	width: 199px;
+	height: 85px;
+	display: block;
+	text-indent: -999px;
+	background-image: url("images/logo.png");
+}
+
+
+/*
+** Milieu de la page
+********************************
+*/
+div#middle {
+	width: 100%;
+	margin: 0;
+	background-image: url("images/shadow-middle.png");
+}
+
+/*
+** Contenu de la page (padding de 45px)
+*********************************
+*/
+div#content {
+	width: 527px; /* 962 - 45 (gauche) - 45 (droite) - 300 (pub) - 45 (margin pub) */
+	padding: 45px;
+	background-color: white;
+	margin: auto;
+	/* Ces deux prochaines lignes sont lˆ pour l'encart publicitaire */
+	position:relative;
+	padding-right: 390px;
+}
+
+div#publicite {
+	position: absolute;
+	top:45px;
+	right: 45px;
+	width: 300px;
+}
+
+/*
+** Footer
+*********************************
+*/
+div#footer {
+	color:#909090;
+	text-transform: uppercase;
+	font-size: 10px;
+	text-align: center;
+	margin: auto;
+	padding: 45px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #dddddd;
+	width: 872px;
+}
+
+
+div#footer a, div#footer a:link {
+	color:#909090;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+div#shadow-bottom {
+	width: 100%;
+	margin: 0;
+	background-image: url("images/bg-footer.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 20px;
+}
+
+
+
+
+/*
+** Debug
+*/
+div#publicite {
+	border:1px solid gray;
+}
+
+/*
+div#header {
+	border:1px solid red;
+}
+
+div#content {
+	border: 1px solid green;
+}
+
+div#logo {
+	 border:1px solid black; 
+}
+
+div#footer {
+	border:1px solid red;
+}

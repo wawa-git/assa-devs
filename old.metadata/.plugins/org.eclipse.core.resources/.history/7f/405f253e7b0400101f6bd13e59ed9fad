@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>WEB-INF/spring-conf.xml</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>org.richfaces.SKIN</param-name>
+		<param-value>blueSky</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>org.ajax4jsf.VIEW_HANDLERS</param-name>
+		<param-value>com.sun.facelets.FaceletViewHandler</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>org.richfaces.LoadScriptStrategy</param-name>
+		<param-value>ALL</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>org.richfaces.LoadStyleStrategy</param-name>
+		<param-value>ALL</param-value>
+	</context-param>
+
+	<filter>
+		<filter-name>richfaces</filter-name>
+		<display-name>RichFaces Filter</display-name>
+		<filter-class>org.ajax4jsf.Filter</filter-class>
+	</filter>
+	<filter-mapping>
+		<servlet-name>Faces Servlet</servlet-name>
+		<filter-name>richfaces</filter-name>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+	</filter-mapping>
+
+
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+	  	</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>TestServlet</servlet-name>
+		<servlet-class>com.assaassociates.syraway.proto.TestServlet</servlet-class>
+		<init-param>
+			<param-name>sleep-time-in-seconds</param-name>
+			<param-value>10</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>TestServlet</servlet-name>
+		<url-pattern>/Syraway.exts</url-pattern>
+	</servlet-mapping>
+
+</web-app>

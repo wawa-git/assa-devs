@@ -1,0 +1,35 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:security="http://www.springframework.org/schema/security"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+          http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.3.xsd">
+	
+	<security:global-method-security secured-annotations="enabled" jsr250-annotations="enabled">
+    </security:global-method-security>
+	
+	<security:http use-expressions="true">
+		<security:intercept-url pattern="/templates/*.css" filters="none"/>
+	    <security:intercept-url pattern="/login.xhtml" filters="none"/>
+	    <security:intercept-url pattern="/**" access="ROLE_USER" />
+<!--	    <security:form-login login-page="/login.xhtml" default-target-url="/index.xhtml"/>-->
+		<security:form-login login-processing-url="/j_spring_security_check" 
+							 login-page="/index.xhtml" default-target-url="/index.xhtml"
+							 authentication-failure-url="/login.xhtml"/>
+		<security:logout invalidate-session="true"/>
+		<security:session-management>
+			<security:concurrency-control max-sessions="1" error-if-maximum-exceeded="false"/>
+		</security:session-management>
+	  </security:http>
+  
+  	<security:authentication-manager>
+	    <security:authentication-provider>
+	      <security:user-service>
+	        <security:user name="admin" password="admin" authorities="ROLE_USER, ROLE_ADMIN" />
+	        <security:user name="wawa" password="wawa" authorities="ROLE_USER" />
+	      </security:user-service>
+	    </security:authentication-provider>
+	  </security:authentication-manager>
+	  
+	  <bean id="loggerListener" class="org.springframework.security.authentication.event.LoggerListener"/>
+	  
+</beans>

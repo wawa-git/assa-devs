@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import java.util.List;
+import com.assaassociates.syraway.model.Employee;
+
+/**
+ * @author waheb
+ *
+ */
+public interface IEmployeeDAO {
+	public Employee getEmployeeById(byte pEmployeePK);
+	public List<Employee> getEmployeeByBuExId(String pBuExId);
+	public void addEmployee(Employee pEmployee);
+	public void removeEmployee(Employee pEmployee);
+	public List<Employee> getAllEmployee();
+}

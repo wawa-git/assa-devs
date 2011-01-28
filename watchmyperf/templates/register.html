@@ -1,0 +1,35 @@
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/ui-lightness/jquery-ui.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+	function check_form(){
+		var isFieldFullFilled = ("" != $("#pseudo").val() && "" != $("#email").val() && "" != $("#password").val() && "" != $("#password2").val());
+		if( ! isFieldFullFilled ) {
+			alert("Veuillez rensigner tous les champs !");
+			return false;
+		}
+		else if( $("#password").val() != $("#password2").val() ){
+			alert("Les deux mots de passes saisis sont différents !");
+			return false;
+		}
+		else
+			return true;
+	}
+</script>
+
+<form action="/register" method="post" onsubmit="return check_form();">
+
+	<label for="pseudo" style="display:block" >Pseudo</label>
+	<input type="text" name="pseudo" id="pseudo" class="text ui-widget-content ui-corner-all" style="width:30em; margin-bottom:12px; padding: .4em;" />
+
+	<label for="email" style="display:block" >Email</label>
+	<input type="text" name="email" id="email" class="text ui-widget-content ui-corner-all" style="width:30em; margin-bottom:12px; padding: .4em;" />
+	
+	<label for="password" style="display:block" >Password</label>
+	<input type="password" name="password" id="password" class="text ui-widget-content ui-corner-all" style="width:30em; margin-bottom:12px; padding: .4em;" />
+	
+	<label for="password2" style="display:block" >Password (confirmation)</label>
+	<input type="password" name="password2" id="password2" class="text ui-widget-content ui-corner-all" style="width:30em; margin-bottom:12px; padding: .4em;" />
+	
+	<div><button class="bouton-orange" value="Ajouter" onclick="return check_form();">S'inscrire</button></div>
+
+</form>

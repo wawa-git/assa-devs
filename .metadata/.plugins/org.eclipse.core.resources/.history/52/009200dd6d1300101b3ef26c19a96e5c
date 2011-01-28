@@ -1,0 +1,118 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+
+import com.assaasoociates.syraway.controller.IEmployeeController;
+import com.assaassociates.syraway.dao.IBusinessUnitExDAO;
+import com.assaassociates.syraway.dao.IDepartmentDAO;
+import com.assaassociates.syraway.dao.IEmployeeDAO;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.Department;
+import com.assaassociates.syraway.model.Employee;
+
+@ManagedBean(name="employee")
+public class EmployeeServiceImpl implements IEmployeeService {
+
+	private static final long serialVersionUID = 6726658729223350876L;
+	private IEmployeeController oEmployeeController;
+	private Employee oEmployee;
+	private List<Employee> oEmployeeList;
+	private String buExId;
+	private String deptId;
+	private String managerId;
+	
+	public EmployeeServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oEmployeeController = appContext.getBean("emplController", IEmployeeController.class);
+		this.oEmployee = new Employee();
+	}
+	
+	
+	public Employee getEmployee() {
+		return oEmployee;
+	}
+
+	public void setEmployee(Employee pEmployee) {
+		this.oEmployee = pEmployee;
+	}
+
+	public void addEmployee(){
+		if(this.oEmployeeController != null)
+			this.oEmployeeController.addEmployee(this.oEmployee);
+	}
+	
+	public void listEmployeeListener(AjaxBehaviorEvent event){
+		oEmployeeList = oEmployeeController.getAllEmpls();
+	}
+	
+	public List<BusinessUnitEx> getAllBuEx(){
+		List<BusinessUnitEx> oResult = new ArrayList<BusinessUnitEx>();
+		if(this.oEmployeeController != null)
+			oResult = this.oEmployeeController.getAllBuEx();
+		return oResult;
+	}
+	
+	public List<Department> getAllDepts(){
+		List<Department> oResult = new ArrayList<Department>();
+		if(this.oEmployeeController != null)
+			oResult = this.oEmployeeController.getAllDepts();
+		return oResult;
+	}
+	
+	public List<Employee> getAllManager(){
+		List<Employee> oResult = new ArrayList<Employee>();
+		
+		return oResult;
+	}
+
+	public List<Employee> getEmployeeList() {
+		return oEmployeeList;
+	}
+
+	public void setEmployeeList(List<Employee> pEmployeeList) {
+		this.oEmployeeList = pEmployeeList;
+	}
+
+	public String getBuExId() {
+		return buExId;
+	}
+
+	public void setBuExId(String buExId) {
+		this.buExId = buExId;
+	}
+
+	public String getDeptId() {
+		return deptId;
+	}
+
+	public void setDeptId(String deptId) {
+		this.deptId = deptId;
+	}
+
+	public String getManagerId() {
+		return managerId;
+	}
+
+	public void setManagerId(String managerId) {
+		this.managerId = managerId;
+	}
+
+
+	public IEmployeeController getEmployeeController() {
+		return oEmployeeController;
+	}
+
+
+	public void setEmployeeController(IEmployeeController oEmployeeController) {
+		this.oEmployeeController = oEmployeeController;
+	}
+}

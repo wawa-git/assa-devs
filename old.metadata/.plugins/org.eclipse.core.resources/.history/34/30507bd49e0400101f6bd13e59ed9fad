@@ -1,0 +1,48 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<%@taglib uri="http://java.sun.com/jsf/core" prefix="f" %>
+<%@taglib uri="http://java.sun.com/jsf/html" prefix="h" %>
+<!-- RichFaces tag library declaration -->
+<%@taglib uri="http://richfaces.org/a4j" prefix="a4j"%> 
+<%@taglib uri="http://richfaces.org/rich" prefix="rich"%>
+
+<html>
+<head>
+<title>RichFaces add Collaborator</title>
+</head>
+<body>
+<f:view>
+
+	<a4j:form>
+		<rich:panel>
+			<f:facet name="header">
+				<h:outputText value="Add Collaborator" />
+			</f:facet>
+			<h:panelGrid columns="3" title="Collaborator" rowClasses="s1row"
+				columnClasses="wfcol1,wfcol2,wfcol3">
+				<h:outputText value="First Name : " />
+				<h:inputText value="#{collaborator.firstName}" id="firstName"
+					required="true">
+					<f:validateLongRange minimum="0" maximum="20" />
+				</h:inputText>
+				<rich:message for="firstName" />
+
+				<h:outputText value="Last Name : " />
+				<h:inputText value="#{collaborator.lastName}" id="lastName"
+					required="true">
+					<f:validateLongRange minimum="0" maximum="20" />
+				</h:inputText>
+				<rich:message for="lastName" />
+
+				<f:facet name="footer">
+					<a4j:commandButton action="#{collaborator.addCollaborator}"
+						value="save" />
+				</f:facet>
+			</h:panelGrid>
+		</rich:panel>
+
+	</a4j:form>
+
+</f:view>
+
+</body>
+</html>

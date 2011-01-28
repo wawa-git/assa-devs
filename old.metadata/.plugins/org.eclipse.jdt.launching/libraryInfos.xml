@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libraryInfos>
+<libraryInfo home="/home/waheb/devs/jdk/jdk1.6.0_22" version="1.6.0_22">
+<bootpath>
+<entry path="/home/waheb/devs/jdk/jdk1.6.0_22/jre/lib/resources.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.6.0_22/jre/lib/rt.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.6.0_22/jre/lib/sunrsasign.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.6.0_22/jre/lib/jsse.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.6.0_22/jre/lib/jce.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.6.0_22/jre/lib/charsets.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.6.0_22/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/waheb/devs/jdk/jdk1.6.0_22/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/waheb/devs/jdk/jdk1.6.0_22/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/home/waheb/devs/jdk/jdk1.5.0_22/jre" version="1.5.0_22">
+<bootpath>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/rt.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/i18n.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/sunrsasign.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/jsse.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/jce.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/charsets.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/home/waheb/devs/jdk/jdk1.5.0_22" version="1.5.0_22">
+<bootpath>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/rt.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/i18n.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/sunrsasign.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/jsse.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/jce.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/charsets.jar"/>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/waheb/devs/jdk/jdk1.5.0_22/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

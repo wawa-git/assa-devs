@@ -1,0 +1,88 @@
+package test.test;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.util.Date;
+
+
+/**
+ * The persistent class for the SW_PROJECT database table.
+ * 
+ */
+@Entity
+@Table(name="SW_PROJECT")
+public class SwProject implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@EmbeddedId
+	private SwProjectPK id;
+
+    @Temporal( TemporalType.TIMESTAMP)
+	@Column(name="BEGIN_DT")
+	private Date beginDt;
+
+	@Column(name="DESCR", length=45)
+	private String descr;
+
+    @Temporal( TemporalType.TIMESTAMP)
+	@Column(name="END_DT")
+	private Date endDt;
+
+	@Column(name="MANAGER", length=10)
+	private String manager;
+
+	@Column(name="STATUS", length=1)
+	private String status;
+
+    public SwProject() {
+    }
+
+	public SwProjectPK getId() {
+		return this.id;
+	}
+
+	public void setId(SwProjectPK id) {
+		this.id = id;
+	}
+	
+	public Date getBeginDt() {
+		return this.beginDt;
+	}
+
+	public void setBeginDt(Date beginDt) {
+		this.beginDt = beginDt;
+	}
+
+	public String getDescr() {
+		return this.descr;
+	}
+
+	public void setDescr(String descr) {
+		this.descr = descr;
+	}
+
+	public Date getEndDt() {
+		return this.endDt;
+	}
+
+	public void setEndDt(Date endDt) {
+		this.endDt = endDt;
+	}
+
+	public String getManager() {
+		return this.manager;
+	}
+
+	public void setManager(String manager) {
+		this.manager = manager;
+	}
+
+	public String getStatus() {
+		return this.status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+}

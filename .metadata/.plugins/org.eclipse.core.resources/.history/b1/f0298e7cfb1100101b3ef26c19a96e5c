@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:a4j="http://richfaces.org/a4j"
+	  xmlns:rich="http://richfaces.org/rich"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+  	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+<ui:composition template="/templates/template.xhtml">
+	<ui:define name="title">
+		<h:outputText value="Syraway's Index Page" />
+	</ui:define>
+	<ui:define name="content">
+	
+		<h1>Manage Business Unit Pc</h1>
+		<h:form id="addBusinessUnitPcForm" >
+			<h:outputText value="DESCR : " />
+			<h:inputText value="#{businessUnitPc.businessUnitPc.descr}" id="descr"/>
+			<br/>
+			<h:outputText value="PROJECT_CHRONO : " />
+			<h:inputText value="#{businessUnitPc.businessUnitPc.projectChrono}" id="projectChrono"/>
+			<br/>
+			<h:outputText value="STATUS : " />
+			<h:inputText value="#{businessUnitPc.businessUnitPc.status}" id="status"/>
+			<br/>
+			<h:commandButton action="#{businessUnitPc.addBusinessUnitPc}" value="Add Business Unit Pc" />
+		</h:form>
+		<h:form id="BuPcList" action="addBusinessUnitPc.xhtml">
+			<h:commandButton value="list all business unit pc" action="#{businessUnitEx.processBuExList}">
+				<f:ajax render="listOfBuPc" listener="#{businessUnitPc.listBusinessUnitPcListener}" />
+			</h:commandButton>
+			<h:dataTable id="listOfBuPc" border="1" value="#{businessUnitPc.businessUnitPcList}" var="buPc">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU_ID" />
+					</f:facet>
+					<h:link outcome="addBusinessUnitEx" value="#{buPc.buPcId}" >
+						<f:param name="buPcId" value="#{buPc.buPcId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="STATUS" />
+					</f:facet>
+					<h:outputText value="#{buPc.status}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="DESCR" />
+					</f:facet>
+					<h:outputText value="#{buPc.descr}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="PROJECT_CHRONO" />
+					</f:facet>
+					<h:outputText value="#{buPc.projectChrono}" />
+				</h:column>
+			</h:dataTable>
+		</h:form>
+		</ui:define>
+		</ui:composition>

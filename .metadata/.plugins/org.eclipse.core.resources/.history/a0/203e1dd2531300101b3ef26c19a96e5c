@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="/templates/template.xhtml" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+  	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+  	
+  	<f:metadata>
+		<f:viewParam name="deptId" value="#{employee.emplId}"/> 	
+	</f:metadata>
+  	
+	<ui:define name="title">
+		<h:outputText value="Syraway's manage Employee" />
+	</ui:define>
+	<ui:define name="content">
+		<h1>Manage Employee</h1>
+		<h:form id="addEmployeeForm" >
+			<h:outputText value="ACTIVE : " />
+			<h:inputText value="#{employee.value.active}" id="active"/>
+			<br/>
+			<h:outputText value="ADRESS1 : " />
+			<h:inputText value="#{employee.value.address1}" id="address1"/>
+			<br/>
+			<h:outputText value="ADRESS2 : " />
+			<h:inputText value="#{employee.value.address2}" id="address2"/>
+			<br/>
+			<h:outputText value="BIRTHDAY : " />
+			<h:inputText value="#{employee.value.birthday}" id="birthday"/>
+			<br/>
+			<h:outputText value="CITY : " />
+			<h:inputText value="#{employee.value.city}" id="city"/>
+			<br/>
+			<h:outputText value="CITY_CD : " />
+			<h:inputText value="#{employee.value.cityCd}" id="cityCd"/>
+			<br/>
+			<h:outputText value="COSTRATE : " />
+			<h:inputText value="#{employee.value.costrate}" id="costrate"/>
+			<br/>
+			<h:outputText value="COUNTRY : " />
+			<h:inputText value="#{employee.value.country}" id="country"/>
+			<br/>
+			<h:outputText value="EMAIL : " />
+			<h:inputText value="#{employee.value.email}" id="email"/>
+			<br/>
+			<h:outputText value="ENTRY_DT : " />
+			<h:inputText value="#{employee.value.entryDt}" id="email"/>
+			<br/>
+			<h:outputText value="EXIT_DT : " />
+			<h:inputText value="#{employee.value.exitDt}" id="email"/>
+			<br/>
+			<h:outputText value="NAME : " />
+			<h:inputText value="#{employee.value.name}" id="name"/>
+			<br/>
+			<h:outputText value="PHONENUMBER : " />
+			<h:inputText value="#{employee.value.phonenumber}" id="phonenumber"/>
+			<br/>
+			<h:outputText value="RATE : " />
+			<h:inputText value="#{employee.value.rate}" id="rate"/>
+			<br/>
+			<h:outputText value="SURNAME : " />
+			<h:inputText value="#{employee.value.surname}" id="surname"/>
+			<br/>
+			<h:outputText value="PHONENUMBER : " />
+			<h:inputText value="#{employee.value.phonenumber}" id="phonenumber"/>
+			<br/>
+			<h:outputText value="DEPT_ID : " />
+			<h:inputText value="#{employee.value.phonenumber}" id="phonenumber"/>
+			<br/>
+			<h:outputText value="BU_EX_ID : " />
+			<h:inputText value="#{employee.value.phonenumber}" id="phonenumber"/>
+			<br/>
+			<h:outputText value="OPR_ID : " />
+			<h:inputText value="#{employee.value.phonenumber}" id="phonenumber"/>
+			<br/>
+			<h:outputText value="MANAGER_ID : " />
+			<h:inputText value="#{employee.value.phonenumber}" id="phonenumber"/>
+			<br/>
+			
+			<h:outputText value="DEFAULT_BU_EX_ID : " />
+				<h:selectOneMenu id="defaultBuExId" value="#{department.buEx}">
+					<f:selectItem itemValue="" itemLabel=""/>
+  					<f:selectItems value="#{department.allBuEx}" />
+<!--  					<f:converter converterId="BuExConverter"/>-->
+				</h:selectOneMenu>
+			<br/>
+			<h:commandButton action="#{department.addDepartment}" value="Add Department" />
+		</h:form>
+		<br/>
+		<h:form id="DeptList">
+			<h:commandButton value="list all department">
+				<f:ajax render="listOfDept" listener="#{department.listDepartmentListener}" />
+			</h:commandButton>
+			<br/>
+			<h:dataTable id="listOfDept" border="1" value="#{department.departmentList}" var="dept">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="DEPT_ID" />
+					</f:facet>
+					<h:link outcome="manageDept" value="#{dept.deptId}" >
+						<f:param name="deptId" value="#{dept.deptId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="DESCR" />
+					</f:facet>
+					<h:outputText value="#{dept.descr}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="ACTIVE" />
+					</f:facet>
+					<h:outputText value="#{dept.active}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="DEFAULT_BU_EX_ID" />
+					</f:facet>
+					<h:link outcome="manageBuEx" value="#{dept.swBuEx}" >
+						<f:param name="buExId" value="#{dept.swBuEx}"/>
+					</h:link>
+				</h:column>
+			</h:dataTable>
+		</h:form>
+		</ui:define>
+		</ui:composition>

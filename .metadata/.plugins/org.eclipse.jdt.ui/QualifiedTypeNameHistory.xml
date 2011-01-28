@@ -1,2 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<qualifiedTypeNameHistroy/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.assaassociates.syraway.exts.mbeans.IEmployeeService"/>
+<fullyQualifiedTypeName name="com.assaassociates.syraway.model.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.assaasoociates.syraway.controller.IBusinessUnitController"/>
+<fullyQualifiedTypeName name="com.assaassociates.syraway.model.Project"/>
+<fullyQualifiedTypeName name="com.assaasoociates.syraway.controller.IBusinessUnitPcController"/>
+<fullyQualifiedTypeName name="com.assaasoociates.syraway.controller.IBusinessUnitExController"/>
+<fullyQualifiedTypeName name="com.assaassociates.syraway.model.BusinessUnitPc"/>
+<fullyQualifiedTypeName name="com.assaassociates.syraway.dao.IBusinessUnitExDAO"/>
+<fullyQualifiedTypeName name="java.security.KeyStore.Builder"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.assaassociates.syraway.dao.IBusinessUnitPcDAO"/>
+<fullyQualifiedTypeName name="com.assaassociates.syraway.model.BusinessUnitEx"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.assaassociates.syraway.model.BusinessUnit"/>
+</qualifiedTypeNameHistroy>

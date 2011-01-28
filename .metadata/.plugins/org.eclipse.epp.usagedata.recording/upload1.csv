@@ -1,251 +1,301 @@
 what,kind,bundleId,bundleVersion,description,time
-started,bundle,org.eclipse.wst.common.emf,1.2.1.v201008260500,"org.eclipse.wst.common.emf",1291829356566
-started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.2.v201008242000,"org.eclipse.wst.common.emfworkbench.integration",1291829356575
-started,bundle,org.eclipse.wst.common.frameworks,1.2.0.v201003040800,"org.eclipse.wst.common.frameworks",1291829356576
-started,bundle,org.eclipse.wst.common.project.facet.core,1.4.102.v201008170019,"org.eclipse.wst.common.project.facet.core",1291829356580
-started,bundle,org.eclipse.wst.jsdt.core,1.1.2.v201009011528,"org.eclipse.wst.jsdt.core",1291829356584
-started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.200.v201004150600,"org.eclipse.wst.jsdt.manipulation",1291829356589
-started,bundle,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui",1291829356637
-started,bundle,org.eclipse.wst.web,1.1.401.v201007151900,"org.eclipse.wst.web",1291829356638
-started,bundle,org.eclipse.wst.xml.core,1.1.502.v201009010342,"org.eclipse.wst.xml.core",1291829356651
-started,bundle,org.springframework.ide.eclipse.aop.core,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.aop.core",1291829356653
-started,bundle,org.springframework.ide.eclipse.aop.ui,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.aop.ui",1291829356655
-started,bundle,org.springframework.ide.eclipse.beans.core,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.beans.core",1291829356660
-started,bundle,org.springframework.ide.eclipse.beans.ui,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.beans.ui",1291829356686
-started,bundle,org.springframework.ide.eclipse.core,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.core",1291829356693
-started,bundle,org.springframework.ide.eclipse.ui,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.ui",1291829356695
-started,bundle,org.eclipse.egit.core,0.9.3,"org.eclipse.egit.core",1291829356698
-started,bundle,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui",1291829356717
-started,bundle,org.eclipse.jgit,0.9.3,"org.eclipse.jgit",1291829356719
-os,sysinfo,,,"linux",1291829356726
-arch,sysinfo,,,"x86",1291829356726
-ws,sysinfo,,,"gtk",1291829356726
-locale,sysinfo,,,"fr_FR",1291829356726
-processors,sysinfo,,,"2",1291829356726
-java.runtime.name,sysinfo,,,"Java(TM) 2 Runtime Environment, Standard Edition",1291829356726
-java.runtime.version,sysinfo,,,"1.5.0_22-b03",1291829356726
-java.specification.name,sysinfo,,,"Java Platform API Specification",1291829356726
-java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1291829356726
-java.specification.version,sysinfo,,,"1.5",1291829356726
-java.vendor,sysinfo,,,"Sun Microsystems Inc.",1291829356726
-java.version,sysinfo,,,"1.5.0_22",1291829356726
-java.vm.info,sysinfo,,,"mixed mode",1291829356726
-java.vm.name,sysinfo,,,"Java HotSpot(TM) Server VM",1291829356726
-java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1291829356726
-java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1291829356726
-java.vm.specification.version,sysinfo,,,"1.0",1291829356726
-java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1291829356726
-java.vm.version,sysinfo,,,"1.5.0_22-b03",1291829356726
-started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1291829356732
-started,bundle,org.eclipse.update.core,3.2.402.R36x_v20100629,"org.eclipse.update.core",1291829356751
-started,bundle,org.springframework.ide.eclipse.osgi.targetdefinition,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.osgi.targetdefinition",1291829356763
-activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1291829356914
-started,bundle,org.eclipse.ui.views.properties.tabbed,3.5.100.I20100509-0800,"org.eclipse.ui.views.properties.tabbed",1291829356933
-started,bundle,org.eclipse.team.cvs.ui,3.3.301.R36x_v20100825-0800,"org.eclipse.team.cvs.ui",1291829357087
-closed,view,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.internal.introview",1291829357206
-started,bundle,org.eclipse.team.svn.mylyn,0.7.9.I20100512-1900,"org.eclipse.team.svn.mylyn",1291829357496
-started,bundle,org.eclipse.team.svn.core,0.7.9.I20100917-1700,"org.eclipse.team.svn.core",1291829357661
-started,bundle,org.eclipse.team.svn.ui,0.7.9.I20101001-1700,"org.eclipse.team.svn.ui",1291829357869
-started,bundle,org.polarion.eclipse.team.svn.connector.javahl16,2.2.2.I20100917-1700,"org.polarion.eclipse.team.svn.connector.javahl16",1291829357881
-started,bundle,org.polarion.eclipse.team.svn.connector.svnkit16,2.2.2.I20100917-1700,"org.polarion.eclipse.team.svn.connector.svnkit16",1291829357910
-activated,view,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.RepositoriesView",1291829359612
-activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1291829363147
-started,bundle,org.eclipse.search,3.6.0.v20100520-0800,"org.eclipse.search",1291829365685
-opened,view,org.eclipse.mylyn.tasks.ui,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.tasks.ui.views.tasks",1291829365965
-activated,view,org.eclipse.mylyn.tasks.ui,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.tasks.ui.views.tasks",1291829366111
-activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1291829367419
-activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.AllMarkersView",1291829376365
-opened,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291829403569
-activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291829403664
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.views.showView",1291829403676
-activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.AllMarkersView",1291829405791
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829412335
-opened,view,org.springframework.ide.eclipse.ui,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.ui.navigator.springExplorer",1291829418151
-activated,view,org.springframework.ide.eclipse.ui,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.ui.navigator.springExplorer",1291829418217
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.views.showView",1291829418218
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.views.showView",1291829418218
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829418246
-activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1291829437232
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.views.showView",1291829437242
-activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291829444037
-activated,view,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.RepositoriesView",1291829446366
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829456869
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.RepositoriesViewCreateBranch",1291829615152
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829615179
-activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291829627349
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829629533
-started,bundle,org.eclipse.wst.sse.core,1.1.502.v201008311901,"org.eclipse.wst.sse.core",1291829634833
-started,bundle,org.maven.ide.eclipse.maven_model_edit,0.12.0.20101115-1102,"org.maven.ide.eclipse.maven_model_edit",1291829634920
-started,bundle,org.maven.ide.eclipse,0.12.0.20101115-1102,"org.maven.ide.eclipse",1291829635017
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.newWizard",1291829669866
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829669925
-started,bundle,org.maven.ide.eclipse.editor.xml,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.xml",1291829670649
-started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1291829670696
-started,bundle,org.eclipse.debug.core,3.6.0.v20100519,"org.eclipse.debug.core",1291829670889
-started,bundle,org.maven.ide.eclipse.jdt,0.12.0.20101115-1102,"org.maven.ide.eclipse.jdt",1291829670917
-started,bundle,org.eclipse.jdt.launching,3.5.100.v20100526,"org.eclipse.jdt.launching",1291829671058
-started,bundle,org.eclipse.jst.servlet.ui,1.1.402.v201008261918,"org.eclipse.jst.servlet.ui",1291829671415
-started,bundle,org.eclipse.jst.common.project.facet.core,1.4.102.v201008182136,"org.eclipse.jst.common.project.facet.core",1291829671479
-started,bundle,org.eclipse.jst.ws.jaxrs.core,1.0.200.v201008201800,"org.eclipse.jst.ws.jaxrs.core",1291829671483
-started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1291829671512
-started,bundle,org.eclipse.wst.common.modulecore,1.2.3.v201008242000,"org.eclipse.wst.common.modulecore",1291829671533
-started,bundle,org.eclipse.jst.j2ee.core,1.2.2.v201008120100,"org.eclipse.jst.j2ee.core",1291829671542
-started,bundle,org.eclipse.jem,2.0.400.v201005110200,"org.eclipse.jem",1291829671588
-started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.0.v201004080500,"org.eclipse.wst.common.frameworks.ui",1291829671627
-started,bundle,org.eclipse.wst.validation,1.2.200.v201005271900,"org.eclipse.wst.validation",1291829671643
-started,bundle,org.eclipse.jst.j2ee,1.1.402.v201009151730,"org.eclipse.jst.j2ee",1291829671677
-started,bundle,org.eclipse.jst.jee.ui,1.0.302.v201009011600,"org.eclipse.jst.jee.ui",1291829671680
-started,bundle,org.eclipse.jst.j2ee.ui,1.1.402.v201009080200,"org.eclipse.jst.j2ee.ui",1291829671699
-started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.402.v201009081300,"org.eclipse.jst.j2ee.navigator.ui",1291829671703
-started,bundle,org.eclipse.jdt.apt.core,3.3.401.R36_v20100727-0110,"org.eclipse.jdt.apt.core",1291829672187
-started,bundle,org.springframework.ide.eclipse.webflow.ui,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.webflow.ui",1291829673426
-started,bundle,org.springframework.ide.eclipse.webflow.core,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.webflow.core",1291829673510
-started,bundle,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor",1291829681723
-started,bundle,org.maven.ide.eclipse.refactoring,0.12.0.20101115-1102,"org.maven.ide.eclipse.refactoring",1291829681767
-started,bundle,org.eclipse.ltk.core.refactoring,3.5.100.v20100526-0800,"org.eclipse.ltk.core.refactoring",1291829681823
-started,bundle,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring",1291829681826
-started,bundle,org.eclipse.compare,3.5.100.I20100526-0800,"org.eclipse.compare",1291829681902
-error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291829682248
-error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291829683604
-error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291829688328
-started,bundle,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui",1291829689559
-started,bundle,org.eclipse.jdt.junit.core,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.junit.core",1291829689822
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829691837
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829701778
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291829752426
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291829774431
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291829785925
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291829791735
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291829800060
-error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291829811771
-error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291829821225
-started,bundle,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui",1291829831178
-started,bundle,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui",1291829831637
-started,bundle,org.springframework.ide.eclipse.beans.ui.editor,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.beans.ui.editor",1291829831640
-started,bundle,org.springframework.ide.eclipse.webflow.ui.editor,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.webflow.ui.editor",1291829831642
-started,bundle,org.eclipse.wst.xsl.core,1.1.0.v201004290328,"org.eclipse.wst.xsl.core",1291829831704
-started,bundle,org.eclipse.wst.xsl.exslt.core,1.0.0.v201005240426,"org.eclipse.wst.xsl.exslt.core",1291829831717
-started,bundle,org.eclipse.wst.xsd.core,1.1.502.v201008201521,"org.eclipse.wst.xsd.core",1291829831770
-started,bundle,org.eclipse.xsd,2.6.0.v20100914-1218,"org.eclipse.xsd",1291829831806
-started,bundle,org.eclipse.wst.internet.cache,1.0.400.v201004280700,"org.eclipse.wst.internet.cache",1291829831996
-started,bundle,org.eclipse.jst.jsp.ui,1.1.501.v201008232032,"org.eclipse.jst.jsp.ui",1291829832185
-started,bundle,org.eclipse.jst.jsp.core,1.2.302.v201008251735,"org.eclipse.jst.jsp.core",1291829832338
-started,bundle,org.eclipse.wst.dtd.ui,1.0.500.v201004290328,"org.eclipse.wst.dtd.ui",1291829833202
-started,bundle,org.eclipse.compare.core,3.5.100.I20100526-0800,"org.eclipse.compare.core",1291829833421
-started,bundle,org.eclipse.wst.xsl.ui,1.1.1.v201009091745,"org.eclipse.wst.xsl.ui",1291829833580
-started,bundle,org.eclipse.jem.workbench,2.0.300.v200910290230,"org.eclipse.jem.workbench",1291829834108
-started,bundle,org.eclipse.core.variables,3.2.400.v20100505,"org.eclipse.core.variables",1291829835159
-opened,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291829836110
-activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291829836556
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291829843484
-activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291829847743
-error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291829849170
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829858963
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Commit",1291829881383
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829881415
-error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291829884054
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829889215
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829889219
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829889272
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829889279
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829889309
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829889314
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829889570
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829889573
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291829889698
-started,bundle,org.eclipse.jsch.ui,1.1.300.I20100505-1245,"org.eclipse.jsch.ui",1291829904022
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291830027755
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291830028214
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291830030384
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291830030509
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291830090426
-activated,view,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.RepositoriesView",1291830093667
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.RepositoriesViewRefresh",1291830101851
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.RepositoriesViewRefresh",1291830105461
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.RepositoriesViewRefresh",1291830109522
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.RepositoriesViewRefresh",1291830116032
-executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.RepositoriesViewOpenProperties",1291830121870
-activated,view,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views.PropertySheet",1291830122010
-activated,view,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.RepositoriesView",1291830125480
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291830139987
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832666754
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832668462
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832670646
-activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291832671963
-activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291832673670
-error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291832676902
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832681025
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.newWizard",1291832718037
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832718125
-error,log,,,"Could not update workspace index",1291832718236
-error,log,,,"Could not update workspace index",1291832718893
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832718907
-error,log,,,"Could not update workspace index",1291832719944
-error,log,,,"Could not update workspace index",1291832719953
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832720857
-error,log,,,"Could not update workspace index",1291832721568
-error,log,,,"Could not update workspace index",1291832721571
-opened,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291832724237
-activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291832724475
-activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291832729726
-closed,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291832729740
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291832735781
-error,log,,,"Could not update workspace index",1291832738986
-error,log,,,"Could not update workspace index",1291832738988
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832749547
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291832810303
-error,log,,,"Could not update workspace index",1291832812299
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.newWizard",1291832812360
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832812467
-error,log,,,"Could not update workspace index",1291832813007
-error,log,,,"Could not update workspace index",1291832814379
-error,log,,,"Could not update workspace index",1291832814390
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291832817096
-error,log,,,"Could not update workspace index",1291832817782
-error,log,,,"Could not update workspace index",1291832817785
-activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291832821139
-opened,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291832825480
-activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291832825687
-executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.wordNext",1291832840115
-executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.wordNext",1291832840299
-executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.wordPrevious",1291832840580
-executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.wordPrevious",1291832840959
-executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.wordNext",1291832841301
-executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291832844092
-executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291832844486
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291832845499
-executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291832848244
-executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291832848409
-executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291832848584
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291832849917
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291832854136
-activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291832863915
-opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291832872653
-started,bundle,org.eclipse.jdt.debug,3.6.1.v20100715_r361,"org.eclipse.jdt.debug",1291832873490
-started,bundle,org.eclipse.jdt.debug.ui,3.5.0.v20100602-0830,"org.eclipse.jdt.debug.ui",1291832873643
-activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291832873687
-started,bundle,org.eclipse.jdt.junit,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.junit",1291832873992
-activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291832877187
-error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291832878289
-closed,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291832883532
-closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291832883861
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832886311
-started,bundle,org.springframework.ide.eclipse.beans.ui.refactoring,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.beans.ui.refactoring",1291832889913
-executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1291832890129
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832890196
-error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291832892743
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832895892
-executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1291832899410
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832899444
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832903870
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291832925820
-error,log,,,"Could not update workspace index",1291832931708
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.newWizard",1291832931782
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832931847
-error,log,,,"Could not update workspace index",1291832932243
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832932265
-activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832933674
-error,log,,,"Could not update workspace index",1291832934821
-error,log,,,"Could not update workspace index",1291832934824
-deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832935932
-executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291832961333
+error,log,,,"Problem during initialization",1294090734713
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090736670
+error,log,,,"Problem during initialization",1294090736670
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090736693
+error,log,,,"Problem during initialization",1294090736700
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294090741368
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294090752827
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294090753120
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.navigate.openResource",1294090753164
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294090753200
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294090854800
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090854945
+error,log,,,"Problem during initialization",1294090854946
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090854963
+error,log,,,"Problem during initialization",1294090854963
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090858791
+error,log,,,"Problem during initialization",1294090858791
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090858808
+error,log,,,"Problem during initialization",1294090858808
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294090861731
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294090866976
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findNext",1294090868462
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1294090873055
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090881940
+error,log,,,"Problem during initialization",1294090881941
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090881959
+error,log,,,"Problem during initialization",1294090881959
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294090883969
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294090968083
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294090971685
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294090972726
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294090973612
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090975862
+error,log,,,"Problem during initialization",1294090975863
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090975879
+error,log,,,"Problem during initialization",1294090975880
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090977992
+error,log,,,"Problem during initialization",1294090977993
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090978010
+error,log,,,"Problem during initialization",1294090978011
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090979786
+error,log,,,"Problem during initialization",1294090979787
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294090979798
+error,log,,,"Problem during initialization",1294090979799
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294090988472
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findNext",1294090993112
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findNext",1294090994040
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1294090999970
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294091006096
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findNext",1294091007657
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findNext",1294091008308
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findNext",1294091009164
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091012646
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091071089
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091073485
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091079479
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091079650
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.navigate.openResource",1294091079651
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091079684
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1294091089213
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1294091117305
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294091138602
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091143641
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091284266
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091287689
+error,log,,,"Problem during initialization",1294091287689
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091287702
+error,log,,,"Problem during initialization",1294091287702
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091290206
+error,log,,,"Problem during initialization",1294091290206
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091290221
+error,log,,,"Problem during initialization",1294091290222
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091299809
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091299809
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091300946
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294091307991
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091309390
+error,log,,,"Problem during initialization",1294091309391
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091309419
+error,log,,,"Problem during initialization",1294091309420
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294091311581
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091312605
+error,log,,,"Problem during initialization",1294091312605
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091312622
+error,log,,,"Problem during initialization",1294091312623
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091321511
+error,log,,,"Problem during initialization",1294091321512
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091321528
+error,log,,,"Problem during initialization",1294091321529
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1294091328928
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091334402
+error,log,,,"Problem during initialization",1294091334403
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091334418
+error,log,,,"Problem during initialization",1294091334419
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091337844
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1294091338991
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294091340379
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091341283
+error,log,,,"Problem during initialization",1294091341306
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091341340
+error,log,,,"Problem during initialization",1294091341341
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1294091341538
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1294091344946
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091348887
+error,log,,,"Problem during initialization",1294091348887
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091348900
+error,log,,,"Problem during initialization",1294091348901
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1294091350521
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294091354085
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091372156
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091574230
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294091581794
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091582528
+error,log,,,"Problem during initialization",1294091582609
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091582627
+error,log,,,"Problem during initialization",1294091582628
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294091584240
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091587153
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294091587308
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091587308
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091589011
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091590192
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091595697
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091595881
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.navigate.openResource",1294091595882
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091595921
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091626473
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091627536
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091627537
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091629010
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091634213
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091634409
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.navigate.openResource",1294091634410
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091634437
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091723936
+error,log,,,"Problem during initialization",1294091723936
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091723950
+error,log,,,"Problem during initialization",1294091723951
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294091726256
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.findReplace",1294091730816
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091730847
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091754829
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.smartEnter",1294091768796
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1294091770568
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1294091771254
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1294091772946
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294091775224
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091780512
+error,log,,,"Problem during initialization",1294091780512
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091780525
+error,log,,,"Problem during initialization",1294091780526
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.findReplace",1294091781256
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091781273
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091814561
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.findReplace",1294091815659
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091815690
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294091835164
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091838233
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091844703
+error,log,,,"Problem during initialization",1294091844703
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091844717
+error,log,,,"Problem during initialization",1294091844718
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294091845367
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294091848469
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091855187
+error,log,,,"Problem during initialization",1294091855187
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091855201
+error,log,,,"Problem during initialization",1294091855202
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091864163
+error,log,,,"Problem during initialization",1294091864163
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091864188
+error,log,,,"Problem during initialization",1294091864188
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091864849
+error,log,,,"Problem during initialization",1294091864850
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091864862
+error,log,,,"Problem during initialization",1294091864863
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1294091868183
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091885926
+error,log,,,"Problem during initialization",1294091885927
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091885942
+error,log,,,"Problem during initialization",1294091885943
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091885956
+error,log,,,"Problem during initialization",1294091885957
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091885972
+error,log,,,"Problem during initialization",1294091885973
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091895887
+error,log,,,"Problem during initialization",1294091895888
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091895904
+error,log,,,"Problem during initialization",1294091895905
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091895917
+error,log,,,"Problem during initialization",1294091895917
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091895929
+error,log,,,"Problem during initialization",1294091895930
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091907071
+error,log,,,"Problem during initialization",1294091907072
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091907085
+error,log,,,"Problem during initialization",1294091907086
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091911412
+error,log,,,"Problem during initialization",1294091911412
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091911425
+error,log,,,"Problem during initialization",1294091911425
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294091918353
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091920172
+error,log,,,"Problem during initialization",1294091920173
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091920187
+error,log,,,"Problem during initialization",1294091920188
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294091924416
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091942772
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091956857
+error,log,,,"Problem during initialization",1294091956857
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091956897
+error,log,,,"Problem during initialization",1294091956897
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294091960782
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1294091962800
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294091964520
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091971161
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091988418
+error,log,,,"Problem during initialization",1294091988419
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091988433
+error,log,,,"Problem during initialization",1294091988433
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294091988874
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091990126
+error,log,,,"Problem during initialization",1294091990127
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091990151
+error,log,,,"Problem during initialization",1294091990152
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294091994252
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091997630
+error,log,,,"Problem during initialization",1294091997631
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294091997643
+error,log,,,"Problem during initialization",1294091997644
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092001724
+error,log,,,"Problem during initialization",1294092001725
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092001737
+error,log,,,"Problem during initialization",1294092001738
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294092002948
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294092007250
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092018044
+error,log,,,"Problem during initialization",1294092018045
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092018057
+error,log,,,"Problem during initialization",1294092018058
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294092023496
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1294092037175
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1294092040467
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092041893
+error,log,,,"Problem during initialization",1294092041893
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092041906
+error,log,,,"Problem during initialization",1294092041906
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092045350
+error,log,,,"Problem during initialization",1294092045351
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092045363
+error,log,,,"Problem during initialization",1294092045364
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1294092059537
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1294092061450
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294092062007
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1294092078762
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1294092080935
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294092085572
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1294092087480
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092088597
+error,log,,,"Problem during initialization",1294092088598
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092088614
+error,log,,,"Problem during initialization",1294092088614
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1294092093935
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1294092096088
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092096733
+error,log,,,"Problem during initialization",1294092096734
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092096748
+error,log,,,"Problem during initialization",1294092096748
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294092111447
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294092227615
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092228599
+error,log,,,"Problem during initialization",1294092228600
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092228613
+error,log,,,"Problem during initialization",1294092228620
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294092231451
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294092233826
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294092234592
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294092243089
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294092243305
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294092243687
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294092243842
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.navigate.openResource",1294092243843
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294092243871
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294092255681
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294092256544
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294092256545
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294092258249
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294092259236
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294092259236
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1294092290683
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092292305
+error,log,,,"Problem during initialization",1294092292306
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092292323
+error,log,,,"Problem during initialization",1294092292323
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.findReplace",1294092292984
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294092293018
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294092311114
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092313366
+error,log,,,"Problem during initialization",1294092313367
+error,log,,,"No IModelProvider exists for project P/exts of version: null",1294092313380

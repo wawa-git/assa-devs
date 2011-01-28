@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import java.util.List;
+
+import com.assaassociates.syraway.model.Oprid;
+import com.assaassociates.syraway.model.UserRole;
+
+/**
+ * @author waheb
+ *
+ */
+public interface IUserRoleDAO {
+	public UserRole getUserRoleById(String pUserRoleId);
+	public List<UserRole> getUserRoleOfEmployee(String pUserRoleId);
+	public void addOprid(Oprid oOprid);
+	public void updateOprid(Oprid oOprid);
+	public void removeOprid(Oprid pOprid);
+	public void removeOprid(String pOpridId);
+}

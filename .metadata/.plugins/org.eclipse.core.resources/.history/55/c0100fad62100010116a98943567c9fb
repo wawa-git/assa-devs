@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:a4j="http://richfaces.org/a4j"
+	  xmlns:rich="http://richfaces.org/rich"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+  	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+
+	<h:head>
+	</h:head>
+	<h:body>
+		<h1>Manage Business Unit Ex</h1>
+		<h:form id="addBusinessUnitExForm" >
+			<h:outputText value="BSE_CUR : " />
+			<h:inputText value="#{businessUnitEx.businessUnitEx.bseCur}" id="bseCur"/>
+			<br/>
+			<h:outputText value="CAL_ID : " />
+			<h:inputText value="#{businessUnitEx.businessUnitEx.calId}" id="calId"/>
+			<br/>
+			<h:outputText value="EX_CHRONO : " />
+			<h:inputText value="#{businessUnitEx.businessUnitEx.exChrono}" id="exChrono"/>
+			<br/>
+			<h:outputText value="STATUS : " />
+			<h:inputText value="#{businessUnitEx.businessUnitEx.status}" id="status"/>
+			<br/>
+			<h:outputText value="TIME_CHRONO : " />
+			<h:inputText value="#{businessUnitEx.businessUnitEx.timeChrono}" id="timeChrono"/>
+			<br/>
+			<h:commandButton value="Add Business Unit Ex">
+				<f:ajax execute="@form"/>
+			</h:commandButton>
+		</h:form>
+		<h:form id="BuExList">
+			<h:commandButton value="list all business unit ex">
+				<f:ajax render="listOfBuEx" listener="#{businessUnitEx.listBusinessUnitExListener}" />
+			</h:commandButton>
+			<h:dataTable id="listOfBuEx" border="1" value="#{businessUnitEx.businessUnitExList}" var="buEx">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU_EX_ID" />
+					</f:facet>
+					<h:link outcome="addBusinessUnitEx" value="#{buEx.buExId}" >
+						<f:param name="buExId" value="#{buEx.buExId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BSE_CUR" />
+					</f:facet>
+					<h:outputText value="#{buEx.bseCur}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="CAL_ID" />
+					</f:facet>
+					<h:outputText value="#{buEx.calId}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="EX_CHRONO" />
+					</f:facet>
+					<h:outputText value="#{buEx.exChrono}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="STATUS" />
+					</f:facet>
+					<h:outputText value="#{buEx.status}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="TIME_CHRONO" />
+					</f:facet>
+					<h:outputText value="#{buEx.timeChrono}" />
+				</h:column>
+			</h:dataTable>
+		</h:form>
+	</h:body>
+</html>

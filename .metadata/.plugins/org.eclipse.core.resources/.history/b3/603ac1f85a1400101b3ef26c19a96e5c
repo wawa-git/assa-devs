@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import java.util.List;
+
+import com.assaassociates.syraway.model.Oprid;
+import com.assaassociates.syraway.model.Time;
+
+/**
+ * @author waheb
+ *
+ */
+public interface ITimeDAO {
+	public Time getTimeById(String pTimeId);
+	public List<Time> getTimeOfEmployee(String pEmployeeId);
+	public List<Time> getTimeOfTask(String pEmployeeId);
+	public void addOprid(Oprid oOprid);
+	public void updateOprid(Oprid oOprid);
+	public void removeOprid(Oprid pOprid);
+	public void removeOprid(String pOpridId);
+}

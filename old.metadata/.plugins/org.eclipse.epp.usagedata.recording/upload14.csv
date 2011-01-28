@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292015987501
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292015990736
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292017820306
+activated,editor,org.eclipse.jst.jsp.ui,1.1.501.v201008232032,"org.eclipse.jst.jsp.core.jspsource.source",1292017823483
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292017829919
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292017833527
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292017834961
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1292017842069
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.navigate.openResource",1292017842091
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292017842120
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292017899995
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292018487784
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1292018497542
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1292018497830
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1292018497989
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1292018498248
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1292018499567
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292018504416
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1292018505564
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292018509950
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292018522750
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1292018524102
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292018669143
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292018679015
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292018681025
+error,log,,,"Could not update workspace index",1292018684058
+activated,view,org.eclipse.ui.console,,"org.eclipse.ui.console.ConsoleView",1292018684250
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292021071843
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1292021082907
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292021086291
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292021086294
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292021086295
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292021086300
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292021086301
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1292021086318
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292021099344
+error,log,,,"Could not update workspace index",1292021099965
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292021103064
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292021116821
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292021121863
+error,log,,,"Could not update workspace index",1292021122416
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292021124354
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081675638
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292081683858
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292081683860
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292081683862
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292081683871
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292081683873
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292081683879
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1292081683899
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenamePomAction",1292081686148
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081689814
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.cleanup.document",1292081690468
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081690516
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292081691890
+error,log,,,"Could not update workspace index",1292081692541
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1292081700893
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1292081701345
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1292081701699
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1292081701875
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1292081702039
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081704415
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081835739
+activated,editor,org.eclipse.jst.jsp.ui,1.1.501.v201008232032,"org.eclipse.jst.jsp.core.jspsource.source",1292081838613
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1292081845825
+activated,editor,org.eclipse.jst.jsp.ui,1.1.501.v201008232032,"org.eclipse.jst.jsp.core.jspsource.source",1292081849789
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1292081851159
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081856112
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1292081857727
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1292081858206
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.rename",1292081858206
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081858261
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081859020
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081860752
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081861808
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081880940
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081886024
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1292081890895
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.rename",1292081890895
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081890970
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081894234
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081900025
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292081901446
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292086533109
+activated,editor,org.eclipse.jst.jsp.ui,1.1.501.v201008232032,"org.eclipse.jst.jsp.core.jspsource.source",1292086533706
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1292086535503
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1292086549123
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292086560645
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292086563253
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292087456143
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1292087463180
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292087467494
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292087535599
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089228203
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1292089231149
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089245809
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089245812
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089245813
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089245814
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089245815
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089245817
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1292089245822
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089252773
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089252774
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089252775
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089252776
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089252778
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1292089252784
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1292089269104
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1292089269285
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1292089271127
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089285256
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089300195
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089306167
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089343752
+error,log,,,"A structured model client, org.maven.ide.components.pom.translators.ListAdapter@f16d7a threw following exception during adapter notification (ADD )",1292089345418
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1292089345457
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1292089350109
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1292089350456
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1292089351411
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1292089351839
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1292089352164
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292089353312
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089355360
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089356238
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089359253
+error,log,,,"Unable to add javax/faces/jsf-api/2.0/jsf-api-2.0-.pom",1292089363424
+error,log,,,"Could not update workspace index",1292089363434
+activated,view,org.eclipse.ui.console,,"org.eclipse.ui.console.ConsoleView",1292089363644
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089388355
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089390247
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089649223
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1292089654410
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089654602
+activated,editor,org.eclipse.jst.jsp.ui,1.1.501.v201008232032,"org.eclipse.jst.jsp.core.jspsource.source",1292089678092
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089678196
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089678241
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1292089681733
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089681939
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1292089682760
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1292089699475
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089718293
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1292089724154
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.navigate.openResource",1292089724168
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089724207
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1292089734698
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1292089738444
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1292089740706
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089743384
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089747534
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1292089749223
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1292089749525
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1292089750310
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089753021
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089757761
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1292089759697
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292089760766
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292089763142
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1292089765697
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089784916
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089785256
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292089791144
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292089852583
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292089854075
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1292089873856
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089875250
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089887265
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1292089889818
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089900730
+opened,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1292089907478
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1292089907614
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089908272
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1292089909230
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292089910949
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1292089912167
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1292089913640
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1292089917576
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1292089917927
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1292089918337
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1292089918751
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1292089922659
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1292089923659
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1292089923989
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292089931681
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292089932219
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1292089934806
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292089936838
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089937609
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089945647
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089946907
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089950355
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1292089953216
+activated,editor,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.core.htmlsource.source",1292089954739
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089955313
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089966392
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1292089968119
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089972795
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089974819
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1292089988550
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089991762
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292089994173
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1292090001860
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090005056
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090006599
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090009808
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090012313
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1292090019079
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090023068
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090025170
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090027414
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090029667
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090032715
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090034117
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090037811
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090039878
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090040715
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1292090047935
+no handler,command,org.eclipse.jdt.debug.ui,3.5.0.v20100602-0830,"org.eclipse.jdt.debug.ui.commands.Display",1292090051619
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1292090052591
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1292090061581
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1292090062882
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1292090064113
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090064955
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090081612
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090084349
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090085890
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090094884
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090096356
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1292090098420
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090101283
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1292090123419
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1292090125029
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findNext",1292090136932
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findNext",1292090138513
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findNext",1292090138849
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findNext",1292090139197
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findNext",1292090139614
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090143852
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090144274
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090144651
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090144939
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090145339
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090146194
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090148698
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090149279
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090149901
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090150373
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090151026
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090160966
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1292090161216

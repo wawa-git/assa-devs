@@ -1,0 +1,12 @@
+package com.assaasoociates.syraway.controller;
+
+import com.assaassociates.syraway.model.Oprid;
+import com.assaassociates.syraway.model.Time;
+
+public interface ITimeController {
+
+	public void addTime(Time oTime);
+	public void updateTime(Time oTime);
+	public Time getTime(String pTimeId); 
+	
+}

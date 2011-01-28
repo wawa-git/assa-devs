@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+package com.assaassosiates.syraway.security.authentication;
+
+import java.util.List;
+
+import org.springframework.dao.DataAccessException;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
+/**
+ * @author waheb
+ *
+ */
+public class SywUserDetailsService implements UserDetailsService {
+
+	/* (non-Javadoc)
+	 * @see org.springframework.security.core.userdetails.UserDetailsService#loadUserByUsername(java.lang.String)
+	 */
+	public UserDetails loadUserByUsername(String username)
+			throws UsernameNotFoundException, DataAccessException {
+		// TODO Auto-generated method stub
+		return createUserDetails(pListAuthority);
+	}
+	
+	public UserDetails createUserDetails(List<GrantedAuthority> pListAuthority){
+		User oResult = new User("admin", "admin", true, true, true, true, pListAuthority);
+		
+		return oResult;
+	}
+	
+	public List<GrantedAuthority> getGrantedAuthorityList(){
+		List<GrantedAuthority> oResult;
+		
+		return oResult;
+	}
+
+}

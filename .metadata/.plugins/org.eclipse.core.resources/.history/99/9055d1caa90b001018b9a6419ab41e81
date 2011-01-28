@@ -1,0 +1,54 @@
+package com.assaassociates.syraway.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the SW_SETID database table.
+ * 
+ */
+@Entity
+@Table(name="SW_SETID")
+public class Setid implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="SETID", unique=true, nullable=false, length=6)
+	private String setid;
+
+	@Column(name="ACTIVE")
+	private byte active;
+
+	@Column(name="DESCR", length=120)
+	private String descr;
+
+    public Setid() {
+    }
+
+	public String getSetid() {
+		return this.setid;
+	}
+
+	public void setSetid(String setid) {
+		this.setid = setid;
+	}
+
+	public byte getActive() {
+		return this.active;
+	}
+
+	public void setActive(byte active) {
+		this.active = active;
+	}
+
+	public String getDescr() {
+		return this.descr;
+	}
+
+	public void setDescr(String descr) {
+		this.descr = descr;
+	}
+
+}

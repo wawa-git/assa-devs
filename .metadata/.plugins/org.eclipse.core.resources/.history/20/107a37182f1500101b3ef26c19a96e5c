@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import java.util.List;
+
+import com.assaassociates.syraway.model.UserRole;
+
+/**
+ * @author waheb
+ *
+ */
+public interface IUserRoleDAO {
+	public UserRole getUserRoleById(String pUserRoleId);
+	public List<UserRole> getUserRoleOfEmployee(String pEmployeeId);
+	public void addUserRole(UserRole pUserRole);
+	public void updateUserRole(UserRole pUserRole);
+	public void removeUserRole(UserRole pUserRole);
+	public void removeUserRole(String pUserRoleId);
+	public List<UserRole> getAllUserRoles();
+}

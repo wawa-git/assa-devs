@@ -1,0 +1,60 @@
+package com.assaassosiates.syraway.security.access.vote;
+
+import java.util.Collection;
+import java.util.Vector;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.security.access.AccessDecisionVoter;
+import org.springframework.security.access.ConfigAttribute;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
+import com.assaassosiates.syraway.security.SywApplicationContext;
+import com.assaassosiates.syraway.security.authentication.UserProfile;
+
+public class SywRoleVoter implements AccessDecisionVoter {
+
+	public boolean supports(ConfigAttribute attribute) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	public boolean supports(Class<?> clazz) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	public int vote(Authentication authentication, Object object,
+			Collection<ConfigAttribute> attributes) {
+		int result = ACCESS_ABSTAIN;
+        Collection<GrantedAuthority> authorities = authentication.getAuthorities();
+
+        for (ConfigAttribute attribute : attributes) {
+            if (this.supports(attribute)) {
+                result = ACCESS_DENIED;
+                // Attempt to find a matching granted authority
+                ApplicationContext ctx = SywApplicationContext.getCtx();
+                if(ctx != null){
+                	UserProfile profile = ctx.getBean("userProfile", UserProfile.class);
+	                for (GrantedAuthority authority : authorities) {
+	                	profile.getListAuthoritiesName().contains(authority.getAuthority());
+	                    if (attribute.getAttribute().equals(authority.getAuthority())) {
+	                    	System.out.println("========================== ATTRIBUT : " + attribute.getAttribute());
+	                        result = ACCESS_GRANTED;
+	                    }
+	                }
+                }
+            }
+        }
+            
+        ApplicationContext ctx = SywApplicationContext.getCtx();
+        if(ctx != null){
+        	UserProfile profile = ctx.getBean("userProfile", UserProfile.class);
+        	System.out.println("");
+        	System.out.println("============================================== The user is transient ? " + profile.isTransient());
+        	System.out.println("");
+        }else{
+        	System.err.println("============== Pas de context");
+        }
+        return result;
+    }
+}

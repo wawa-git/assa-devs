@@ -1,0 +1,32 @@
+body { 
+  margin: 0; /* pour éviter les marges */ 
+  text-align: center; /* pour corriger le bug de centrage IE */ 
+}
+
+#page {
+width:1024px;
+height:768px;
+margin-left: auto;
+margin-top: auto;
+
+}
+#header {
+text-align:center;
+background-color: #6495ED;
+height: 10%;
+}
+#footer {
+text-align:center;
+background-color: #32CD32;
+}
+#menu  {
+/*float:left;*/
+position: absolute;
+width: 170px;
+height:85%;
+background-color: #778899;
+}
+#content {
+margin-left:170px;
+height:85%;
+}

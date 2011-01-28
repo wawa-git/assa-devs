@@ -1,0 +1,58 @@
+package test.test;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * The primary key class for the SW_PROJECT database table.
+ * 
+ */
+@Embeddable
+public class SwProjectPK implements Serializable {
+	//default serial version id, required for serializable classes.
+	private static final long serialVersionUID = 1L;
+
+	@Column(name="BU_PC_ID", unique=true, nullable=false, length=6)
+	private String buPcId;
+
+	@Column(name="PROJECT_ID", unique=true, nullable=false, length=10)
+	private String projectId;
+
+    public SwProjectPK() {
+    }
+	public String getBuPcId() {
+		return this.buPcId;
+	}
+	public void setBuPcId(String buPcId) {
+		this.buPcId = buPcId;
+	}
+	public String getProjectId() {
+		return this.projectId;
+	}
+	public void setProjectId(String projectId) {
+		this.projectId = projectId;
+	}
+
+	public boolean equals(Object other) {
+		if (this == other) {
+			return true;
+		}
+		if (!(other instanceof SwProjectPK)) {
+			return false;
+		}
+		SwProjectPK castOther = (SwProjectPK)other;
+		return 
+			this.buPcId.equals(castOther.buPcId)
+			&& this.projectId.equals(castOther.projectId);
+
+    }
+    
+	public int hashCode() {
+		final int prime = 31;
+		int hash = 17;
+		hash = hash * prime + this.buPcId.hashCode();
+		hash = hash * prime + this.projectId.hashCode();
+		
+		return hash;
+    }
+}

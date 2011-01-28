@@ -1,0 +1,157 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaasoociates.syraway.controller.IBusinessUnitPcController;
+import com.assaasoociates.syraway.controller.IEmployeeController;
+import com.assaasoociates.syraway.controller.IProjectController;
+import com.assaasoociates.syraway.controller.ITaskController;
+import com.assaasoociates.syraway.controller.ITeamController;
+import com.assaasoociates.syraway.controller.ITimeController;
+import com.assaassociates.syraway.model.BusinessUnitPc;
+import com.assaassociates.syraway.model.Employee;
+import com.assaassociates.syraway.model.Project;
+import com.assaassociates.syraway.model.Time;
+
+@ManagedBean(name="time")
+@SessionScoped
+public class TimeServiceImpl implements ITimeService {
+
+private static final long serialVersionUID = 6726658729223350876L;
+	
+	private ITimeController oTimeController;
+	private ITaskController oTaskController;
+	private ITeamController oTeamController;
+	private IEmployeeController oEmployeeController;
+	private Time value;
+	private List<Time> timeList;
+	private String buPcId;
+	private String managerId;
+	private String timeId;
+	
+	public TimeServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oTimeController = appContext.getBean("timeController", ITimeController.class);
+		this.oTaskController = appContext.getBean("taskController", ITaskController.class);
+		this.oTeamController = appContext.getBean("teamController", ITeamController.class);
+		this.oEmployeeController = appContext.getBean("emplController", IEmployeeController.class);
+		this.value = new Time();
+		this.timeList = new ArrayList<Time>();
+	}
+
+	public ITimeController getTimeController() {
+		return oTimeController;
+	}
+
+	public void setTimeController(ITimeController pTimeController) {
+		this.oTimeController = pTimeController;
+	}
+
+	public ITaskController getTaskController() {
+		return oTaskController;
+	}
+
+	public void setTaskController(ITaskController pTaskController) {
+		this.oTaskController = pTaskController;
+	}
+
+	public Project getValue() {
+		return value;
+	}
+
+	public void setValue(Project value) {
+		this.value = value;
+	}
+
+	public IEmployeeController getEmployeeController() {
+		return oEmployeeController;
+	}
+
+	public void setEmployeeController(IEmployeeController pEmployeeController) {
+		this.oEmployeeController = pEmployeeController;
+	}
+
+	public List<Project> getProjectList() {
+		return projectList;
+	}
+
+	public void setProjectList(List<Project> pProjectList) {
+		this.projectList = pProjectList;
+	}
+
+	public String getBuPcId() {
+		return buPcId;
+	}
+
+	public void setBuPcId(String pBuPcId) {
+		this.buPcId = pBuPcId;
+	}
+
+	public String getManagerId() {
+		return managerId;
+	}
+
+	public void setManagerId(String pManagerId) {
+		this.managerId = pManagerId;
+	}
+
+	public String getProjectId() {
+		return projectId;
+	}
+
+	public void setProjectId(String pProjectId) {
+		this.projectId = pProjectId;
+		if(this.projectId != null){
+			if(getProjectController() != null){
+				value = getProjectController().getProject(this.projectId);
+				if(value != null){
+					setBuPcId(String.valueOf(value.getSwBuPc().getBuPcId()));
+					setManagerId(String.valueOf(value.getSwEmployee().getEmplId()));
+				}
+			}
+		}
+	}
+
+	@Override
+	public void addProject(){
+		if(this.oTimeController != null){
+			if(getBuPcId() != null && !"".equals(getBuPcId().trim())){
+				value.setSwBuPc(getBuPcController().getBuPc(Integer.parseInt(getBuPcId())));
+			}
+			if(getManagerId() != null && !"".equals(getManagerId().trim())){
+				value.setSwEmployee(getEmployeeController().getEmployee(getManagerId()));
+			}
+			this.oTimeController.addProject(value);
+		}
+	}
+
+	@Override
+	public void listProjectListener(AjaxBehaviorEvent event) {
+		if(oTimeController != null){
+			projectList = oTimeController.getAllProjects();
+		}
+	}
+
+	@Override
+	public List<BusinessUnitPc> getAllBuPc() {
+		if(oTimeController != null){
+			return oTimeController.getAllBuPc();
+		}
+		return new ArrayList<BusinessUnitPc>();
+	}
+	
+	@Override
+	public List<Employee> getAllEmployee() {
+		if(oTimeController != null){
+			return oTimeController.getAllEmpls();
+		}
+		return new ArrayList<Employee>();
+	}
+}

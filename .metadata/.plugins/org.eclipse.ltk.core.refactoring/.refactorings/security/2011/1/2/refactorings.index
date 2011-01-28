@@ -1,0 +1,8 @@
+1294761717487	Rename resource 'spring-security.xml'
+1295218282391	Rename local variable 'oEmployeeController'
+1295218670433	Rename local variable 'pListAuthority'
+1295219539053	Move 1 resources to 'authentication'
+1295219780523	Rename local variable 'oUserprofile'
+1295219877136	Rename local variable 'oListAuthorities'
+1295220707048	Rename local variable 'oUserRoleController'
+1295221356276	Rename local variable 'oUserRole'

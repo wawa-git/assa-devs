@@ -1,0 +1,43 @@
+package com.assaassociates.syraway.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the SW_OPRID database table.
+ * 
+ */
+@Entity
+@Table(name="SW_OPRID")
+public class Oprid implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="OPRID", unique=true, nullable=false, length=10)
+	private String oprid;
+
+	@Column(name="PASSWORD", length=10)
+	private String password;
+
+    public Oprid() {
+    }
+
+	public String getOprid() {
+		return this.oprid;
+	}
+
+	public void setOprid(String oprid) {
+		this.oprid = oprid;
+	}
+
+	public String getPassword() {
+		return this.password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+}

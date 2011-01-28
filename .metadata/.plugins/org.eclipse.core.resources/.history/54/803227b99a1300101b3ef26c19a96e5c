@@ -1,0 +1,9 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.io.Serializable;
+
+public interface IOpridService extends Serializable{
+
+	public void addOprid();
+	public void updateOprid();
+}

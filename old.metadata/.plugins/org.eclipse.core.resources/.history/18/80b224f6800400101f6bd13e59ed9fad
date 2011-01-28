@@ -1,0 +1,37 @@
+package com.assaasoociates.syraway.controller;
+
+import com.assaassociates.syraway.dao.ICollaboratorDAO;
+
+public class CollaboratorController {
+	
+	private ICollaboratorDAO collaboratorDao;
+	private String strFirstName;
+	private String strLastName;
+	
+	public ICollaboratorDAO getCollaboratorDao() {
+		return collaboratorDao;
+	}
+
+	public void setCollaboratorDao(ICollaboratorDAO collaboratorDao) {
+		this.collaboratorDao = collaboratorDao;
+	}
+
+	public String getFirstName() {
+		return strFirstName;
+	}
+
+	public void setFirstName(String pFirstName) {
+		this.strFirstName = pFirstName;
+	}
+
+	public String getLastName() {
+		return strLastName;
+	}
+
+	public void setStrLastName(String pLastName) {
+		this.strLastName = pLastName;
+	}
+	
+	
+
+}

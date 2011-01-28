@@ -1,0 +1,19 @@
+package com.assaassosiates.syraway.security.web.session;
+
+import javax.servlet.http.HttpSessionEvent;
+
+import org.springframework.beans.BeansException;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
+import org.springframework.security.web.session.HttpSessionEventPublisher;
+
+public class SywApplicationContect implements ApplicationContextAware {
+
+	public void setApplicationContext(ApplicationContext applicationContext)
+			throws BeansException {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

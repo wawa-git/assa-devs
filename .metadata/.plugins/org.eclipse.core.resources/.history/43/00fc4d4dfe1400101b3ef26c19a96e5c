@@ -1,0 +1,11 @@
+package com.assaasoociates.syraway.controller;
+
+import com.assaassociates.syraway.model.Oprid;
+
+public interface ITeamController {
+
+	public void addTeam(Team oTeam);
+	public void updateTeam(Team oTeam);
+	public Oprid getTeam(String pTeamId); 
+	
+}

@@ -1,4 +1,7 @@
-#Wed Dec 08 17:40:56 CET 2010
+#Mon Jan 03 10:09:12 CET 2011
+repositories/30028587fc1400101b3ef26c19a96e5c=30028587fc1400101b3ef26c19a96e5c;https\://azouaou-test.googlecode.com/svn/;Ref\u00E9rentiel de test;branches;tags;trunk;true;e262b428-64cc-d178-1998-e68259ee1fca;https\://azouaou-test.googlecode.com/svn;;false;<https\://azouaou-test.googlecode.com\:443> Google Code Subversion Repository;;0
+repositories/a0088420191700101b3ef26c19a96e5c=a0088420191700101b3ef26c19a96e5c;http\://watchmyperf.unfuddle.com/svn/watchmyperf_watchmyperf;http\://watchmyperf.unfuddle.com/svn/watchmyperf_watchmyperf;branches;tags;trunk;true;;;;false;;;0
 eclipse.preferences.version=1
+repositories/2085ba78bb1600101b3ef26c19a96e5c=2085ba78bb1600101b3ef26c19a96e5c;https\://azouaou-test.googlecode.com/svn/;mon r\u00E9ferentiel;branches;tags;trunk;true;e262b428-64cc-d178-1998-e68259ee1fca;https\://azouaou-test.googlecode.com/svn;;false;<https\://azouaou-test.googlecode.com\:443> Google Code Subversion Repository;;0
 externalMigrateFromAuthorizationDatabase/isMigrated=true
 migrateFromAuthorizationDatabase/isMigrated=true

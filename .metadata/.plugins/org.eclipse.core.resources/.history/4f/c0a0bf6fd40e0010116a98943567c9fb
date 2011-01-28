@@ -1,0 +1,21 @@
+#page {
+width:740px;
+margin:0 auto;
+}
+#header {
+text-align:center;
+background-color: #000080;
+}
+#footer {
+text-align:center;
+background-color:#F08080;
+}
+#menu  {
+/*float:left;*/
+position: absolute;
+width: 170px;
+background-color: #70000A0;
+}
+#content {
+margin-left:170px;
+}

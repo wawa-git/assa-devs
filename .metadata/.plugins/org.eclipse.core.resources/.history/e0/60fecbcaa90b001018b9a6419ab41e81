@@ -1,0 +1,58 @@
+package com.assaassociates.syraway.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * The primary key class for the SW_ACTIVITY database table.
+ * 
+ */
+@Embeddable
+public class ActivityPK implements Serializable {
+	//default serial version id, required for serializable classes.
+	private static final long serialVersionUID = 1L;
+
+	@Column(name="PROJECT_ID", unique=true, nullable=false, length=10)
+	private String projectId;
+
+	@Column(name="ACTIVITY_ID", unique=true, nullable=false, length=10)
+	private String activityId;
+
+    public ActivityPK() {
+    }
+	public String getProjectId() {
+		return this.projectId;
+	}
+	public void setProjectId(String projectId) {
+		this.projectId = projectId;
+	}
+	public String getActivityId() {
+		return this.activityId;
+	}
+	public void setActivityId(String activityId) {
+		this.activityId = activityId;
+	}
+
+	public boolean equals(Object other) {
+		if (this == other) {
+			return true;
+		}
+		if (!(other instanceof ActivityPK)) {
+			return false;
+		}
+		ActivityPK castOther = (ActivityPK)other;
+		return 
+			this.projectId.equals(castOther.projectId)
+			&& this.activityId.equals(castOther.activityId);
+
+    }
+    
+	public int hashCode() {
+		final int prime = 31;
+		int hash = 17;
+		hash = hash * prime + this.projectId.hashCode();
+		hash = hash * prime + this.activityId.hashCode();
+		
+		return hash;
+    }
+}

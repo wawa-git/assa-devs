@@ -1,0 +1,57 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.model;
+
+import java.io.Serializable;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/**
+ * @author waheb
+ *
+ */
+@Entity
+@Table(name = "SW_BU")
+public class BusinessUnit implements Serializable {
+
+	private static final long serialVersionUID = -6518103669032643479L;
+	
+	@Id
+	@GeneratedValue
+	@Column(name="BU_ID",length=6)
+	private String strBuId;
+	
+	@Column(name="BU_EX_ID",length=6)
+	private String strBuExId;
+	
+	@Column(name="BU_PC_ID", length=6)
+	private String strBuPcId;
+
+	public String getBuId() {
+		return strBuId;
+	}
+
+	public void setBuId(String pBuId) {
+		this.strBuId = pBuId;
+	}
+
+	public String getBuExId() {
+		return strBuExId;
+	}
+
+	public void setBuExId(String pBuExId) {
+		this.strBuExId = pBuExId;
+	}
+
+	public String getBuPcId() {
+		return strBuPcId;
+	}
+
+	public void setBuPcId(String pBuPcId) {
+		this.strBuPcId = pBuPcId;
+	} 
+}

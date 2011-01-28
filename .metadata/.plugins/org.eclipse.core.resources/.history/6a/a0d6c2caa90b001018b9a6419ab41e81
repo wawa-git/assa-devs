@@ -1,0 +1,54 @@
+package com.assaassociates.syraway.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the SW_BU database table.
+ * 
+ */
+@Entity
+@Table(name="SW_BU")
+public class BusinessUnit implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="BU_ID", unique=true, nullable=false, length=6)
+	private String buId;
+
+	@Column(name="BU_EX_ID", length=6)
+	private String buExId;
+
+	@Column(name="BU_PC_ID", length=6)
+	private String buPcId;
+
+    public BusinessUnit() {
+    }
+
+	public String getBuId() {
+		return this.buId;
+	}
+
+	public void setBuId(String buId) {
+		this.buId = buId;
+	}
+
+	public String getBuExId() {
+		return this.buExId;
+	}
+
+	public void setBuExId(String buExId) {
+		this.buExId = buExId;
+	}
+
+	public String getBuPcId() {
+		return this.buPcId;
+	}
+
+	public void setBuPcId(String buPcId) {
+		this.buPcId = buPcId;
+	}
+
+}

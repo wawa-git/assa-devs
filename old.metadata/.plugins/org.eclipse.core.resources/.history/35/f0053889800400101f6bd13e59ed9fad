@@ -1,0 +1,19 @@
+package com.assaasoociates.syraway.controller;
+
+import com.assaassociates.syraway.dao.ICollaboratorDAO;
+
+public class CollaboratorController {
+	
+	private ICollaboratorDAO collaboratorDao;
+
+	public ICollaboratorDAO getCollaboratorDao() {
+		return collaboratorDao;
+	}
+
+	public void setCollaboratorDao(ICollaboratorDAO collaboratorDao) {
+		this.collaboratorDao = collaboratorDao;
+	}
+	
+	
+
+}

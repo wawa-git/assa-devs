@@ -1,0 +1,28 @@
+
+#page {
+width:1024px;
+height:768px;
+margin: 0 auto;
+}
+#header {
+text-align:center;
+background-color: #6495ED;
+height: 100px;
+}
+#footer {
+text-align:center;
+background-color: #32CD32;
+height: 68px;
+}
+#menu  {
+/*float:left;*/
+position: absolute;
+width: 170px;
+height:600px;
+background-color: #778899;
+}
+#content {
+text-align:center;
+margin-left:170px;
+height:600px;
+}

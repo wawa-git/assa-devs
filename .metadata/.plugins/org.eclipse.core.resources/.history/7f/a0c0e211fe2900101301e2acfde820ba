@@ -1,0 +1,7 @@
+package com.assaassosiates.syraway.security.web.session;
+
+import org.springframework.security.web.session.HttpSessionEventPublisher;
+
+public class SywHttpSessionEventPublisher extends HttpSessionEventPublisher {
+
+}

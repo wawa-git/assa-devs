@@ -1,0 +1,58 @@
+/**
+ * 
+ */
+package com.assaasoociates.syraway.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import com.assaassociates.syraway.dao.IPageRoleDAO;
+import com.assaassociates.syraway.model.PageRole;
+
+/**
+ * @author waheb
+ *
+ */
+
+@Component("pageRoleController")
+public class PageRoleControllerImpl implements IPageRoleController {
+
+	@Autowired
+	private IPageRoleDAO userRoleDAO;
+	
+	public IPageRoleDAO getPageRoleDAO() {
+		return userRoleDAO;
+	}
+
+	public void setPageRoleDAO(IPageRoleDAO userRoleDAO) {
+		this.userRoleDAO = userRoleDAO;
+	}
+
+	public void addPageRole(PageRole pPageRole) {
+		if(userRoleDAO != null){
+			userRoleDAO.addPageRole(pPageRole);
+		}
+	}
+
+	public void updatePageRole(PageRole pPageRole) {
+		if(userRoleDAO != null){
+			userRoleDAO.updatePageRole(pPageRole);
+		}
+	}
+
+	public PageRole getPageRole(Integer pPageRoleId) {
+		PageRole result = null;
+		if(userRoleDAO != null){
+			result = userRoleDAO.getPageRoleById(pPageRoleId);
+		}
+		return result;
+	}
+
+	public List<PageRole> getAllPageRoles() {
+		List<PageRole> result = new ArrayList<PageRole>();
+		if(userRoleDAO != null)
+			result = userRoleDAO.getAllPageRoles();
+		return result;
+	}
+}

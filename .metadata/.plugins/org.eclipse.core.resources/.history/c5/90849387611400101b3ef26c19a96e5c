@@ -1,0 +1,106 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.persistence.jpa;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.annotation.PostConstruct;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Transactional;
+import com.assaassociates.syraway.dao.IProjectDAO;
+import com.assaassociates.syraway.dao.ITeamDAO;
+import com.assaassociates.syraway.model.Project;
+import com.assaassociates.syraway.model.Team;
+
+/**
+ * @author waheb
+ *
+ */
+
+@Repository(value="TeamDAO")
+public class TeamDAOImpl implements ITeamDAO {
+
+	@PersistenceContext
+	EntityManager oEntityManager;
+	
+	static Logger logger = LoggerFactory.getLogger(TeamDAOImpl.class);
+
+	@PostConstruct
+	void initLogging(){
+		logger.info("TeamDAOImpl Instanciated ...");
+	}
+	
+	@Transactional(isolation=Isolation.READ_COMMITTED)
+	public Team getTeamById(String pTeamId) {
+		if(oEntityManager != null){
+			return oEntityManager.find(Team.class, pTeamId);
+		}
+		logger.info("EntityManager is null ... Cant't get Team by Id");
+		return null;
+	}
+	
+	@Transactional(isolation=Isolation.READ_COMMITTED)
+	public List<Team> getTeamOfEmployee(String pEmployeeId) {
+		if(oEntityManager != null){
+//			TypedQuery<Team> oQuery = oEntityManager.createQuery("SELECT e FROM Project e WHERE buPcId = :pEmployeeId",Team.class);
+//			oQuery.setParameter("pEmployeeId", pEmployeeId);
+//			return oQuery.getResultList();
+		}
+		logger.info("EntityManager is null ... Can't get Project of Team");
+		return new ArrayList<Team>();
+	}
+	
+	@Transactional(isolation=Isolation.READ_COMMITTED)
+	public List<Project> getProjectOfManager(String pEmployeeId) {
+		if(oEntityManager != null){
+			TypedQuery<Project> oQuery = oEntityManager.createQuery("SELECT e FROM Project e WHERE managerId = :pEmployeeId",Project.class);
+			oQuery.setParameter("pEmployeeId", pEmployeeId);
+			return oQuery.getResultList();
+		}
+		logger.info("EntityManager is null ... Can't get Project of Manager");
+		return new ArrayList<Project>();
+	}
+
+	@Transactional(isolation=Isolation.DEFAULT)
+	public void addProject(Project pProject) {
+		if(oEntityManager != null){
+			oEntityManager.persist(pProject);
+		}else
+			logger.info("EntityManager is null ... Cant't add Project.");
+	}
+
+	@Transactional(isolation=Isolation.DEFAULT)
+	public void removeProject(Project pProject) {
+		if(oEntityManager != null){
+			oEntityManager.remove(pProject);
+		}else
+			logger.info("EntityManager is null ... Cant't remove Project.");
+	}
+
+	@Transactional(isolation=Isolation.DEFAULT)
+	public void removeProject(int pProjectId) {
+		if(oEntityManager != null){
+			Project oProject = getProjectById(pProjectId);
+			if(oProject != null){
+				oEntityManager.remove(oProject);
+			}
+		}else
+			logger.info("EntityManager is null ... Cant't remove Project.");
+	}
+
+	@Transactional(isolation=Isolation.READ_COMMITTED)
+	public List<Project> getAllProjects() {
+		if(oEntityManager != null){
+			TypedQuery<Project> oQuery = oEntityManager.createQuery("SELECT p FROM Project AS p",Project.class);
+			return oQuery.getResultList();
+		}
+		return new ArrayList<Project>();
+	}
+}

@@ -1,0 +1,476 @@
+
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/ui-lightness/jquery-ui.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/js/jquery.autocomplete.1.1.pack.js"></script>
+<script type="text/javascript" src="/js/jquery.bgiframe.2.1.1.min.js"></script>
+
+<link rel="stylesheet" href="/style/jquery.checkbox.css" />
+<script type="text/javascript" src="/js/jquery.checkbox.1.3.0.min.js"></script>
+
+<style>
+	.spinner{
+	    position: relative;
+	    margin-top: -15px;
+	    top: 8px;
+	    border: none;
+	}
+	
+	.wmp_fieldset{
+		padding:0;
+		border:0;
+		margin-top:25px;
+	}
+
+	.wmp_input, .golf_input {
+		margin-bottom: 12px;
+		padding: .4em;
+	}
+
+	.golf_input {
+		width: 38em;
+	}
+	
+	.sub_help {
+		font-weight: lighter;
+		font-size: 80%;
+		color: #AAA;
+		margin-top: -5px;
+		padding: -2px 0 0 6px;
+	}
+	
+	
+	
+	/**
+	 * Autocomplete css 
+	 */
+	
+	.ac_results {
+	    padding: 0px;
+	    border: 1px solid black;
+	    background-color: white;
+	    overflow: hidden;
+	    z-index: 99999;
+	}
+	
+	.ac_results ul {
+	    width: 100%;
+	    list-style-position: outside;
+	    list-style: none;
+	    padding: 0;
+	    margin: 0;
+	}
+	
+	.ac_results li {
+	    margin: 0px;
+	    padding: 2px 5px;
+	    cursor: default;
+	    display: block;
+	    font: menu;
+	    font-size: 12px;
+	    line-height: 16px;
+	    overflow: hidden;
+	}
+	
+	.ac_loading {
+	    background: white url('/img/spinner.gif') right center no-repeat;
+	}
+	
+	.ac_odd {
+	    background-color: #eee;
+	}
+	
+	.ac_over {
+	    background-color: #EF8C08;
+	    color: white;
+	}
+	
+	td {
+		text-align: center;
+	}
+	
+	.error_msg{
+		width: 30em;
+		margin: 10px 0px 10px 0px;
+		padding: 10px;
+		text-align: left;
+	    overflow: hidden;
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: #D7DF01;
+	    background-color:#F2F5A9;
+	}
+	
+	#iconselect {
+		background: url(img/1.png) no-repeat;
+		height: 24px;
+		width: 24px;
+	}
+	.selectitems {
+		height: 24px;
+		width: 24px;
+	}
+	#iconselectholder {
+		width: 28px;
+		display:none;
+		position:absolute;
+	}
+	.hoverclass{
+		background-color:#FFFFFF;
+		curson:hand;
+	}
+	.selectedclass{
+		background-color:#FFFF99;
+	}
+</style>
+
+<script type="text/javascript">
+
+//----------------------------------------------------------------------------------
+function check_input( elem_name , not_expected_value ) {
+    var field_ok = true;
+    var elem_value = $(elem_name).val();
+    if( not_expected_value == elem_value ){
+        field_ok = false;
+    }
+    return field_ok;
+}
+
+//----------------------------------------------------------------------------------
+function check_all_inputs() {
+	var all_bad_fields = new Array();
+
+	if( ! check_input("#golf", "") )
+		all_bad_fields.push( "#golf" );
+	if( ! check_input("#golf_course", null) )
+        all_bad_fields.push( "#golf_course" );
+    if( ! check_input("#course_color", "") )
+        all_bad_fields.push( "#course_color" );
+    if( ! check_input("#course_date", "") )
+        all_bad_fields.push( "#course_date" );
+
+    if( null != courses ) {
+	    var hole_number = get_selected_course().pars.split(",").length;
+		for( i=0 ; i<hole_number ; ++i){
+			if( ! check_input("#puts"+(i+1), "") )
+				all_bad_fields.push( "#puts"+(i+1) );
+	        if( ! check_input("#score"+(i+1), "") )
+	            all_bad_fields.push( "#score"+(i+1) );
+		}
+    }
+
+    /*
+	for( i=0 ; i<all_bad_fields.length ; ++i){
+		var elem = $(all_bad_fields[i]);
+		//elem.fadeOut(400, function(){ 
+		//	elem.fadeIn(600); 
+		//	}); 
+		//elem.animate({"left": "+=50px"}, 250, function(){ elem.animate({"left": "-=50px"}, "slow"); });
+	}
+	*/
+	var isOk = (all_bad_fields.length == 0)
+	if( !isOk )
+		alert( "Veuillez renseigner tous les champs !" );
+    return isOk;
+}
+</script>
+
+{% if error %}
+	<div class="error_msg ui-corner-all">
+		{{ error }}
+	</div>
+	
+<script type="text/javascript">
+	$(".error_msg").fadeOut( 10000 );
+</script>
+{% endif %}
+<div id="loading">Chargement de la liste des golfs...<img src="/img/spinner.gif"/></div>
+
+<form action="add" method="post" onsubmit="return check_all_inputs();">
+	
+	<fieldset id="select_golf" class="wmp_fieldset">
+	    <label for="golf">Golf</label>
+	    <br />
+	    <input type="text" name="golf" id="golf" class="text ui-widget-content ui-corner-all golf_input"/>
+	    <br />
+	    <div class="sub_help">Taper les premiers caractères du nom de votre golf. Par exemple "sta" pour le "Golf Stade Français"</div>
+	</fieldset>
+	
+	<fieldset class="wmp_fieldset">    
+	    <label for="golf_course">Parcours</label>
+	    <br />
+	    <select name="golf_course" id="golf_course" class="text ui-widget-content ui-corner-all golf_input">
+	    </select>
+	    <br />
+	    
+	    <label for="course_color">Couleur du départ</label>
+	    <br />
+	    <select name="course_color" id="course_color" class="text ui-widget-content ui-corner-all golf_input">
+	        <option value="red">Rouge</option>
+	        <option value="blue">Bleu</option>
+	        <option value="yellow">Jaune</option>
+	        <option value="white">Blanc</option>
+	        <option value="black">Noir</option>
+	    </select>
+	    <br />
+	
+	    <label for="course_date">Date</label>
+	    <br />
+	    <input type="text" name="course_date" id="course_date" autocomplete="off" class="text ui-widget-content ui-corner-all wmp_input"/>
+	    <br />
+		<label for="competition">Compétition</label>
+		<input type="checkbox" name="competition" id="competition" />
+		<br />
+		<label for="advanced_mode">Mode expert</label>
+		<input type="checkbox" name="advanced_mode" id="advanced_mode" />
+	</fieldset>
+	<br />
+		
+	<fieldset id="wmp_fieldset">
+	    <table id="golf_card"></table>
+	</fieldset>
+	
+	<fieldset class="wmp_fieldset">
+	    <div><button class="bouton-orange" value="Ajouter" >Ajouter</button></div> 
+	</fieldset>
+
+</form>
+
+<script>
+//----------------------------------------------------------------------------------
+function get_selected_course() {
+  var selected_course;
+  var selected_course_key = $("#golf_course").val()
+  for( i=0 ; i<courses.length ; ++i ) {
+      if( courses[i].key == selected_course_key ) {
+          selected_course = courses[i];
+          break;
+      }
+  }
+  return selected_course;
+}
+
+//----------------------------------------------------------------------------------
+function make_line( name , column_nbr , action ) {
+	var line = "<td>" + name + "</td>";
+	for( i=0 ; i<column_nbr ; ++i)
+		line += "<td>" + action(i) + "</td>";
+	return line;
+}
+
+//----------------------------------------------------------------------------------
+function update_distance() {
+	var selected_course = get_selected_course();
+	var hole_number = get_hole_number( selected_course );
+	var color = $("#course_color").val();
+	
+	var dist = get_distance( selected_course , color )
+	var dist_line = make_line("Longueur", hole_number, function(i){ return dist[i]; });
+	$("#dist_line").html(dist_line);
+}
+
+//----------------------------------------------------------------------------------
+function get_par( selected_course ) {
+	return selected_course.pars.split(",")
+}
+
+//----------------------------------------------------------------------------------
+function get_hole_number( selected_course ) {
+	var pars = get_par( selected_course );
+	return pars.length;
+}
+
+//----------------------------------------------------------------------------------
+function get_distance( selected_course , start_color ) {
+	var hole_number = get_hole_number( selected_course );
+
+	var color = start_color.toLowerCase();
+	var dists = null;
+	if( "yellow" == color )
+		dists = selected_course.distance_yellows.split(",");
+	else if( "white" == color )
+		dists = selected_course.distance_whites.split(",");
+	else if( "blue" == color )
+		dists = selected_course.distance_blues.split(",");
+	else if( "red" == color )
+		dists = selected_course.distance_reds.split(",");
+	else if( "black" == color )
+		dists = selected_course.distance_blacks.split(",");
+	else
+		dists = [];
+	  
+	return dists;
+}
+
+//----------------------------------------------------------------------------------
+function generate_new_card( selected_course , advanced_mode ) {
+	$('#golf_card').empty();
+	$('#golf_card').html( "<table id='card_table' style='border=1px'><tbody></tbody></table>" );
+
+	function make_club_selection( i , name ) {
+		var line = "<select name='" + (name+i) + "' class='club'>";
+		for( i=0 ; i<club_names.length ; ++i)
+			line += "<option value='" + i + "' title='" + club_img[i] + "'>" + club_names[i] + "</option>";
+		line += "</select>";
+		return line;
+	}
+	
+	var pars = get_par( selected_course );
+	var hole_number = pars.length;
+	var card_width = 70 + hole_number * 36.7;
+	var tableEnd = "#card_table > tbody:last";
+
+	var holes_line = make_line("Trou n° ", hole_number, function(i){ return i+1; });
+	$(tableEnd).append("<tr id='holes_line'>" + holes_line + "</tr>");
+
+	var par_line = make_line("Par ", hole_number, function(i){ return pars[i]; });
+	$(tableEnd).append("<tr id='par_line'>" + par_line + "</tr>");
+
+	var dist = get_distance( selected_course , $("#course_color").val() );
+	var dist_line = make_line("Longueur ", hole_number, function(i){ return dist[i]; });
+	$(tableEnd).append("<tr id='dist_line'>" + dist_line + "</tr>");
+
+	var first_club_line = make_line("1er Club ", hole_number, function(i){ return make_club_selection(i, "first_club"); });
+	$(tableEnd).append("<tr id='first_club_line'>" + first_club_line + "</tr>");
+	if( !advanced_mode )
+		$("#first_club_line").hide();
+
+	var fwy_line = make_line("FIR ", hole_number, function(i){
+		var options = "";
+		if( pars[i] == 3 )
+			options = " disabled";
+		return "<input type='checkbox' name='fwy" + i + "' tabindex='" + (1+i*4) + "' " + options + "/>";
+	});
+	$(tableEnd).append("<tr id='fwy_line'>" + fwy_line + "</tr>");
+
+	var last_club_line = make_line("Club GIR ", hole_number, function(i){ return make_club_selection(i, "last_club"); });
+	$(tableEnd).append("<tr id='last_club_line'>" + last_club_line + "</tr>");
+	if( !advanced_mode )
+		$("#last_club_line").hide();
+
+	var gir_line = make_line("GIR ", hole_number, function(i){
+		return "<input type='checkbox' name='gir" + i + "' tabindex='" + (2+i*4) + "'/>";
+	});
+	$(tableEnd).append("<tr id='gir_line'>" + gir_line + "</tr>");
+	
+	var put_line = make_line("Putt ", hole_number, function(i){
+		var line = '<input type="text" name="puts'+ i +'" id="puts'+ (i+1) +'" ';
+		line += 'class="text ui-widget-content ui-corner-all number-only putt" ';
+		line += 'style="text-align: center; width:24px; height: 24px;" ';
+		line += 'autocomplete="off" />';
+		return line;
+	});
+	$(tableEnd).append("<tr id='put_line'>" + put_line + "</tr>");
+
+	var first_put_line = make_line("1er putt ", hole_number, function(i){
+		var line = "<select name='first_put_dist" + i + "'>";
+		line += "<option value=1>&lt; 1m</option>";
+		line += "<option value=2>&lt; 2m</option>";
+		line += "<option value=5>&lt; 5m</option>";
+		line += "<option value=5>&lt; 10m</option>";
+		line += "<option value=5>&lt; 15m</option>";
+		line += "<option value=5>&lt; 20m</option>";
+		line += "<option value=10>&gt; 20m</option>";
+		line += "</select>";
+		return line;
+	});
+	$(tableEnd).append("<tr id='first_put_line'>" + first_put_line + "</tr>");
+	if( !advanced_mode )
+		$("#first_put_line").hide();
+	
+	var score_line = make_line("Score", hole_number, function(i){
+		var line = '<input type="text" name="score'+ i +'" id="score'+ (i+1) +'" ';
+		line += 'class="text ui-widget-content ui-corner-all number-only score" ';
+		line += 'style="text-align: center; width:24px; height: 24px;" ';
+		line += 'autocomplete="off" />';
+		return line;
+	});
+	$(tableEnd).append("<tr id='put_line'>" + score_line + "</tr>");
+}
+
+//----------------------------------------------------------------------------------
+$(function() {
+	$(".wmp_fieldset").hide();
+	$.ajax({
+		type: "GET",
+		url: "/golf/golf_list.js",
+		dataType: "script",
+		cache: true,
+		success: function(msg){
+			$("#loading").hide();
+        	$("#select_golf").show();
+        	$("#advanced_mode").checkbox();
+
+	        $("#golf").autocomplete( js_golf_list, {
+            	formatItem: function(item) {
+              		return item.name;
+            	},
+            	matchContains: true
+          	}).result(function(event, item) {
+            	$("#golf_key").val( item.key );
+            	$(".wmp_fieldset").show();
+            	$("#golf_card").show();
+
+            	// Append courses to the drop down list
+            	courses = item.courses;
+            	$('#golf_course').empty();
+            	for( i=0 ; i<courses.length ; i++ ){
+               		$('#golf_course').append( $("<option></option>").attr(
+                       	"value",courses[i].key).text(courses[i].name) );
+            	}
+            	// Trigger the on_change method for #golf_course
+            	$("#golf_course").change();
+
+            	$(".putt,.score").assistedInput([
+        	                      	{value:1, img:"/img/1.png"},
+           	                  	  	{value:2, img:"/img/2.png"},
+           	                  	  	{value:3, img:"/img/3.png"},
+           	                  	  	{value:4, img:"/img/4.png"},
+           	                  	  	{value:5, img:"/img/5.png"},
+           	                  	  	{value:6, img:"/img/6.png"},
+           	                  	  	{value:7, img:"/img/7.png"},
+          	                  	  	{value:8, img:"/img/8.png"},
+           	                  	  	{value:9, img:"/img/9.png"},          	  	        
+        	                  	  ]);
+            	  $(".club").customSelect();
+          	});
+
+          	$("#golf_course").change( function() {
+                $('#golf_card').fadeOut("fast" , function(){
+                	var advanced = $('#advanced_mode:checked').val();
+                    generate_new_card( get_selected_course() , advanced );
+                    $('#golf_card').show();
+                    $('#golf_card').fadeIn("slow");
+                    $(":checkbox").checkbox();
+                });
+            });
+
+          	$("#course_color").change( function() {
+                update_distance();
+                $(":checkbox").checkbox();
+            });
+          	
+          	$("#course_date").datepicker({
+              dateFormat: 'dd/mm/yy',
+              monthNames: wmp_month_names,
+              dayNamesMin: wmp_day_names_min,
+              firstDay: 1
+          	});
+
+          	$("#advanced_mode").click( function() {
+          		if( $('#first_club_line').is(':hidden') ) {
+          			$('#first_club_line').show();
+          			$('#last_club_line').show();
+          			$('#first_put_line').show();
+          		}
+          		else {
+          			$('#first_club_line').hide();
+          			$('#last_club_line').hide();
+          			$('#first_put_line').hide();
+          		}
+          	});
+
+          	$("#golf").focus();
+		  }
+		});
+	});
+</script>

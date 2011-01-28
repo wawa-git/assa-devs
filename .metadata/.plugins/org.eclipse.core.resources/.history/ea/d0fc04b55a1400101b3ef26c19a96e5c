@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import java.util.List;
+
+import com.assaassociates.syraway.model.Oprid;
+import com.assaassociates.syraway.model.Team;
+
+/**
+ * @author waheb
+ *
+ */
+public interface ITeamDAO {
+	public Team getTeamById(String pTeamId);
+	public List<Team> getTeamOfEmployee(String pEmployeeId);
+	public void addTeam(Team oTeam);
+	public void updateTeam(Team oTeam);
+	public void removeTeam(Team pTeam);
+	public void removeTeam(String pTeamId);
+}

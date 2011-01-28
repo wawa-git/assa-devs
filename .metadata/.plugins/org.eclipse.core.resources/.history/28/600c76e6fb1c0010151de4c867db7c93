@@ -1,0 +1,10 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.io.Serializable;
+import javax.faces.event.AjaxBehaviorEvent;
+
+public interface IPageService extends Serializable{
+
+	public void addPage();
+	public void listPageListener(AjaxBehaviorEvent event);
+}

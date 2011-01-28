@@ -1,0 +1,77 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaasoociates.syraway.controller.IDepartmentController;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.Department;
+
+@ManagedBean(name="department")
+public class DepartmentServiceImpl implements IDepartmentService {
+
+private static final long serialVersionUID = 6726658729223350876L;
+	
+
+	private IDepartmentController oDepartmentController;
+	private Department value;
+	private List<Department> departmentList;
+	
+	public DepartmentServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oDepartmentController = appContext.getBean("deptController", IDepartmentController.class);
+		this.value = new Department();
+		this.departmentList = new ArrayList<Department>();
+	}
+	
+	public IDepartmentController getDepartmentController() {
+		return oDepartmentController;
+	}
+	
+	public void setDepartmentController(IDepartmentController pDepartmentController) {
+		this.oDepartmentController = pDepartmentController;
+	}
+
+	public Department getValue() {
+		return value;
+	}
+
+	public void setValue(Department oDepartment) {
+		this.value = oDepartment;
+	}
+
+	public List<Department> getDepartmentList() {
+		return departmentList;
+	}
+
+	public void setDepartmentList(List<Department> departmentList) {
+		this.departmentList = departmentList;
+	}
+
+	public void addDepartment(){
+		if(this.oDepartmentController != null)
+			this.oDepartmentController.addDepartment(value);
+	}
+
+	@Override
+	public void listDepartmentListener(AjaxBehaviorEvent event) {
+		if(oDepartmentController != null){
+			departmentList = oDepartmentController.getAllDepts();
+		}
+	}
+
+	@Override
+	public List<BusinessUnitEx> getAllBuEx() {
+		if(oDepartmentController != null){
+			oDepartmentController.getAllBuEx();
+		}
+		return new ArrayList<BusinessUnitEx>();
+	}
+
+	
+}

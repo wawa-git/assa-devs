@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291881600406
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1291881600680
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881600752
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291881617854
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291881618111
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291881621020
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881625499
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291881626670
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1291881626888
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881626945
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881629052
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881645915
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291881653552
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291881665357
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881677752
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291881707755
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291881710501
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.newWizard",1291881713233
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881713257
+error,log,,,"Could not update workspace index",1291881714076
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881714401
+error,log,,,"Could not update workspace index",1291881714421
+started,bundle,org.eclipse.wst.html.core,1.1.402.v201008311901,"org.eclipse.wst.html.core",1291881715041
+started,bundle,org.eclipse.jst.jee,1.0.301.v201007151900,"org.eclipse.jst.jee",1291881715041
+started,bundle,org.eclipse.wst.css.core,1.1.401.v201008161749,"org.eclipse.wst.css.core",1291881715387
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881715798
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881715839
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881716019
+error,log,,,"Could not update workspace index",1291881716913
+error,log,,,"Could not update workspace index",1291881716915
+error,log,,,"Could not update workspace index",1291881716918
+error,log,,,"Could not update workspace index",1291881716939
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291881719209
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881724333
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881728647
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291881737886
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291881744081
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291881746286
+opened,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291881763454
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291881763654
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291881772540
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291881779612
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291881781857
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291881789484
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291881796851
+error,log,,,"Could not update workspace index",1291881797293
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.selectAll",1291881917904
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenamePomAction",1291881918664
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881922638
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.cleanup.document",1291881925260
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881925323
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291881927005
+error,log,,,"Could not update workspace index",1291881927434
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291881929586
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882372288
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291882381604
+closed,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882383786
+closed,editor,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.DefaultTextEditor",1291882383879
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291882383891
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291882383930
+closed,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291882383962
+closed,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882383992
+closed,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882384106
+closed,editor,org.eclipse.jpt.ui,2.3.2.v201008252310,"org.eclipse.jpt.ui.internal.editors.PersistenceEditor",1291882384187
+closed,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291882384214
+closed,editor,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.DefaultTextEditor",1291882384246
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.PropertiesFileEditor",1291882384257
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.PropertiesFileEditor",1291882384279
+closed,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291882384291
+closed,editor,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.DefaultTextEditor",1291882384322
+closed,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882384348
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291882386166
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882399138
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882443649
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882449268
+started,bundle,org.eclipse.wst.dtd.core,1.1.400.v201004290328,"org.eclipse.wst.dtd.core",1291882456789
+opened,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291882456986
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291882457177
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.navigate.openResource",1291882457253
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882457312
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291882462136
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291882471951
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291882473323
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291882473588
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291882480288
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882490852
+started,bundle,org.eclipse.ant.ui,3.5.0.v20100427,"org.eclipse.ant.ui",1291882495007
+started,bundle,org.eclipse.pde.launching,3.6.0.v20100601,"org.eclipse.pde.launching",1291882495100
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20100423,"org.eclipse.ui.views.log",1291882495120
+started,bundle,org.eclipse.pde.ui,3.6.1.v20100810_r361,"org.eclipse.pde.ui",1291882495154
+started,bundle,org.eclipse.pde.core,3.6.1.v20100902_r361,"org.eclipse.pde.core",1291882495302
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1291882495582
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.rename",1291882495582
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882495652
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882501042
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291882502378
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1291882507637
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.rename",1291882507637
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882507694
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291882508153
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291882514863
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291882516199
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882519336
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882613713
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882619392
+opened,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291882634726
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291882635138
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.navigate.openResource",1291882635196
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882635244
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291882642049
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291882646239
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291882649884
+executed,command,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.nextSibling",1291882654276
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291882658056
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291882663061
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291882673270
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291882674708
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882676374
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882746238
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882748898
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291882749337
+executed,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.navigate.open.type",1291882754449
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882754530
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291882758770
+opened,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882764196
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882764411
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291882773491
+closed,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882773529
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291882776237
+opened,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882780565
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882780811
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.findReplace",1291882788415
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882788438
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882793891
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882808246
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882847308
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291882856296
+opened,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882861061
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882861299
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882875936
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291882885042
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882887083
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291882889878
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291882892529
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291882898836
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882901375
+activated,view,org.eclipse.ui.console,,"org.eclipse.ui.console.ConsoleView",1291882902265
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882903707
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882905361
+error,log,,,"Could not update workspace index",1291882911152
+error,log,,,"Could not update workspace index",1291882911168
+error,log,,,"Could not update workspace index",1291882911170
+error,log,,,"Could not update workspace index",1291882911173
+error,log,,,"Build errors for model",1291882914112
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882914311
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882916568
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882942596
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291882946785
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenamePomAction",1291882961990
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882967673
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.cleanup.document",1291882970177
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291882970257
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291882974105
+activated,view,org.eclipse.ui.console,,"org.eclipse.ui.console.ConsoleView",1291882975023
+error,log,,,"Could not update workspace index",1291882975401
+error,log,,,"Could not update workspace index",1291882975422
+error,log,,,"Could not update workspace index",1291882975435
+error,log,,,"Could not update workspace index",1291882975449
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883050065
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883055887
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291883083092
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883087889
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291883093476
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883095746
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291883100150
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883102381
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291883108783
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883121102
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883140531
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1291883169776
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291883171131
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291883171411
+error,log,,,"Could not update workspace index",1291883172227
+error,log,,,"Could not update workspace index",1291883172274
+error,log,,,"Could not update workspace index",1291883172277
+error,log,,,"Could not update workspace index",1291883172283
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291883176996
+opened,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883181428
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883181667
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291883190808
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291883192582
+error,log,,,"Could not update workspace index",1291883193329
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883195225
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883233143
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883235677
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883238125
+closed,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883238145
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883239607
+closed,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883239623
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291883283736
+error,log,,,"Could not update workspace index",1291883284315
+error,log,,,"Could not update workspace index",1291883284317
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883288201
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883356214
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883361250
+opened,editor,org.eclipse.jpt.ui,2.3.2.v201008252310,"org.eclipse.jpt.ui.internal.editors.PersistenceEditor",1291883373548
+activated,editor,org.eclipse.jpt.ui,2.3.2.v201008252310,"org.eclipse.jpt.ui.internal.editors.PersistenceEditor",1291883373696
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.navigate.openResource",1291883373731
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883373787
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291883383822
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291883396445
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883397945
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883398284
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883408985
+executed,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.navigate.open.type",1291883416263
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883416358
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291883418267
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883423631
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883480291
+activated,editor,org.eclipse.jpt.ui,2.3.2.v201008252310,"org.eclipse.jpt.ui.internal.editors.PersistenceEditor",1291883481922
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291883493731
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291883496066
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291883498779
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291883501966
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1291883505715
+started,bundle,org.eclipse.wst.css.ui,1.0.501.v201008232042,"org.eclipse.wst.css.ui",1291883513996
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291883514569
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291883516997
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883517678
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883568675
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291883577418
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291883581349
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291883581679
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291883581853
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordNext",1291883582114
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291883584352
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883585008
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291883658802
+started,bundle,org.eclipse.wst.server.core,1.1.204.v20100908,"org.eclipse.wst.server.core",1291883663732
+started,bundle,org.eclipse.wst.server.ui,1.1.205.v20100908,"org.eclipse.wst.server.ui",1291883663775
+started,bundle,org.eclipse.jst.server.core,1.2.101.v20100421,"org.eclipse.jst.server.core",1291883663911
+started,bundle,org.eclipse.wst.jsdt.debug.ui,1.0.1.v201008170101,"org.eclipse.wst.jsdt.debug.ui",1291883663947
+started,bundle,org.maven.ide.eclipse.launching,0.12.0.20101115-1102,"org.maven.ide.eclipse.launching",1291883664033
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291883668841
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.selectAll",1291883672070
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291883679479
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.navigate.linkWithEditor",1291883681634
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291883683809
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291883705015
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.navigate.linkWithEditor",1291883705928

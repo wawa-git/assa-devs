@@ -1,0 +1,103 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.persistence.jpa;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.annotation.PostConstruct;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Transactional;
+import com.assaassociates.syraway.dao.IProjectDAO;
+import com.assaassociates.syraway.dao.IUserRoleDAO;
+import com.assaassociates.syraway.model.Project;
+import com.assaassociates.syraway.model.UserRole;
+
+/**
+ * @author waheb
+ *
+ */
+
+@Repository(value="UserRoleDAO")
+public class UserRoleDAOImpl implements IUserRoleDAO {
+
+	@PersistenceContext
+	EntityManager oEntityManager;
+	
+	static Logger logger = LoggerFactory.getLogger(UserRoleDAOImpl.class);
+
+	@PostConstruct
+	void initLogging(){
+		logger.info("UserRoleDAOImpl Instanciated ...");
+	}
+	
+	@Transactional(isolation=Isolation.READ_COMMITTED)
+	public UserRole getUserRoleById(String pUserRoleId) {
+		if(oEntityManager != null){
+			return oEntityManager.find(UserRole.class, pUserRoleId);
+		}
+		logger.info("EntityManager is null ... Cant't get UserRole by Id");
+		return null;
+	}
+	
+	@Transactional(isolation=Isolation.READ_COMMITTED)
+	public List<UserRole> getUserRoleOfEmployee(String pEmployeeId) {
+		if(oEntityManager != null){
+			TypedQuery<UserRole> oQuery = oEntityManager.createQuery("SELECT e FROM UserRole e WHERE swEmployee.emplId = :pEmployeeId",UserRole.class);
+			oQuery.setParameter("pEmployeeId", pEmployeeId);
+			return oQuery.getResultList();
+		}
+		logger.info("EntityManager is null ... Can't get UserRole of Employee");
+		return new ArrayList<UserRole>();
+	}
+	
+	@Transactional(isolation=Isolation.DEFAULT)
+	public void addUserRole(UserRole pUserRole) {
+		if(oEntityManager != null){
+			oEntityManager.persist(pUserRole);
+		}else
+			logger.info("EntityManager is null ... Cant't add UserRole.");
+	}
+	
+	@Transactional(isolation=Isolation.DEFAULT)
+	public void updateUserRole(UserRole pUserRole) {
+		if(oEntityManager != null){
+			oEntityManager.merge(pUserRole);
+		}else
+			logger.info("EntityManager is null ... Cant't update UserRole.");
+	}
+
+	@Transactional(isolation=Isolation.DEFAULT)
+	public void removeUserRole(UserRole pUserRole) {
+		if(oEntityManager != null){
+			oEntityManager.remove(pProject);
+		}else
+			logger.info("EntityManager is null ... Cant't remove Project.");
+	}
+
+	@Transactional(isolation=Isolation.DEFAULT)
+	public void removeProject(int pProjectId) {
+		if(oEntityManager != null){
+			Project oProject = getProjectById(pProjectId);
+			if(oProject != null){
+				oEntityManager.remove(oProject);
+			}
+		}else
+			logger.info("EntityManager is null ... Cant't remove Project.");
+	}
+
+	@Transactional(isolation=Isolation.READ_COMMITTED)
+	public List<Project> getAllProjects() {
+		if(oEntityManager != null){
+			TypedQuery<Project> oQuery = oEntityManager.createQuery("SELECT p FROM Project AS p",Project.class);
+			return oQuery.getResultList();
+		}
+		return new ArrayList<Project>();
+	}
+}

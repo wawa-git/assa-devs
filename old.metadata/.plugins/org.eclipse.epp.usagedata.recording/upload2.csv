@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.newWizard",1291832965254
+error,log,,,"Could not update workspace index",1291832965266
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832965313
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832965556
+error,log,,,"Could not update workspace index",1291832965688
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832966390
+error,log,,,"Could not update workspace index",1291832966590
+error,log,,,"Could not update workspace index",1291832966597
+error,log,,,"Could not update workspace index",1291832966600
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291832969165
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832973035
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291832994569
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291832996924
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833000843
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833006306
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291833016797
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291833017693
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1291833018534
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833026471
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833031986
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.refresh",1291833039684
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833044327
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833050002
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833054983
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833061447
+opened,editor,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.DefaultTextEditor",1291833064447
+activated,editor,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.DefaultTextEditor",1291833064553
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291833074918
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291833075243
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1291833076156
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1291833076585
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1291833076905
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1291833077386
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.findPrevious",1291833077733
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291833079136
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291833079942
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.scroll.lineUp",1291833080077
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291833082723
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291833085289
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291833086346
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291833090712
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291833093730
+activated,editor,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.DefaultTextEditor",1291833098439
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291833103958
+activated,editor,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.DefaultTextEditor",1291833109367
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291833115859
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833120337
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291833122262
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833162965
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833169609
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833175142
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833180189
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Ignore",1291833184511
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291833189585
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291833195430
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833200683
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Commit",1291833230241
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833230286
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291833235164
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833240218
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Commit",1291833439956
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833440012
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291833445644
+activated,view,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.RepositoriesView",1291833460046
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.ShowRepositoriesView",1291833461065
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291833468677
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291833472370
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833477330
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Commit",1291833520689
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833520748
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833524747
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833574094
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291833576542
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.202.v201004211732,"org.eclipse.wst.ws.service.policy.ui",1291833578427
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.203.v201004211732,"org.eclipse.wst.ws.service.policy",1291833578432
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1291833578473
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1291833578476
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833578819
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833584252
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833584898
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833587238
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291833588730
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834124674
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834142854
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1291834145405
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834145446
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834153737
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1291834154697
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834154764
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291834157376
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291834157600
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291834160369
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834175454
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834177308
+started,bundle,org.eclipse.jst.ws.jaxws.dom.integration,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.integration",1291834177529
+started,bundle,org.eclipse.jst.ws.jaxws.dom.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.ui",1291834177544
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834178299
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834179091
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834180388
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834184777
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291834186658
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291834189622
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291834189851
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291834195313
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291834216652
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834220220
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834222431
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834229880
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834249582
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834253372
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834258863
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291834260422
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834266801
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834280195
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834284484
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834286737
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291834287915
+opened,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291834291558
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291834291822
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1291834299601
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291834304513
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834309913
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834312246
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834314834
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834329913
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834334667
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834337535
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291834338878
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834343299
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834393010
+opened,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834398604
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834398970
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291834405395
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenamePomAction",1291834407425
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834421140
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.cleanup.document",1291834422126
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834422179
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291834423925
+error,log,,,"Could not update workspace index",1291834424293
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291834426430
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834437627
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834451081
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834543914
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291834551653
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834553931
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834562757
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenamePomAction",1291834564022
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291834569117
+error,log,,,"Could not update workspace index",1291834570177
+opened,view,org.eclipse.ui.console,,"org.eclipse.ui.console.ConsoleView",1291834570418
+activated,view,org.eclipse.ui.console,,"org.eclipse.ui.console.ConsoleView",1291834570513
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291834573106
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834587814
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.AllMarkersView",1291834589943
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834597050
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291834620140
+opened,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834625319
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834625550
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291834635512
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834635968
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834643434
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834645783
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834649825
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1291834654674
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834656282
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291834665081
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291834665424
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.select.wordPrevious",1291834665580
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1291834666739
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291834668239
+error,log,,,"Could not update workspace index",1291834668608
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834672235
+error,log,,,"Build errors for persistence",1291834672771
+activated,view,org.eclipse.ui.console,,"org.eclipse.ui.console.ConsoleView",1291834672906
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834673218
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834675276
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834675562
+activated,editor,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor.MavenPomEditor",1291834678118
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenamePomAction",1291834681220
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834686619
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.cleanup.document",1291834688110
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834688175
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291834710410
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291834713494
+error,log,,,"Could not update workspace index",1291834713850
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291834717446
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291834797053
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291834806245
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1291834825386
+started,bundle,org.eclipse.jpt.ui,2.3.2.v201008252310,"org.eclipse.jpt.ui",1291834836646
+started,bundle,org.eclipse.jpt.core,2.3.2.v201008252310,"org.eclipse.jpt.core",1291834836711
+opened,editor,org.eclipse.jpt.ui,2.3.2.v201008252310,"org.eclipse.jpt.ui.internal.editors.PersistenceEditor",1291834836852
+activated,editor,org.eclipse.jpt.ui,2.3.2.v201008252310,"org.eclipse.jpt.ui.internal.editors.PersistenceEditor",1291834837166
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291834851202
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291834851774
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291834860689
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291834861021
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291834861357
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291834861869
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291834862499
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291834878038
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291834880308
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291834881423
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1291834886314
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291834901231
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291834914158
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834936719
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Commit",1291834984039
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291834984070
+opened,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291835007368
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291835008038
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1291835028229
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1291835032168
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291835042338
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291835052174
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Commit",1291835231161
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291835231324
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291835241641
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836601547
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836638022
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Commit",1291836644630
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836644672
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836664061
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Commit",1291836675138
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836675195
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenamePomAction",1291836683147
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836692875
+executed,command,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui.team.Commit",1291836714062
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836714109
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836729112
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836767978
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836768830
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836944366
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291836948603
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836950458
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836954517
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836954847
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836984202
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1291836987859
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836989972
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836994897
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291836995475
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291837088108
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291837091308
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291837607804
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291837680340
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1291837694596
+activated,editor,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1291837696085
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1291837702947
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1291837705855

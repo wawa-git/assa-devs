@@ -1,0 +1,43 @@
+package test.test;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the SW_TEAM database table.
+ * 
+ */
+@Entity
+@Table(name="SW_TEAM")
+public class SwTeam implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="TEAM_ID", unique=true, nullable=false, length=10)
+	private String teamId;
+
+	@Column(name="EMPLID", length=10)
+	private String emplid;
+
+    public SwTeam() {
+    }
+
+	public String getTeamId() {
+		return this.teamId;
+	}
+
+	public void setTeamId(String teamId) {
+		this.teamId = teamId;
+	}
+
+	public String getEmplid() {
+		return this.emplid;
+	}
+
+	public void setEmplid(String emplid) {
+		this.emplid = emplid;
+	}
+
+}

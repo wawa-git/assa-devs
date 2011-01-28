@@ -1,0 +1,46 @@
+package com.assaassociates.syraway.exts.convertes;
+
+import javax.faces.component.UIComponent;
+import javax.faces.context.FacesContext;
+import javax.faces.convert.Converter;
+import javax.faces.convert.FacesConverter;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaassociates.syraway.exts.ihm.ConfIhm;
+
+/**
+ * @author waheb
+ *
+ */
+
+@FacesConverter( value="SywConverter" )
+public class SywConverter implements Converter {
+
+	private ConfIhm test;
+	public SywConverter(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.test = appContext.getBean("confIhm", ConfIhm.class);
+	}
+	
+	@Override
+	public Object getAsObject(FacesContext pFacesContext, UIComponent pUIComponent, String pString) {
+		System.out.println("getAsObject = " + test.getConfIhm().size());
+		return null;
+	}
+
+	@Override
+	public String getAsString(FacesContext pFacesContext, UIComponent pUIComponent, Object pObject) {
+		System.out.println("getAsString = " + test.getConfIhm().size());
+		return null;
+	}
+
+	public ConfIhm getTest() {
+		return test;
+	}
+
+	public void setTest(ConfIhm test) {
+		this.test = test;
+	}
+
+}

@@ -1,0 +1,194 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+
+import com.assaasoociates.syraway.controller.IBusinessUnitController;
+import com.assaasoociates.syraway.controller.IEmployeeController;
+import com.assaasoociates.syraway.controller.IPageController;
+import com.assaasoociates.syraway.controller.IPageRoleController;
+import com.assaasoociates.syraway.controller.IRoleController;
+import com.assaasoociates.syraway.controller.IUserRoleController;
+import com.assaassociates.syraway.model.BusinessUnit;
+import com.assaassociates.syraway.model.Employee;
+import com.assaassociates.syraway.model.PageRole;
+import com.assaassociates.syraway.model.Role;
+import com.assaassociates.syraway.model.UserRole;
+
+@ManagedBean(name="pageRole")
+@SessionScoped
+public class PageRoleServiceImpl implements IPageRoleService {
+
+private static final long serialVersionUID = 6726658729223350876L;
+	
+	private IPageRoleController oPageRoleController;
+	private IRoleController oRoleController;
+	private IBusinessUnitController oBusinessUnitController;
+	private IPageController oPageController;
+	private PageRole value;
+	private List<UserRole> pageRoleList;
+	private String roleId;
+	private String pageId;
+	private String pageRoleId;
+	private String buId;
+	
+	public IPageRoleController getPageRoleController() {
+		return oPageRoleController;
+	}
+
+	public void setPageRoleController(IPageRoleController pPageRoleController) {
+		this.oPageRoleController = pPageRoleController;
+	}
+
+	public IRoleController getRoleController() {
+		return oRoleController;
+	}
+
+	public void setRoleController(IRoleController pRoleController) {
+		this.oRoleController = pRoleController;
+	}
+
+	public IBusinessUnitController getBusinessUnitController() {
+		return oBusinessUnitController;
+	}
+
+	public void setBusinessUnitController(
+			IBusinessUnitController pBusinessUnitController) {
+		this.oBusinessUnitController = pBusinessUnitController;
+	}
+
+	public PageRole getValue() {
+		return value;
+	}
+
+	public void setValue(PageRole value) {
+		this.value = value;
+	}
+
+	public IPageController getPageController() {
+		return oPageController;
+	}
+
+	public void setPageController(IPageController pPageController) {
+		this.oPageController = pPageController;
+	}
+
+	public List<UserRole> getUserRoleList() {
+		return pageRoleList;
+	}
+
+	public void setUserRoleList(List<UserRole> pUserRoleList) {
+		this.pageRoleList = pUserRoleList;
+	}
+
+	public String getRoleId() {
+		return roleId;
+	}
+
+	public void setRoleId(String roleId) {
+		this.roleId = roleId;
+	}
+
+	public String getBuId() {
+		return buId;
+	}
+
+	public void setBuId(String buId) {
+		this.buId = buId;
+	}
+
+	public String getPageId() {
+		return pageId;
+	}
+
+	public void setPageId(String pPageId) {
+		this.pageId = pPageId;
+	}
+
+	public String getPageRoleId() {
+		return pageRoleId;
+	}
+	
+	public void setPageRoleId(String pUserRoleId) {
+		this.pageRoleId = pUserRoleId;
+		if(this.pageRoleId != null){
+			if(getPageRoleController() != null){
+				try {
+					value = getPageRoleController().getPageRole(Integer.valueOf(this.pageRoleId));
+					if(value != null){
+						setRoleId(String.valueOf(value.getSwRole().getRoleId()));
+						setPageId(String.valueOf(value.getSwPage().getPageId()));
+						setBuId(String.valueOf(value.getSwBu().getBuId()));
+					}
+				} catch (NumberFormatException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+
+	public PageRoleServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oPageRoleController = appContext.getBean("pageRoleController", IPageRoleController.class);
+		this.oRoleController = appContext.getBean("roleController", IRoleController.class);
+		this.oPageController = appContext.getBean("pageController", IPageController.class);
+		this.oBusinessUnitController = appContext.getBean("buController",IBusinessUnitController.class);
+		this.value = new PageRole();
+		this.pageRoleList = new ArrayList<UserRole>();
+	}
+	
+	@Override
+	public void addUserRole(){
+		if(this.oUserRoleController != null){
+			if(getEmplId() != null && !"".equals(getEmplId().trim())){
+				value.setSwEmployee(getPageController().getPage(getPageId()));
+			}
+			if(getRoleId() != null && !"".equals(getRoleId().trim())){
+				value.setSwRole(getRoleController().getRole(Integer.valueOf(getRoleId())));
+			}
+			if(getBuId() != null && !"".equals(getBuId().trim())){
+				value.setSwBus(getBusinessUnitController().getBusinessUnit(getRoleId()));
+			}
+			this.oUserRoleController.addUserRole(value);
+		}
+	}
+
+	@Override
+	public void listUserRoleListener(AjaxBehaviorEvent event) {
+		if(oUserRoleController != null){
+			pageRoleList = oUserRoleController.getAllUserRoles();
+		}
+	}
+
+	@Override
+	public List<Role> getAllRole() {
+		if(oRoleController != null){
+			return oRoleController.getAllRoles();
+		}
+		return new ArrayList<Role>();
+	}
+	
+	@Override
+	public List<Employee> getAllPage() {
+		if(oEmployeeController != null){
+			return oEmployeeController.getAll();
+		}
+		return new ArrayList<Employee>();
+	}
+	
+	@Override
+	public List<BusinessUnit> getAllBu() {
+		if(oBusinessUnitController != null){
+			return oBusinessUnitController.getAllBu();
+		}
+		return new ArrayList<BusinessUnit>();
+	}
+}

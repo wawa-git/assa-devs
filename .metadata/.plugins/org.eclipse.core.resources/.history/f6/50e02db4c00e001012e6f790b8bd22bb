@@ -1,0 +1,9 @@
+#header, #footer {
+text-align:center;
+}
+#menu  {
+float:left;
+}
+#content {
+margin-left:155px;
+}

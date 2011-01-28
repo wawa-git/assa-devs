@@ -1,0 +1,138 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaasoociates.syraway.controller.IBusinessUnitExController;
+import com.assaassociates.syraway.model.BusinessUnit;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.BusinessUnitPc;
+
+@ManagedBean(name="businessUnitEx")
+public class BusinessUnitExServiceImpl implements IBusinessUnitExService {
+
+private static final long serialVersionUID = 6726658729223350876L;
+	
+
+	private IBusinessUnitExController oBusinessUnitExController;
+	
+	private BusinessUnitEx oBusinessUnitEx;
+	
+	private String buExId;
+	private String buPcId;
+
+	private String strTestAjax = "init value";
+	//private ICollaboratorDAO oCollaboratorDAO;
+	//private List<Collaborator> oCollaboratorList;
+	private List<BusinessUnitEx> oBusinessUnitExList;
+	
+	public BusinessUnitExServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oBusinessUnitExController = appContext.getBean("buExController", IBusinessUnitExController.class);
+//		this.oCollaboratorDAO = appContext.getBean("CollaboratorDAO", ICollaboratorDAO.class);
+		this.oBusinessUnitExList = new ArrayList<BusinessUnitEx>();
+	}
+	
+	public IBusinessUnitExController getBusinessUnitExController() {
+		return oBusinessUnitExController;
+	}
+
+	public void setBusinessUnitExController(IBusinessUnitExController oBuExController) {
+		this.oBusinessUnitExController = oBuExController;
+	}
+
+	public BusinessUnitEx getBusinessUnitEx() {
+		return oBusinessUnitEx;
+	}
+
+	public void setBusinessUnitEx(BusinessUnitEx oBusinessUnitEx) {
+		this.oBusinessUnitEx = oBusinessUnitEx;
+	}
+
+	public void addBusinessUnitEx(){
+		if(this.oBusinessUnitExController != null){
+			this.oBusinessUnitExController.addBusinessUnitEx(buExId, buPcId);
+		}
+	}
+	
+//	public void listCollaboratorsListener(AjaxBehaviorEvent event){
+//		strTestAjax = "Getting collaborator list ...";
+//		oCollaboratorList = oCollaboratorDAO.getAllCollaborators();
+//		strTestAjax = "Collaborator list has : " + oCollaboratorList.size();
+//	}
+	
+	public void listBusinessUnitExListener(AjaxBehaviorEvent event){
+		oBusinessUnitExList = oBusinessUnitExController.getAllBuEx();
+	}
+	
+	public List<BusinessUnitPc> getAllBuPc(){
+		List<BusinessUnitPc> result = new ArrayList<BusinessUnitPc>();
+		return result;
+	}
+	
+	public List<BusinessUnitEx> getAllBuEx(){
+		List<BusinessUnitEx> result = new ArrayList<BusinessUnitEx>();
+		return result;
+	}
+
+	public String getTestAjax() {
+		return strTestAjax;
+	}
+
+	public void setTestAjax(String strTestAjax) {
+		this.strTestAjax  = strTestAjax;
+	}
+
+//	public ICollaboratorDAO getCollaboratorDAO() {
+//		return oCollaboratorDAO;
+//	}
+//
+//	public void setCollaboratorDAO(ICollaboratorDAO pCollaboratorDAO) {
+//		this.oCollaboratorDAO = pCollaboratorDAO;
+//	}
+//
+//	public List<Collaborator> getCollaboratorList() {
+//		return oCollaboratorList;
+//	}
+//
+//	public void setCollaboratorList(List<Collaborator> oCollaboratorList) {
+//		this.oCollaboratorList = oCollaboratorList;
+//	}
+
+	public List<BusinessUnitEx> getBusinessUnitExList() {
+		return oBusinessUnitExList;
+	}
+
+	public void setBusinessUnitExList(List<BusinessUnitEx> pBusinessUnitExList) {
+		this.oBusinessUnitExList = pBusinessUnitExList;
+	}
+
+	public String getBuExId() {
+		return buExId;
+	}
+
+	public void setBuExId(String buExId) {
+		this.buExId = buExId;
+	}
+
+	public String getBuPcId() {
+		return buPcId;
+	}
+
+	public void setBuPcId(String pBuPcId) {
+		this.buPcId = pBuPcId;
+	}
+
+	@Override
+	public List<BusinessUnit> getAllBu() {
+		List<BusinessUnit> result = new ArrayList<BusinessUnit>();
+		
+		return result;
+	}
+	
+}

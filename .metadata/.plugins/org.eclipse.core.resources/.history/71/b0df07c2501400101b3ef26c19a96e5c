@@ -1,0 +1,113 @@
+/**
+ * 
+ */
+package com.assaasoociates.syraway.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import com.assaassociates.syraway.dao.IBusinessUnitExDAO;
+import com.assaassociates.syraway.dao.IDepartmentDAO;
+import com.assaassociates.syraway.dao.IEmployeeDAO;
+import com.assaassociates.syraway.dao.IProjectDAO;
+import com.assaassociates.syraway.model.BusinessUnit;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.Department;
+import com.assaassociates.syraway.model.Employee;
+import com.assaassociates.syraway.model.Project;
+
+/**
+ * @author waheb
+ *
+ */
+
+@Component("projectController")
+public class ProjectControllerImpl implements IProjectController {
+
+	@Autowired
+	private IProjectDAO projectDAO;
+	
+	@Autowired
+	private IEmployeeDAO employeeDAO;
+	
+	@Autowired
+	private IBusinessUnitExDAO businessUnitExDAO;
+	
+	public IProjectDAO getProjectDAO() {
+		return projectDAO;
+	}
+
+	public void setProjectDAO(IProjectDAO projectDAO) {
+		this.projectDAO = projectDAO;
+	}
+
+	public IBusinessUnitExDAO getBusinessUnitExDAO() {
+		return businessUnitExDAO;
+	}
+
+	public void setBuExDAO(IBusinessUnitExDAO pBusinessUnitExDAO) {
+		this.businessUnitExDAO = pBusinessUnitExDAO;
+	}
+
+	public void addProject(String pProjectId) {
+		Project oProject = new Project();
+		try {
+			oProject.setProjectId(Integer.valueOf(pProjectId));
+		} catch (NumberFormatException e) {
+			// TODO Auto-generated catch block
+		}
+		if(projectDAO != null){
+			projectDAO.addProject(oProject);
+		}
+	}
+
+	public void updateProject(Project pProject) {
+		// TODO Auto-generated method stub
+	}
+
+	public Project getProject(String pProjectId) {
+		Project result = null;
+		if(projectDAO != null){
+			try {
+				result = projectDAO.getProjectById(Integer.valueOf(pProjectId));
+			} catch (NumberFormatException e) {
+				
+			}
+		}
+		return result;
+	}
+
+	public List<Project> getAllProjects() {
+		List<Project> result = new ArrayList<Project>();
+		if(projectDAO != null)
+			result = projectDAO.getAllProjects();
+		return result;
+	}
+
+	public List<Employee> getAllEmpls() {
+		List<Project> result = new ArrayList<Project>();
+		if(projectDAO != null)
+			result = projectDAO.getAllProjects()
+		return result;
+	}
+
+	public List<BusinessUnit> getAllBu() {
+		// TODO Auto-generated method stub
+		return new ArrayList<BusinessUnit>();
+	}
+	
+	public List<BusinessUnitEx> getAllBuEx() {
+		if(businessUnitExDAO != null){
+			return businessUnitExDAO.getAllBusinessUnitEx();
+		}
+		return new ArrayList<BusinessUnitEx>();
+	}
+
+	public void addDepartment(Department pDept) {
+		if(deptDAO != null){
+			deptDAO.addDepartment(pDept);
+		}
+		
+	}
+}

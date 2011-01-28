@@ -1,0 +1,41 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaassociates.syraway.exts.ihm.ConfIhm;
+
+@ManagedBean(name="businessUnitEx")
+public class MainPageServiceImpl implements IMainPageService {
+
+private static final long serialVersionUID = 6726658729223350876L;
+	
+	private ConfIhm oConfIhm;
+	
+	public MainPageServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oConfIhm = appContext.getBean("confIhm", ConfIhm.class);
+	}
+	
+	public ConfIhm getoConfIhm() {
+		return oConfIhm;
+	}
+
+	public void setoConfIhm(ConfIhm oConfIhm) {
+		this.oConfIhm = oConfIhm;
+	}
+
+	@Override
+	public String getContentFromParam(String pPram) {
+		if(pPram != null){
+			if(oConfIhm != null){
+				return oConfIhm.getConfIhm().get(pPram);
+			}
+		}
+		return "content.xhtml";
+	}
+
+	
+}

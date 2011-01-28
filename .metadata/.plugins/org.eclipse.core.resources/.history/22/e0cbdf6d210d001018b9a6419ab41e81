@@ -1,0 +1,12 @@
+package com.assaasoociates.syraway.controller;
+
+import java.util.List;
+
+import com.assaassociates.syraway.model.BusinessUnitEx;
+
+public interface IBusinessUnitExController {
+
+	public void addBusinessUnitEx(String pBuExId, String pBuPcId);
+	
+	public List<BusinessUnitEx> getAllBuEx();
+}

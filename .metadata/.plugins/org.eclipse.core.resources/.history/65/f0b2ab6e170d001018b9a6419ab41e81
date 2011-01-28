@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import java.util.List;
+import com.assaassociates.syraway.model.BusinessUnitPc;
+
+/**
+ * @author waheb
+ *
+ */
+public interface IBusinessUnitExDAO {
+	
+	public BusinessUnitPc getBusinessUnitPcById(int pId);
+	public void addBusinessUnitPc(int pBuId);
+	public void addBusinessUnitPc(BusinessUnitPc pBusinessUnitPc);
+	public void removeBusinessUnit(int pBuId);
+	public void removeBusinessUnit(BusinessUnitPc pBusinessUnitPc);
+	public List<BusinessUnitPc> getAllBusinessUnit();	
+}

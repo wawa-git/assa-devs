@@ -1,0 +1,5 @@
+package com.assaassosiates.syraway.security;
+
+public class LoginBean {
+
+}

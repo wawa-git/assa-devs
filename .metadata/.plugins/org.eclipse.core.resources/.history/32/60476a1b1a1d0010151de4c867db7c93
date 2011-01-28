@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="/templates/template.xhtml" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+  	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+  	
+  	<f:metadata>
+		<f:viewParam name="userPageId" value="#{userPage.userPageId}"/> 	
+	</f:metadata>
+  	
+	<ui:define name="title">
+		<h:outputText value="Syraway's manage User Page" />
+	</ui:define>
+	<ui:define name="content">
+		<h1>Manage User Page</h1>
+		<h:form id="addUserPageForm" >
+			<h:outputText value="DESCR : " />
+			<h:inputText value="#{userPage.value.description}" id="descr"/>
+			<br/>
+			<h:outputText value="NAME : " />
+			<h:inputText value="#{userPage.value.name}" id="name"/>
+			<br/>
+			<h:outputText value="PAGE_ID : " />
+				<h:selectOneMenu id="pageId" value="#{userPage.pageId}" required="true">
+					<f:selectItem itemValue="" itemLabel=""/>
+  					<f:selectItems value="#{userPage.allPage}" />
+<!--  					<f:converter converterId="BuExConverter"/>-->
+				</h:selectOneMenu>
+			<h:message for="pageId" style="color:red"/>
+			<br/>
+			<h:outputText value="EMPLOYEE_ID: " />
+				<h:selectOneMenu id="emplId" value="#{userPage.emplId}" required="true">
+					<f:selectItem itemValue="" itemLabel=""/>
+  					<f:selectItems value="#{userPage.allEmployee}" />
+<!--  					<f:converter converterId="BuExConverter"/>-->
+				</h:selectOneMenu>
+			<h:message for="emplId" style="color:red"/>
+			<br/>
+			<h:outputText value="BU_ID: " />
+				<h:selectOneMenu id="buId" value="#{userPage.buId}" required="true">
+					<f:selectItem itemValue="" itemLabel=""/>
+  					<f:selectItems value="#{userPage.allBu}" />
+<!--  					<f:converter converterId="BuExConverter"/>-->
+				</h:selectOneMenu>
+			<h:message for="buId" style="color:red"/>
+			<br/>
+			<h:commandButton action="#{userPage.addUserPage}" value="Add User Page" />
+		</h:form>
+		<br/>
+		<h:form id="UserPageList">
+			<h:commandButton value="list all userPage">
+				<f:ajax render="listOfUserPage" listener="#{userPage.listUserPageListener}" />
+			</h:commandButton>
+			<br/>
+			<h:dataTable id="listOfUserPage" border="1" value="#{userPage.userPageList}" var="item">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="USER_PAGE_ID" />
+					</f:facet>
+					<h:link outcome="manageUserPage" value="#{item.userPageId}" >
+						<f:param name="userPageId" value="#{item.userPageId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="DESCR" />
+					</f:facet>
+					<h:outputText value="#{item.description}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="NAME" />
+					</f:facet>
+					<h:outputText value="#{item.name}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="PAGE_ID" />
+					</f:facet>
+					<h:link outcome="managePage" value="#{item.swPage}" >
+						<f:param name="pageId" value="#{item.swPage}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="PAGE_ID" />
+					</f:facet>
+					<h:link outcome="managePage" value="#{item.swPage}" >
+						<f:param name="pageId" value="#{item.swPage}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU_ID" />
+					</f:facet>
+					<h:link outcome="manageBu" value="#{item.swBus}" >
+						<f:param name="buId" value="#{item.swBus}"/>
+					</h:link>
+				</h:column>
+			</h:dataTable>
+		</h:form>
+		</ui:define>
+		</ui:composition>

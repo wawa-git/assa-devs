@@ -1,0 +1,26 @@
+package com.assaassociates.syraway.exts.convertes;
+
+import javax.faces.component.UIComponent;
+import javax.faces.context.FacesContext;
+import javax.faces.convert.Converter;
+import javax.faces.convert.FacesConverter;
+
+/**
+ * @author waheb
+ *
+ */
+
+@FacesConverter( value="SywConverter" )
+public class SywConverter implements Converter {
+
+	@Override
+	public Object getAsObject(FacesContext pFacesContext, UIComponent pUIComponent, String pString) {
+		return null;
+	}
+
+	@Override
+	public String getAsString(FacesContext pFacesContext, UIComponent pUIComponent, Object pObject) {
+		return null;
+	}
+
+}

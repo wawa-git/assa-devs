@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>syraway</artifactId>
+		<groupId>com.assaasoociates.syraway</groupId>
+		<version>0.0.1</version>
+	</parent>
+	<groupId>com.assaasoociates.syraway</groupId>
+	<artifactId>security</artifactId>
+	<version>0.0.1</version>
+	<name>security</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<spring-security.version>3.0.5.RELEASE</spring-security.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>${spring-security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>${spring-security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>${spring-security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>6.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>facelets-taglib-jsf20-spring-3</artifactId>
+			<version>0.3_jsf-2.0-spring-3</version>
+		</dependency>
+
+	</dependencies>
+	<repositories>
+		<repository>
+			<id>JBoss Repo</id>
+			<url>https://repository.jboss.org/nexus/content/groups/public</url>
+		</repository>
+		<repository>
+			<id>org.springframework.security.taglibs.facelets</id>
+			<url>http://spring-security-facelets-taglib.googlecode.com/svn/repo/</url>
+		</repository>
+	</repositories>
+	<build>
+		<finalName>exts</finalName>
+		<sourceDirectory>.</sourceDirectory>
+		<resources>
+			<resource>
+				<directory>conf</directory>
+				<includes>
+					<include>**/*</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+</project>

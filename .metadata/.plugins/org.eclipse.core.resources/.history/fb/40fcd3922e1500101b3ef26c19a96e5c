@@ -1,0 +1,23 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaasoociates.syraway.controller.IEmployeeController;
+import com.assaasoociates.syraway.controller.IRoleController;
+import com.assaasoociates.syraway.controller.IUserRoleController;
+import com.assaassociates.syraway.model.Employee;
+import com.assaassociates.syraway.model.Role;
+import com.assaassociates.syraway.model.UserRole;
+
+@ManagedBean(name="userRole")
+@SessionScoped
+public class UserRoleServiceImpl implements IUserRoleService {
+
+	
+}

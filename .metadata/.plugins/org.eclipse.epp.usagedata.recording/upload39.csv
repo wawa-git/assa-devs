@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.equinox.ds,1.2.1.R36x_v20100803,"org.eclipse.equinox.ds",1295769894148
+started,bundle,org.eclipse.equinox.event,1.2.0.v20100503,"org.eclipse.equinox.event",1295769894148
+started,bundle,org.eclipse.equinox.p2.core,2.0.2.R36x_v20100804,"org.eclipse.equinox.p2.core",1295769894148
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.202.R36x_v20100727,"org.eclipse.equinox.p2.directorywatcher",1295769894163
+started,bundle,org.eclipse.equinox.p2.engine,2.0.0.v20100606,"org.eclipse.equinox.p2.engine",1295769894163
+started,bundle,org.eclipse.equinox.p2.metadata,2.0.0.v20100601,"org.eclipse.equinox.p2.metadata",1295769894164
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.1.0.v20100513,"org.eclipse.equinox.p2.metadata.repository",1295769894164
+started,bundle,org.eclipse.equinox.p2.operations,2.0.0.v20100510,"org.eclipse.equinox.p2.operations",1295769894164
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.0.v20100525,"org.eclipse.equinox.p2.reconciler.dropins",1295769894165
+started,bundle,org.eclipse.equinox.p2.repository,2.0.1.R36x_v20100823,"org.eclipse.equinox.p2.repository",1295769894165
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20100507-1815,"org.eclipse.equinox.p2.ui.sdk.scheduler",1295769894165
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.101.R36x_v20100823,"org.eclipse.equinox.p2.updatechecker",1295769894165
+started,bundle,org.eclipse.equinox.preferences,3.3.0.v20100503,"org.eclipse.equinox.preferences",1295769894165
+started,bundle,org.eclipse.equinox.registry,3.5.0.v20100503,"org.eclipse.equinox.registry",1295769894165
+started,bundle,org.eclipse.equinox.security,1.0.200.v20100503,"org.eclipse.equinox.security",1295769894165
+started,bundle,org.eclipse.equinox.util,1.0.200.v20100503,"org.eclipse.equinox.util",1295769894166
+started,bundle,org.eclipse.help,3.5.0.v20100524,"org.eclipse.help",1295769894166
+started,bundle,org.eclipse.jdt.apt.core,3.3.401.R36_v20100727-0110,"org.eclipse.jdt.apt.core",1295769894166
+started,bundle,org.eclipse.jdt.core,3.6.1.v_A68_R36x,"org.eclipse.jdt.core",1295769894166
+started,bundle,org.eclipse.jdt.core.manipulation,1.3.0.v20100520-0800,"org.eclipse.jdt.core.manipulation",1295769894166
+started,bundle,org.eclipse.jdt.debug,3.6.1.v20100715_r361,"org.eclipse.jdt.debug",1295769894166
+started,bundle,org.eclipse.jdt.launching,3.5.100.v20100526,"org.eclipse.jdt.launching",1295769894166
+started,bundle,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui",1295769894166
+started,bundle,org.eclipse.jem,2.0.400.v201005110200,"org.eclipse.jem",1295769894177
+started,bundle,org.eclipse.jem.util,2.1.2.v201008120100,"org.eclipse.jem.util",1295769894177
+started,bundle,org.eclipse.jface,3.6.1.M20100825-0800,"org.eclipse.jface",1295769894227
+started,bundle,org.eclipse.jst.common.frameworks,1.1.402.v201009081300,"org.eclipse.jst.common.frameworks",1295769894227
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.102.v201008182136,"org.eclipse.jst.common.project.facet.core",1295769894227
+started,bundle,org.eclipse.jst.j2ee.core,1.2.2.v201008120100,"org.eclipse.jst.j2ee.core",1295769894230
+started,bundle,org.eclipse.jst.j2ee.web,1.1.402.v201008242000,"org.eclipse.jst.j2ee.web",1295769894230
+started,bundle,org.eclipse.jst.jsf.common,1.2.1.v20100827,"org.eclipse.jst.jsf.common",1295769894231
+started,bundle,org.eclipse.jst.jsf.core,1.3.2.v20100906,"org.eclipse.jst.jsf.core",1295769894231
+started,bundle,org.eclipse.jst.jsf.facelet.ui,1.0.0.v20100602,"org.eclipse.jst.jsf.facelet.ui",1295769894231
+started,bundle,org.eclipse.jst.jsf.ui,1.3.1.v20100906,"org.eclipse.jst.jsf.ui",1295769894231
+started,bundle,org.eclipse.jst.jsp.core,1.2.302.v201008251735,"org.eclipse.jst.jsp.core",1295769894231
+started,bundle,org.eclipse.jst.jsp.ui,1.1.501.v201008232032,"org.eclipse.jst.jsp.ui",1295769894231
+started,bundle,org.eclipse.jst.ws.jaxrs.core,1.0.200.v201008201800,"org.eclipse.jst.ws.jaxrs.core",1295769894231
+started,bundle,org.eclipse.jst.ws.jaxws.utils,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.utils",1295769894231
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.100.v20100526-0800,"org.eclipse.ltk.core.refactoring",1295769894231
+started,bundle,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring",1295769894231
+started,bundle,org.eclipse.mylyn.commons.net,3.4.1.v20100625-2100-e3x,"org.eclipse.mylyn.commons.net",1295769894231
+started,bundle,org.eclipse.mylyn.commons.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.commons.ui",1295769894231
+started,bundle,org.eclipse.mylyn.monitor.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.monitor.ui",1295769894232
+started,bundle,org.eclipse.team.core,3.5.100.R36x_v20100825-0800,"org.eclipse.team.core",1295769894232
+started,bundle,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui",1295769894232
+started,bundle,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console",1295769894232
+started,bundle,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.editors",1295769894232
+started,bundle,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.ide",1295769894232
+started,bundle,org.eclipse.ui.net,1.2.100.I20100505-1245,"org.eclipse.ui.net",1295769894232
+started,bundle,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views",1295769894232
+started,bundle,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"org.eclipse.ui.workbench",1295769894232
+started,bundle,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.workbench.texteditor",1295769894232
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1295769894232
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1295769894232
+started,bundle,org.eclipse.wst.common.emf,1.2.1.v201008260500,"org.eclipse.wst.common.emf",1295769894232
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.2.v201008242000,"org.eclipse.wst.common.emfworkbench.integration",1295769894233
+started,bundle,org.eclipse.wst.common.frameworks,1.2.0.v201003040800,"org.eclipse.wst.common.frameworks",1295769894233
+started,bundle,org.eclipse.wst.common.modulecore,1.2.3.v201008242000,"org.eclipse.wst.common.modulecore",1295769894233
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.102.v201008170019,"org.eclipse.wst.common.project.facet.core",1295769894233
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1295769894233
+started,bundle,org.eclipse.wst.css.core,1.1.401.v201008161749,"org.eclipse.wst.css.core",1295769894233
+started,bundle,org.eclipse.wst.css.ui,1.0.501.v201008232042,"org.eclipse.wst.css.ui",1295769894233
+started,bundle,org.eclipse.wst.dtd.core,1.1.400.v201004290328,"org.eclipse.wst.dtd.core",1295769894233
+started,bundle,org.eclipse.wst.dtd.ui,1.0.500.v201004290328,"org.eclipse.wst.dtd.ui",1295769894233
+started,bundle,org.eclipse.wst.html.core,1.1.402.v201008311901,"org.eclipse.wst.html.core",1295769894233
+started,bundle,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.ui",1295769894233
+started,bundle,org.eclipse.wst.internet.cache,1.0.400.v201004280700,"org.eclipse.wst.internet.cache",1295769894233
+started,bundle,org.eclipse.wst.jsdt.core,1.1.2.v201009011528,"org.eclipse.wst.jsdt.core",1295769894233
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.200.v201004150600,"org.eclipse.wst.jsdt.manipulation",1295769894233
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui",1295769894233
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.302.v201009091745,"org.eclipse.wst.jsdt.web.core",1295769894233
+started,bundle,org.eclipse.wst.jsdt.web.ui,1.0.302.v201009091745,"org.eclipse.wst.jsdt.web.ui",1295769894233
+started,bundle,org.eclipse.wst.sse.core,1.1.502.v201008311901,"org.eclipse.wst.sse.core",1295769894233
+started,bundle,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui",1295769894233
+started,bundle,org.eclipse.wst.validation,1.2.200.v201005271900,"org.eclipse.wst.validation",1295769894233
+started,bundle,org.eclipse.wst.web,1.1.401.v201007151900,"org.eclipse.wst.web",1295769894233
+started,bundle,org.eclipse.wst.xml.core,1.1.502.v201009010342,"org.eclipse.wst.xml.core",1295769894233
+started,bundle,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui",1295769894233
+started,bundle,org.eclipse.wst.xsl.core,1.1.0.v201004290328,"org.eclipse.wst.xsl.core",1295769894233
+started,bundle,org.eclipse.wst.xsl.exslt.core,1.0.0.v201005240426,"org.eclipse.wst.xsl.exslt.core",1295769894233
+started,bundle,org.eclipse.egit.core,0.9.3,"org.eclipse.egit.core",1295769894233
+started,bundle,org.eclipse.jgit,0.9.3,"org.eclipse.jgit",1295769894234
+started,bundle,org.maven.ide.eclipse,0.12.0.20101115-1102,"org.maven.ide.eclipse",1295769894234
+started,bundle,org.maven.ide.eclipse.jdt,0.12.0.20101115-1102,"org.maven.ide.eclipse.jdt",1295769894234
+started,bundle,org.maven.ide.eclipse.maven_model_edit,0.12.0.20101115-1102,"org.maven.ide.eclipse.maven_model_edit",1295769894234
+started,bundle,org.springframework.ide.eclipse.beans.core,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.beans.core",1295769894234
+started,bundle,org.springframework.ide.eclipse.beans.ui.editor,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.beans.ui.editor",1295769894235
+started,bundle,org.springframework.ide.eclipse.core,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.core",1295769894235
+started,bundle,org.springframework.ide.eclipse.webflow.ui.editor,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.webflow.ui.editor",1295769894235
+started,bundle,org.tigris.subversion.clientadapter,1.6.12,"org.tigris.subversion.clientadapter",1295769894235
+started,bundle,org.tigris.subversion.subclipse.core,1.6.15,"org.tigris.subversion.subclipse.core",1295769894235
+os,sysinfo,,,"linux",1295769894239
+arch,sysinfo,,,"x86",1295769894239
+ws,sysinfo,,,"gtk",1295769894239
+locale,sysinfo,,,"fr_FR",1295769894239
+processors,sysinfo,,,"2",1295769894239
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1295769894239
+java.runtime.version,sysinfo,,,"1.6.0_22-b04",1295769894239
+java.specification.name,sysinfo,,,"Java Platform API Specification",1295769894239
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1295769894239
+java.specification.version,sysinfo,,,"1.6",1295769894239
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1295769894239
+java.version,sysinfo,,,"1.6.0_22",1295769894239
+java.vm.info,sysinfo,,,"mixed mode, sharing",1295769894239
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1295769894239
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1295769894239
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1295769894239
+java.vm.specification.version,sysinfo,,,"1.0",1295769894239
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1295769894239
+java.vm.version,sysinfo,,,"17.1-b03",1295769894239
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.bugzilla.core",1295769894293
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.0.v201004080500,"org.eclipse.wst.common.frameworks.ui",1295769894304
+started,bundle,org.eclipse.jst.j2ee,1.1.402.v201009151730,"org.eclipse.jst.j2ee",1295769894448
+started,bundle,org.eclipse.jem.workbench,2.0.300.v200910290230,"org.eclipse.jem.workbench",1295769894627
+started,bundle,org.eclipse.epp.usagedata.ui,1.3.0.R201005261100,"org.eclipse.epp.usagedata.ui",1295769895339
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.4.2.v20100909-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1295769895392
+started,bundle,org.eclipse.ui.forms,3.5.2.r36_v20100702,"org.eclipse.ui.forms",1295769895522
+started,bundle,org.eclipse.mylyn.context.core,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.context.core",1295769895672
+started,bundle,org.eclipse.mylyn.context.ui,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.context.ui",1295769895750
+started,bundle,org.eclipse.core.variables,3.2.400.v20100505,"org.eclipse.core.variables",1295769895995
+started,bundle,org.eclipse.mylyn.tasks.ui,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.tasks.ui",1295769896082
+started,bundle,org.eclipse.mylyn.team.ui,3.4.2.v20100909-0100-e3x,"org.eclipse.mylyn.team.ui",1295769896135
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1295769896136
+started,bundle,org.eclipse.update.core,3.2.402.R36x_v20100629,"org.eclipse.update.core",1295769896200
+started,bundle,org.springframework.ide.eclipse.osgi.targetdefinition,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.osgi.targetdefinition",1295769896206
+started,bundle,org.tigris.subversion.subclipse.tools.usage,1.0.1,"org.tigris.subversion.subclipse.tools.usage",1295769896247
+error,log,,,"Unable to update index for central|http://repo1.maven.org/maven2",1295769899493
+started,bundle,org.eclipse.team.svn.mylyn,0.7.9.I20100512-1900,"org.eclipse.team.svn.mylyn",1295769899862
+started,bundle,org.tigris.subversion.subclipse.mylyn,3.0.0,"org.tigris.subversion.subclipse.mylyn",1295769899864
+started,bundle,org.eclipse.jsch.core,1.1.200.I20100505-1245,"org.eclipse.jsch.core",1295769900578
+started,bundle,org.eclipse.team.cvs.core,3.3.300.I20100526-0800,"org.eclipse.team.cvs.core",1295769900578
+started,bundle,org.eclipse.team.ui,3.5.101.R36x_v20100825-0800,"org.eclipse.team.ui",1295769900764
+started,bundle,org.eclipse.team.cvs.ui,3.3.301.R36x_v20100825-0800,"org.eclipse.team.cvs.ui",1295769900874
+started,bundle,org.eclipse.team.svn.core,0.7.9.I20100917-1700,"org.eclipse.team.svn.core",1295769901060
+started,bundle,org.eclipse.team.svn.ui,0.7.9.I20101001-1700,"org.eclipse.team.svn.ui",1295769901357
+started,bundle,org.polarion.eclipse.team.svn.connector.javahl16,2.2.2.I20100917-1700,"org.polarion.eclipse.team.svn.connector.javahl16",1295769901629
+started,bundle,org.polarion.eclipse.team.svn.connector.svnkit16,2.2.2.I20100917-1700,"org.polarion.eclipse.team.svn.connector.svnkit16",1295769901668
+opened,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1295769901926
+started,bundle,org.python.pydev.core,1.6.3.2010100513,"org.python.pydev.core",1295769903066
+started,bundle,org.python.pydev.debug,1.6.3.2010100513,"org.python.pydev.debug",1295769903069
+started,bundle,com.python.pydev.analysis,1.6.3.2010100513,"com.python.pydev.analysis",1295769903370
+started,bundle,org.python.pydev,1.6.3.2010100513,"org.python.pydev",1295769903468
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.301.R36_v20100727-0110,"org.eclipse.jdt.apt.pluggable.core",1295769915052
+started,bundle,org.eclipse.jpt.core,2.3.2.v201008252310,"org.eclipse.jpt.core",1295769917089
+started,bundle,org.eclipse.wst.wsdl.validation,1.1.501.v201004201506,"org.eclipse.wst.wsdl.validation",1295769917204
+started,bundle,org.eclipse.wst.xsd.core,1.1.502.v201008201521,"org.eclipse.wst.xsd.core",1295769917210
+started,bundle,org.eclipse.jst.jsf.facelet.core,1.0.1.v20100712,"org.eclipse.jst.jsf.facelet.core",1295769917295
+started,bundle,org.eclipse.jst.jsf.common.runtime,1.1.0.v20100510,"org.eclipse.jst.jsf.common.runtime",1295769917980
+started,bundle,org.python.pydev.parser,1.6.3.2010100513,"org.python.pydev.parser",1295769917993
+started,bundle,org.eclipse.jem.proxy,2.0.300.v201006080510,"org.eclipse.jem.proxy",1295769918151
+started,bundle,org.eclipse.jst.j2ee.ejb,1.1.401.v201007150400,"org.eclipse.jst.j2ee.ejb",1295769918464
+started,bundle,org.eclipse.jst.j2ee.jca,1.1.400.v201005270700,"org.eclipse.jst.j2ee.jca",1295769918472
+started,bundle,org.eclipse.jst.jee,1.0.301.v201007151900,"org.eclipse.jst.jee",1295769918483
+started,bundle,org.eclipse.jst.jee.ejb,1.0.301.v201007070821,"org.eclipse.jst.jee.ejb",1295769918487
+started,bundle,org.eclipse.jst.jee.web,1.0.301.v201007070907,"org.eclipse.jst.jee.web",1295769918490
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769918856
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769918857
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769918857
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769918891
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769918892
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769919788
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769919788
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920578
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920578
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920579
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920580
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920580
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920581
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920581
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920582
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920582
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920583
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920584
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920584
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920585
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920586
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920586
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920587
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920588
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920589
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920590
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920592
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920593
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920594
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920594
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920595
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920596
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920597
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920597
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920598
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920599
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920599
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920600
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920600
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920601
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920614
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920615
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920629
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920630
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920632
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920632
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920633
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920634
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920634
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920645
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920645
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920648
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920648
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920649
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920651
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920651
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920656
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920657
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920658
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920659
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920659
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920672
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920673
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920699
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920700
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920715
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920716
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920716
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920717
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920718
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920722
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920723
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920725
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920725
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920726
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920735
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920736
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920761
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920762
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920767
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920767
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920768
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920770
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920772
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920775
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920776
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920778
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920778
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920805
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920808
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920808
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920813
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920814
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920816
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920816
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920817
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920818
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920819
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920826
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920827
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920830
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920830
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920831
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920832
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920832
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920833
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920834
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920835
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920835
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920836
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920844
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920844
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920855
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920855
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920859
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920859
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920860
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920861
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920862
+error,log,,,"Unable to find interpreter named: /usr/bin/python. Available: ",1295769920868

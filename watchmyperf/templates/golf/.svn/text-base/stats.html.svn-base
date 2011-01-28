@@ -1,0 +1,18 @@
+<script type="text/javascript" src="../js/highcharts.js"></script> 
+<!--[if IE]>
+	<script type="text/javascript" src="../js/excanvas.compiled.js"></script>
+<![endif]-->
+ 
+<script type="text/javascript">
+	$(document).ready(function() {
+		{% for graph in stats %}
+			{{ graph.js }}
+		{% endfor %}
+	});
+</script> 
+ 
+Statistiques basées sur {{ user.golf_entry_nb }} entrées.<br/>
+{% for graph in stats %}
+	<div id="{{ graph.name }}" style="width: {{ graph.width }}px; height: {{ graph.height }}px; margin: 0 auto"></div>
+{% endfor %}
+ 

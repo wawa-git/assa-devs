@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="data-model">
+		<class>test.test.Collaborator</class>
+		<class>test.test.SwActivity</class>
+		<class>test.test.SwActivityPK</class>
+		<class>test.test.SwBu</class>
+		<class>test.test.SwBuEx</class>
+		<class>test.test.SwBuPc</class>
+		<class>test.test.SwCurrencyCd</class>
+		<class>test.test.SwDept</class>
+		<class>test.test.SwDeptPK</class>
+		<class>test.test.SwOprid</class>
+		<class>test.test.SwProject</class>
+		<class>test.test.SwProjectPK</class>
+		<class>test.test.SwSetid</class>
+		<class>test.test.SW_SETID_has_SW_BU</class>
+		<class>test.test.SW_SETID_has_SW_BUPK</class>
+		<class>test.test.SwTeam</class>
+		<class>test.test.SwTime</class>
+		<class>test.test.SwTimePK</class>
+		<class>com.assaassociates.syraway.model.Collaborator</class>
+		<class>com.assaassociates.syraway.model.Activity</class>
+		<class>com.assaassociates.syraway.model.ActivityPK</class>
+		<class>com.assaassociates.syraway.model.BusinessUnit</class>
+		<class>com.assaassociates.syraway.model.BusinessUnitEx</class>
+		<class>com.assaassociates.syraway.model.BusinessUnitPc</class>
+		<class>com.assaassociates.syraway.model.Currency</class>
+		<class>com.assaassociates.syraway.model.Department</class>
+		<class>com.assaassociates.syraway.model.DepartmentPK</class>
+		<class>com.assaassociates.syraway.model.Oprid</class>
+		<class>com.assaassociates.syraway.model.Project</class>
+		<class>com.assaassociates.syraway.model.ProjectPK</class>
+		<class>com.assaassociates.syraway.model.Setid</class>
+		<class>com.assaassociates.syraway.model.SETID_BU</class>
+		<class>com.assaassociates.syraway.model.SETID_BUPK</class>
+		<class>com.assaassociates.syraway.model.Team</class>
+		<class>com.assaassociates.syraway.model.Time</class>
+		<class>com.assaassociates.syraway.model.TimePK</class>
+	</persistence-unit>
+</persistence>

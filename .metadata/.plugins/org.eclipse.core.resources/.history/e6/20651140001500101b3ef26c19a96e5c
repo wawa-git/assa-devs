@@ -1,0 +1,11 @@
+package com.assaasoociates.syraway.controller;
+
+import com.assaassociates.syraway.model.Role;
+
+public interface IRoleController {
+
+	public void addRole(Role oRole);
+	public void updateRole(Role oRole);
+	public Role getRole(String pRoleId); 
+	
+}

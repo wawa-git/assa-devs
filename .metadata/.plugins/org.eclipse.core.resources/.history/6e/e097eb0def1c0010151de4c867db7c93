@@ -1,0 +1,15 @@
+package com.assaasoociates.syraway.controller;
+
+import java.util.List;
+
+import com.assaassociates.syraway.model.Page;
+import com.assaassociates.syraway.model.Time;
+
+public interface IPageController {
+
+	public void addPage(Page oPage);
+	public void updatePage(Page oPage);
+	public Time getPage(Integer pPageId); 
+	public List<Page> getAllPages();
+	
+}

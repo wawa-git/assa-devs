@@ -1,0 +1,12 @@
+package com.assaasoociates.syraway.controller;
+
+import com.assaassociates.syraway.model.Oprid;
+import com.assaassociates.syraway.model.UserRole;
+
+public interface IUserRoleController {
+
+	public void addUserRole(UserRole oUserRole);
+	public void updateUserRole(UserRole oUserRole);
+	public UserRole getUserRole(String pUserRoleId); 
+	
+}

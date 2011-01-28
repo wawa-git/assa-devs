@@ -1,0 +1,58 @@
+package com.assaassociates.syraway.model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * The primary key class for the SW_TIME database table.
+ * 
+ */
+@Embeddable
+public class TimePK implements Serializable {
+	//default serial version id, required for serializable classes.
+	private static final long serialVersionUID = 1L;
+
+	@Column(name="TIME_ID", unique=true, nullable=false, length=10)
+	private String timeId;
+
+	@Column(name="BU_EX_ID", unique=true, nullable=false, length=6)
+	private String buExId;
+
+    public TimePK() {
+    }
+	public String getTimeId() {
+		return this.timeId;
+	}
+	public void setTimeId(String timeId) {
+		this.timeId = timeId;
+	}
+	public String getBuExId() {
+		return this.buExId;
+	}
+	public void setBuExId(String buExId) {
+		this.buExId = buExId;
+	}
+
+	public boolean equals(Object other) {
+		if (this == other) {
+			return true;
+		}
+		if (!(other instanceof TimePK)) {
+			return false;
+		}
+		TimePK castOther = (TimePK)other;
+		return 
+			this.timeId.equals(castOther.timeId)
+			&& this.buExId.equals(castOther.buExId);
+
+    }
+    
+	public int hashCode() {
+		final int prime = 31;
+		int hash = 17;
+		hash = hash * prime + this.timeId.hashCode();
+		hash = hash * prime + this.buExId.hashCode();
+		
+		return hash;
+    }
+}

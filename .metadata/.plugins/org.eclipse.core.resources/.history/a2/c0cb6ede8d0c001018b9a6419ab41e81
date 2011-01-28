@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import java.util.List;
+import com.assaassociates.syraway.model.Department;
+
+/**
+ * @author waheb
+ *
+ */
+public interface IDepartmentDAO {
+	
+	public Department getDepartmentById(byte pId);
+	public List<Department> getDepartmentOfBu(String pBuisnessUnitId);
+	public void addDepartment(Department pDepartment);
+	public void removeDepartment(Department pDepartment);
+	public void removeDepartment(byte pDepartmentPk);
+}

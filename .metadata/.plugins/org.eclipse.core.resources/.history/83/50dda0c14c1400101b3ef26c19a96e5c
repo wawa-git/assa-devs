@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="/templates/template.xhtml" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+  	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+  	
+  	<f:metadata>
+		<f:viewParam name="projectId" value="#{project.projectId}"/> 	
+	</f:metadata>
+  	
+	<ui:define name="title">
+		<h:outputText value="Syraway's manage Project" />
+	</ui:define>
+	<ui:define name="content">
+		<h1>Manage Department</h1>
+		<h:form id="addProjectForm" >
+			<h:outputText value="DESCR : " />
+			<h:inputText value="#{project.value.descr}" id="descr"/>
+			<br/>
+			<h:outputText value="STATUS : " />
+			<h:inputText value="#{project.value.status}" id="status"/>
+			<br/>
+			<h:outputText value="BEGIN_DT : " />
+			<h:inputText value="#{project.value.beginDt}" id="beginDt"/>
+			<br/>
+			<h:outputText value="END_DT : " />
+			<h:inputText value="#{project.value.endDt}" id="endDt"/>
+			<br/>
+			<h:outputText value="DEFAULT_BU_EX_ID : " />
+				<h:selectOneMenu id="defaultBuExId" value="#{department.buEx}">
+					<f:selectItem itemValue="" itemLabel=""/>
+  					<f:selectItems value="#{department.allBuEx}" />
+<!--  					<f:converter converterId="BuExConverter"/>-->
+				</h:selectOneMenu>
+			<br/>
+			<h:commandButton action="#{project.addProject}" value="Add Project" />
+		</h:form>
+		<br/>
+		<h:form id="ProjectList">
+			<h:commandButton value="list all project">
+				<f:ajax render="listOfProject" listener="#{project.listProjectListener}" />
+			</h:commandButton>
+			<br/>
+			<h:dataTable id="listOfProject" border="1" value="#{project.projectList}" var="prjt">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="PROJECT_ID" />
+					</f:facet>
+					<h:link outcome="manageProject" value="#{prjt.projectId}" >
+						<f:param name="projectId" value="#{prjt.projectId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="DESCR" />
+					</f:facet>
+					<h:outputText value="#{dept.descr}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="ACTIVE" />
+					</f:facet>
+					<h:outputText value="#{dept.active}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="DEFAULT_BU_EX_ID" />
+					</f:facet>
+					<h:link outcome="manageBuEx" value="#{dept.swBuEx}" >
+						<f:param name="buExId" value="#{dept.swBuEx}"/>
+					</h:link>
+				</h:column>
+			</h:dataTable>
+		</h:form>
+		</ui:define>
+		</ui:composition>

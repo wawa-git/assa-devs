@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.tigris.subversion.subclipse.mylyn,3.0.0,"org.tigris.subversion.subclipse.mylyn",1294740217154
+started,bundle,org.tigris.subversion.clientadapter,1.6.12,"org.tigris.subversion.clientadapter",1294740217289
+started,bundle,org.tigris.subversion.subclipse.core,1.6.15,"org.tigris.subversion.subclipse.core",1294740217360
+started,bundle,org.eclipse.jsch.core,1.1.200.I20100505-1245,"org.eclipse.jsch.core",1294740218205
+started,bundle,org.eclipse.team.cvs.core,3.3.300.I20100526-0800,"org.eclipse.team.cvs.core",1294740218206
+started,bundle,org.eclipse.team.ui,3.5.101.R36x_v20100825-0800,"org.eclipse.team.ui",1294740218471
+started,bundle,org.eclipse.team.cvs.ui,3.3.301.R36x_v20100825-0800,"org.eclipse.team.cvs.ui",1294740218711
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.301.R36_v20100727-0110,"org.eclipse.jdt.apt.pluggable.core",1294740218826
+started,bundle,org.eclipse.team.svn.core,0.7.9.I20100917-1700,"org.eclipse.team.svn.core",1294740219022
+started,bundle,org.eclipse.team.svn.ui,0.7.9.I20101001-1700,"org.eclipse.team.svn.ui",1294740220365
+started,bundle,org.polarion.eclipse.team.svn.connector.javahl16,2.2.2.I20100917-1700,"org.polarion.eclipse.team.svn.connector.javahl16",1294740220485
+started,bundle,org.polarion.eclipse.team.svn.connector.svnkit16,2.2.2.I20100917-1700,"org.polarion.eclipse.team.svn.connector.svnkit16",1294740220507
+started,bundle,org.eclipse.jpt.core,2.3.2.v201008252310,"org.eclipse.jpt.core",1294740225380
+started,bundle,org.eclipse.wst.wsdl.validation,1.1.501.v201004201506,"org.eclipse.wst.wsdl.validation",1294740225579
+started,bundle,org.eclipse.wst.xsd.core,1.1.502.v201008201521,"org.eclipse.wst.xsd.core",1294740225594
+started,bundle,org.eclipse.jst.jsf.facelet.core,1.0.1.v20100712,"org.eclipse.jst.jsf.facelet.core",1294740225926
+started,bundle,org.eclipse.jst.jsf.common.runtime,1.1.0.v20100510,"org.eclipse.jst.jsf.common.runtime",1294740226193
+started,bundle,org.eclipse.jem.proxy,2.0.300.v201006080510,"org.eclipse.jem.proxy",1294740227239
+started,bundle,org.eclipse.jst.j2ee.ejb,1.1.401.v201007150400,"org.eclipse.jst.j2ee.ejb",1294740228211
+started,bundle,org.eclipse.jst.j2ee.jca,1.1.400.v201005270700,"org.eclipse.jst.j2ee.jca",1294740228219
+started,bundle,org.eclipse.jst.jee,1.0.301.v201007151900,"org.eclipse.jst.jee",1294740228226
+started,bundle,org.eclipse.jst.jee.ejb,1.0.301.v201007070821,"org.eclipse.jst.jee.ejb",1294740228322
+started,bundle,org.eclipse.jst.jee.web,1.0.301.v201007070907,"org.eclipse.jst.jee.web",1294740228324
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740228761
+started,bundle,org.eclipse.xsd,2.6.0.v20100914-1218,"org.eclipse.xsd",1294740230713
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740242255
+started,bundle,org.eclipse.jst.jsf.common.ui,1.2.0.v20100329,"org.eclipse.jst.jsf.common.ui",1294740245252
+started,bundle,org.eclipse.jst.pagedesigner,1.3.1.v20100906,"org.eclipse.jst.pagedesigner",1294740245252
+started,bundle,org.eclipse.jst.jsf.facesconfig,1.2.1.v20100906,"org.eclipse.jst.jsf.facesconfig",1294740246945
+started,bundle,org.eclipse.datatools.connectivity,1.2.1.v201007142147,"org.eclipse.datatools.connectivity",1294740257269
+started,bundle,org.eclipse.jpt.db,1.2.201.v201008242310,"org.eclipse.jpt.db",1294740257314
+started,bundle,org.eclipse.datatools.enablement.mysql,1.0.2.v201002041100,"org.eclipse.datatools.enablement.mysql",1294740258367
+started,bundle,org.eclipse.datatools.connectivity.apache.derby,1.0.100.v200906020900,"org.eclipse.datatools.connectivity.apache.derby",1294740258502
+started,bundle,org.eclipse.datatools.enablement.msft.sqlserver,1.0.1.v201001180222,"org.eclipse.datatools.enablement.msft.sqlserver",1294740258506
+started,bundle,org.eclipse.datatools.enablement.sqlite,1.0.0.v201002041100,"org.eclipse.datatools.enablement.sqlite",1294740258510
+started,bundle,org.eclipse.datatools.enablement.sybase.asa,1.0.1.v200906020900,"org.eclipse.datatools.enablement.sybase.asa",1294740258513
+started,bundle,org.eclipse.datatools.enablement.sybase.ase,1.0.1.v200906020900,"org.eclipse.datatools.enablement.sybase.ase",1294740258516
+started,bundle,org.eclipse.pde.core,3.6.1.v20100902_r361,"org.eclipse.pde.core",1294740266135
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740286599
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740293559
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740390910
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740398636
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740549282
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740558188
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740648184
+started,bundle,org.eclipse.jdt.debug,3.6.1.v20100715_r361,"org.eclipse.jdt.debug",1294740648609
+started,bundle,org.eclipse.jdt.debug.ui,3.5.0.v20100602-0830,"org.eclipse.jdt.debug.ui",1294740648804
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294740648830
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740661708
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740752099
+started,bundle,org.eclipse.wst.server.core,1.1.204.v20100908,"org.eclipse.wst.server.core",1294740753877
+started,bundle,org.eclipse.wst.server.ui,1.1.205.v20100908,"org.eclipse.wst.server.ui",1294740753935
+started,bundle,org.eclipse.jdt.junit,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.junit",1294740753966
+started,bundle,org.eclipse.jdt.junit.core,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.junit.core",1294740754001
+started,bundle,org.python.pydev.core,1.6.3.2010100513,"org.python.pydev.core",1294740754152
+started,bundle,org.python.pydev.debug,1.6.3.2010100513,"org.python.pydev.debug",1294740754156
+started,bundle,org.python.pydev.customizations,1.6.3.2010100513,"org.python.pydev.customizations",1294740754168
+started,bundle,com.python.pydev.analysis,1.6.3.2010100513,"com.python.pydev.analysis",1294740754421
+started,bundle,org.python.pydev,1.6.3.2010100513,"org.python.pydev",1294740754512
+started,bundle,org.eclipse.jst.server.core,1.2.101.v20100421,"org.eclipse.jst.server.core",1294740754538
+started,bundle,org.eclipse.wst.jsdt.debug.ui,1.0.1.v201008170101,"org.eclipse.wst.jsdt.debug.ui",1294740754564
+started,bundle,org.maven.ide.eclipse.launching,0.12.0.20101115-1102,"org.maven.ide.eclipse.launching",1294740754581
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740755547
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740761909
+started,bundle,org.springframework.ide.eclipse.ui,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.ui",1294740763895
+started,bundle,org.springframework.ide.eclipse.beans.ui,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.beans.ui",1294740763952
+started,bundle,org.springframework.ide.eclipse.aop.core,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.aop.core",1294740764049
+started,bundle,org.springframework.ide.eclipse.aop.ui,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.aop.ui",1294740764076
+started,bundle,org.eclipse.egit.ui,0.9.3,"org.eclipse.egit.ui",1294740764213
+opened,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1294740764403
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1294740764582
+started,bundle,com.collabnet.subversion.merge,2.2.1,"com.collabnet.subversion.merge",1294740766423
+started,bundle,org.eclipse.compare,3.5.100.I20100526-0800,"org.eclipse.compare",1294740766507
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740782683
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740784919
+started,bundle,org.tigris.subversion.subclipse.ui,1.6.16,"org.tigris.subversion.subclipse.ui",1294740784968
+started,bundle,org.springframework.ide.eclipse.webflow.ui,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.webflow.ui",1294740786352
+started,bundle,org.springframework.ide.eclipse.webflow.core,2.5.1.201011101000-RELEASE,"org.springframework.ide.eclipse.webflow.core",1294740786457
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294740787008
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1294740788923
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.100.v201004290328,"org.eclipse.wst.xsl.debug.ui",1294740795760
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740800789
+started,bundle,org.python.pydev.parser,1.6.3.2010100513,"org.python.pydev.parser",1294740897370
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.newWizard",1294740918848
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740918873
+started,bundle,org.maven.ide.eclipse.editor,0.12.0.20101115-1102,"org.maven.ide.eclipse.editor",1294740920567
+started,bundle,org.maven.ide.eclipse.refactoring,0.12.0.20101115-1102,"org.maven.ide.eclipse.refactoring",1294740920691
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.15,"org.tigris.subversion.clientadapter.javahl",1294740925534
+started,bundle,org.tigris.subversion.clientadapter.svnkit,1.6.12,"org.tigris.subversion.clientadapter.svnkit",1294740925561
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740925684
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740927072
+started,bundle,org.tmatesoft.svnkit,1.3.4.6888,"org.tmatesoft.svnkit",1294740927213
+started,bundle,com.sun.jna,3.2.7,"com.sun.jna",1294740927603
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.202.v201004211732,"org.eclipse.wst.ws.service.policy.ui",1294740933599
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.203.v201004211732,"org.eclipse.wst.ws.service.policy",1294740933604
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1294740933634
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1294740933635
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740933862
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20100427,"org.eclipse.ui.externaltools",1294740947465
+started,bundle,org.eclipse.core.externaltools,1.0.1.v20100831_r361,"org.eclipse.core.externaltools",1294740947525
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294740965109
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294740965127
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294740998006
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294740998080
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294740998082
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294740998084
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294740998087
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294740998088
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294740998091
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741001209
+started,bundle,org.eclipse.ui.navigator,3.5.0.I20100601-0800,"org.eclipse.ui.navigator",1294741036404
+started,bundle,org.python.pydev.red_core,1.6.3.2010100513,"org.python.pydev.red_core",1294741036496
+started,bundle,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.resources",1294741036603
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741036750
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741036899
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741036900
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741036901
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741036903
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741036904
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741036906
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741036908
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741036992
+opened,view,org.python.pydev,1.6.3.2010100513,"org.python.pydev.navigator.view",1294741037028
+opened,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ProblemView",1294741037082
+opened,view,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views.ContentOutline",1294741037448
+activated,perspective,org.python.pydev,1.6.3.2010100513,"org.python.pydev.ui.PythonPerspective",1294741037506
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294741037579
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.newWizard",1294741038120
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741038166
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038485
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038489
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038490
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038491
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038492
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038494
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038495
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038498
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038499
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038500
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038501
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038502
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038504
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038506
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038509
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038510
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038511
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038512
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038513
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038513
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038517
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038518
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038518
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038519
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038520
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741038521
+activated,view,org.python.pydev,1.6.3.2010100513,"org.python.pydev.navigator.view",1294741045923
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741048019
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.properties",1294741058162
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741058181
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741058985
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741058987
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741058989
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741058990
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741058991
+error,log,,,"Unable to find interpreter named: python. Available: /usr/bin/python  (/usr/bin/python2.6)",1294741058992
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741060252
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.properties",1294741068051
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741068076
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741093015
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741099426
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741099470
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741099671
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741117669
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741152696
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ProblemView",1294741152718
+activated,view,org.python.pydev,1.6.3.2010100513,"org.python.pydev.navigator.view",1294741153898
+executed,command,,,"org.python.pydev.customizations.app_engine.launching.AppEngineLaunchShortcut.run",1294741168139
+opened,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1294741170185
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1294741180950
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1294741183253
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741184616
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741206233
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741207906
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741223512
+activated,view,org.python.pydev,1.6.3.2010100513,"org.python.pydev.navigator.view",1294741232680
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1294741232716
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1294741252699
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741257327
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741288437
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1294741305302
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741307683
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741429640
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1294741441970
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741442564
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741452299
+started,bundle,com.python.pydev,1.6.3.2010100513,"com.python.pydev",1294741497854
+started,bundle,com.python.pydev.refactoring,1.6.3.2010100513,"com.python.pydev.refactoring",1294741497925
+started,bundle,org.python.pydev.django,1.6.3.2010100513,"org.python.pydev.django",1294741497976
+started,bundle,org.python.pydev.refactoring,1.6.3.2010100513,"org.python.pydev.refactoring",1294741498025
+started,bundle,org.eclipse.search,3.6.0.v20100520-0800,"org.eclipse.search",1294741498060
+started,bundle,org.python.pydev.jython,1.6.3.2010100513,"org.python.pydev.jython",1294741500655
+error,log,,,"Unable to resolve module for:L/watchmyperf/wmp/do_login.py",1294741500677
+started,bundle,com.python.pydev.codecompletion,1.6.3.2010100513,"com.python.pydev.codecompletion",1294741500768
+opened,editor,org.python.pydev,1.6.3.2010100513,"org.python.pydev.editor.PythonEditor",1294741500846
+started,bundle,org.eclipse.datatools.sqltools.parsers.sql.query,1.2.0.v201004291415,"org.eclipse.datatools.sqltools.parsers.sql.query",1294741501432
+activated,editor,org.python.pydev,1.6.3.2010100513,"org.python.pydev.editor.PythonEditor",1294741502823
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1294741503107
+opened,editor,org.python.pydev,1.6.3.2010100513,"org.python.pydev.editor.PythonEditor",1294741503685
+activated,editor,org.python.pydev,1.6.3.2010100513,"org.python.pydev.editor.PythonEditor",1294741503929
+activated,editor,org.python.pydev,1.6.3.2010100513,"org.python.pydev.editor.PythonEditor",1294741517021
+closed,editor,org.python.pydev,1.6.3.2010100513,"org.python.pydev.editor.PythonEditor",1294741517021
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741527458
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741640688
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741643492
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741660468
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741663023
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741665209
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1294741667364
+activated,editor,org.python.pydev,1.6.3.2010100513,"org.python.pydev.editor.PythonEditor",1294741669931
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294741671320
+closed,editor,org.python.pydev,1.6.3.2010100513,"org.python.pydev.editor.PythonEditor",1294741671320
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1294741672731
+error,log,,,"/icons/python_scripting.png",1294741676490
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1294741688293
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741688796
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741869059
+activated,view,org.python.pydev,1.6.3.2010100513,"org.python.pydev.navigator.view",1294741870615
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741881895
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.properties",1294741897707
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741897732
+opened,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ProgressView",1294741900168
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ProgressView",1294741900256
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294741911619
+activated,view,org.python.pydev,1.6.3.2010100513,"org.python.pydev.navigator.view",1294741917624
+executed,command,,,"org.python.pydev.customizations.app_engine.launching.AppEngineLaunchShortcut.run",1294741921444
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1294741922062
+error,log,,,"/icons/python_scripting.png",1294741929125
+opened,editor,org.python.pydev,1.6.3.2010100513,"org.python.pydev.editor.PythonEditor",1294741974196
+activated,editor,org.python.pydev,1.6.3.2010100513,"org.python.pydev.editor.PythonEditor",1294741974315
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294741984714
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294742007246
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294742014756
+closed,editor,org.python.pydev,1.6.3.2010100513,"org.python.pydev.editor.PythonEditor",1294742014756
+activated,view,org.python.pydev,1.6.3.2010100513,"org.python.pydev.navigator.view",1294742015839
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294742020737
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294742030697
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1294742030760
+activated,view,org.python.pydev,1.6.3.2010100513,"org.python.pydev.navigator.view",1294742035947
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1294742057749
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1294742065286

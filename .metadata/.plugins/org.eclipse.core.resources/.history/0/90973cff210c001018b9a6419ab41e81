@@ -1,0 +1,103 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaassociates.syraway.dao.IBusinessUnitDAO;
+import com.assaassociates.syraway.model.BusinessUnit;
+
+@ManagedBean(name="businessUnit")
+public class BusinessUnitServiceImpl implements IBusinessUnitService {
+
+private static final long serialVersionUID = 6726658729223350876L;
+	
+
+	private IBusinessUnitDAO oBusinessUnitDAO;
+	
+	private BusinessUnit oBusinessUnit;
+	
+	private String buExId;
+	private String buPCId;
+
+	private String strTestAjax = "init value";
+	//private ICollaboratorDAO oCollaboratorDAO;
+	//private List<Collaborator> oCollaboratorList;
+	private List<BusinessUnit> oBusinessUnitList;
+	
+	public BusinessUnitServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oBusinessUnitDAO = appContext.getBean("BusinessUnitDAO", IBusinessUnitDAO.class);
+//		this.oCollaboratorDAO = appContext.getBean("CollaboratorDAO", ICollaboratorDAO.class);
+		oBusinessUnit = new BusinessUnit();
+	}
+	
+	public IBusinessUnitDAO getBusinessUnitDAO() {
+		return oBusinessUnitDAO;
+	}
+	
+	public void setBusinessUnitDAO(IBusinessUnitDAO pBusinessUnitDao) {
+		this.oBusinessUnitDAO = pBusinessUnitDao;
+	}
+	
+	public BusinessUnit getBusinessUnit() {
+		return oBusinessUnit;
+	}
+
+	public void setBusinessUnit(BusinessUnit oBusinessUnit) {
+		this.oBusinessUnit = oBusinessUnit;
+	}
+
+	public void addBusinessUnit(){
+		if(this.oBusinessUnitDAO != null)
+			this.oBusinessUnitDAO.addBusinessUnit(oBusinessUnit);
+	}
+	
+//	public void listCollaboratorsListener(AjaxBehaviorEvent event){
+//		strTestAjax = "Getting collaborator list ...";
+//		oCollaboratorList = oCollaboratorDAO.getAllCollaborators();
+//		strTestAjax = "Collaborator list has : " + oCollaboratorList.size();
+//	}
+	
+	public void listBusinessUnitListener(AjaxBehaviorEvent event){
+		strTestAjax = "Getting Business Unit list ...";
+		oBusinessUnitList = oBusinessUnitDAO.getAllBusinessUnit();
+		strTestAjax = "Business Unit list has : " + oBusinessUnitList.size();
+	}
+
+	public String getTestAjax() {
+		return strTestAjax;
+	}
+
+	public void setTestAjax(String strTestAjax) {
+		this.strTestAjax  = strTestAjax;
+	}
+
+//	public ICollaboratorDAO getCollaboratorDAO() {
+//		return oCollaboratorDAO;
+//	}
+//
+//	public void setCollaboratorDAO(ICollaboratorDAO pCollaboratorDAO) {
+//		this.oCollaboratorDAO = pCollaboratorDAO;
+//	}
+//
+//	public List<Collaborator> getCollaboratorList() {
+//		return oCollaboratorList;
+//	}
+//
+//	public void setCollaboratorList(List<Collaborator> oCollaboratorList) {
+//		this.oCollaboratorList = oCollaboratorList;
+//	}
+
+	public List<BusinessUnit> getBusinessUnitList() {
+		return oBusinessUnitList;
+	}
+
+	public void setBusinessUnitList(List<BusinessUnit> pBusinessUnitList) {
+		this.oBusinessUnitList = pBusinessUnitList;
+	}
+	
+}

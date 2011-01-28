@@ -1,0 +1,151 @@
+/**
+ * 
+ */
+package com.assaasoociates.syraway.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import com.assaassociates.syraway.dao.IBusinessUnitDAO;
+import com.assaassociates.syraway.dao.IBusinessUnitExDAO;
+import com.assaassociates.syraway.dao.IBusinessUnitPcDAO;
+import com.assaassociates.syraway.dao.IDepartmentDAO;
+import com.assaassociates.syraway.model.BusinessUnit;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.BusinessUnitPc;
+import com.assaassociates.syraway.model.Department;
+import com.assaassociates.syraway.model.Employee;
+
+/**
+ * @author waheb
+ *
+ */
+
+@Component("buController")
+public class DepartmentControllerImpl implements IDepartmentController {
+
+	@Autowired
+	private IDepartmentDAO deptDAO;
+	
+
+	public IDepartmentDAO getDeptDAO() {
+		return deptDAO;
+	}
+
+	public void setDeptDAO(IDepartmentDAO deptDAO) {
+		this.deptDAO = deptDAO;
+	}
+
+	public void updateBusinessUnit(BusinessUnit pBu) {
+		if(businessUnitDAO != null){
+			businessUnitDAO.updateBusinessUnit(pBu);
+		}
+		
+	}
+	
+	public void addBusinessUnit(String pBuExId, String pBuPcId) {
+		BusinessUnit oBu = new BusinessUnit();
+		oBu.setSwBuEx(getBuEx(pBuExId));
+		oBu.setSwBuPc(getBuPc(pBuPcId));
+
+		if(businessUnitDAO != null){
+			businessUnitDAO.addBusinessUnit(oBu);
+		}
+		
+	}
+	
+	public List<BusinessUnit> getAllBu() {
+		if(businessUnitDAO != null){
+			return businessUnitDAO.getAllBusinessUnit();
+		}
+		return null;
+	}
+
+	public IBusinessUnitExDAO getBusinessUnitExDAO() {
+		return businessUnitExDAO;
+	}
+
+	public void setBusinessUnitExDAO(IBusinessUnitExDAO businessUnitExDAO) {
+		this.businessUnitExDAO = businessUnitExDAO;
+	}
+
+	private BusinessUnitPc getBuPc(String pBuPcId){
+		BusinessUnitPc result = null;
+		if(pBuPcId != null){
+			try {
+				result = this.businessUnitPcDAO.getBusinessUnitPcById(Integer.parseInt(pBuPcId));
+			} catch (NumberFormatException e) {
+			}
+			return result;
+		}
+		return result;
+	}
+	
+	private BusinessUnitEx getBuEx(String pBuExId){
+		BusinessUnitEx result = null;
+		if(pBuExId != null){
+			try {
+				result = this.businessUnitExDAO.getBusinessUnitExById(Integer.parseInt(pBuExId));
+			} catch (NumberFormatException e) {
+			}
+			return result;
+		}
+		return result;
+	}
+
+	public IBusinessUnitDAO getBusinessUnitDAO() {
+		return businessUnitDAO;
+	}
+
+	public void setBusinessUnitDAO(IBusinessUnitDAO pBusinessUnitDAO) {
+		businessUnitDAO = pBusinessUnitDAO;
+	}
+
+	public List<BusinessUnitEx> getAllBuEx() {
+		List<BusinessUnitEx> result = new ArrayList<BusinessUnitEx>();
+		if(businessUnitExDAO != null)
+			result = businessUnitExDAO.getAllBusinessUnitEx();
+		return result;
+	}
+
+	public List<BusinessUnitPc> getAllBuPc() {
+		List<BusinessUnitPc> result = new ArrayList<BusinessUnitPc>();
+		if(businessUnitPcDAO != null)
+			result = businessUnitPcDAO.getAllBusinessUnitPc();
+		return result;
+	}
+
+	public void addDepartment(String pDeptId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void updateDepartment(Department pDept) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Department getDepartment(String pDeptId) {
+		Department result = null;
+		if(deptDAO != null){
+			try {
+				result = deptDAO.getDepartmentById(Integer.valueOf(pDeptId));
+			} catch (NumberFormatException e) {
+			}
+		}
+		return result;
+	}
+
+	public List<Department> getAllDepts() {
+		List<Department> result = new ArrayList<Department>();
+		if(deptDAO != null)
+			result = deptDAO.getAllDepts();
+		return result;
+	}
+
+	public List<Employee> getAllEmpls() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

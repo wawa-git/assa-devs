@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html">
+
+<ui:composition template="/templates/template.xhtml">
+	<ui:define name="title">
+		<h:outputText value="Syraway's Index Page" />
+	</ui:define>
+	<ui:define name="menu">
+		<h:form id="thjhjkdfhkfs">
+			<h:commandlink value="Manage BU">
+				<f:ajax render="@all" listener="#{mainPageIhm.contentFromParamListener}" />
+				<f:param name="section" value="BU"/>
+			</h:commandlink>
+			
+			<h:commandLink value="Manage Bu Ex">
+				<f:ajax render="@all" listener="#{mainPageIhm.contentFromParamListener}" />
+				<f:param name="section" value="BuEx"/>
+			</h:commandLink>
+			
+			<h:commandLink value="Manage Bu Pc">
+				<f:ajax render="@all" listener="#{mainPageIhm.contentFromParamListener}" />
+				<f:param name="section" value="BuPc"/>
+			</h:commandLink>
+			
+			<h:commandLink value="tototo">
+				<f:ajax render="@all" listener="#{mainPageIhm.contentFromParamListener}" />
+				<f:param name="section" value="BU"/>
+			</h:commandLink>
+		</h:form>
+		<h:link outcome="index" value="Manage BU">
+			<f:param name="section" value="BU"/>
+		</h:link>
+		<br/>
+		<h:link outcome="index" value="Manage BU Ex">
+			<f:param name="section" value="BuEx"/>
+		</h:link>
+		<br/>
+		<h:link outcome="index" value="Manage BU Pc">
+			<f:param name="section" value="BuPc"/>
+		</h:link>
+	</ui:define>
+	<ui:define name="content">
+			<ui:include src="#{mainPageIhm.confIhm.confIhm[param.section]}" />
+	</ui:define>
+</ui:composition>
+
+</html>

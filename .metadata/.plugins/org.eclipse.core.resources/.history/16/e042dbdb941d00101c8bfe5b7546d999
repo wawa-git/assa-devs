@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="/templates/template.xhtml" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+  	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+  	
+  	<f:metadata>
+		<f:viewParam name="pageRoleId" value="#{pageRole.pageRoleId}"/> 	
+	</f:metadata>
+  	
+	<ui:define name="title">
+		<h:outputText value="Syraway's manage Page Role" />
+	</ui:define>
+	<ui:define name="content">
+		<h1>Manage User Page</h1>
+		<h:form id="addPageRoleForm" >
+			<h:outputText value="DESCR : " />
+			<h:inputText value="#{pageRole.value.description}" id="descr"/>
+			<br/>
+			<h:outputText value="NAME : " />
+			<h:inputText value="#{pageRole.value.name}" id="name"/>
+			<br/>
+			<h:outputText value="ROLE_ID : " />
+				<h:selectOneMenu id="roleId" value="#{pageRole.roleId}" required="true">
+					<f:selectItem itemValue="" itemLabel=""/>
+  					<f:selectItems value="#{pageRole.allRole}" />
+				</h:selectOneMenu>
+			<h:message for="roleId" style="color:red"/>
+			<br/>
+			<h:outputText value="PAGE_ID: " />
+				<h:selectOneMenu id="pageId" value="#{pageRole.pageId}" required="true">
+					<f:selectItem itemValue="" itemLabel=""/>
+  					<f:selectItems value="#{pageRole.allPage}" />
+				</h:selectOneMenu>
+			<h:message for="pageId" style="color:red"/>
+			<br/>
+			<h:outputText value="BU_ID: " />
+				<h:selectOneMenu id="buId" value="#{pageRole.buId}" required="true">
+					<f:selectItem itemValue="" itemLabel=""/>
+  					<f:selectItems value="#{pageRole.allBu}" />
+<!--  					<f:converter converterId="BuExConverter"/>-->
+				</h:selectOneMenu>
+			<h:message for="buId" style="color:red"/>
+			<br/>
+			<h:commandButton action="#{pageRole.addPageRole}" value="Add User Page" />
+		</h:form>
+		<br/>
+		<h:form id="PageRoleList">
+			<h:commandButton value="list all pageRole">
+				<f:ajax render="listOfPageRole" listener="#{pageRole.listPageRoleListener}" />
+			</h:commandButton>
+			<br/>
+			<h:dataTable id="listOfPageRole" border="1" value="#{pageRole.pageRoleList}" var="item">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="USER_PAGE_ID" />
+					</f:facet>
+					<h:link outcome="managePageRole" value="#{item.pageRoleId}" >
+						<f:param name="pageRoleId" value="#{item.pageRoleId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="DESCR" />
+					</f:facet>
+					<h:outputText value="#{item.description}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="NAME" />
+					</f:facet>
+					<h:outputText value="#{item.name}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="PAGE_ID" />
+					</f:facet>
+					<h:link outcome="managePage" value="#{item.swPage}" >
+						<f:param name="pageId" value="#{item.swPage}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="PAGE_ID" />
+					</f:facet>
+					<h:link outcome="managePage" value="#{item.swPage}" >
+						<f:param name="pageId" value="#{item.swPage}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU_ID" />
+					</f:facet>
+					<h:link outcome="manageBu" value="#{item.swBus}" >
+						<f:param name="buId" value="#{item.swBus}"/>
+					</h:link>
+				</h:column>
+			</h:dataTable>
+		</h:form>
+		</ui:define>
+		</ui:composition>

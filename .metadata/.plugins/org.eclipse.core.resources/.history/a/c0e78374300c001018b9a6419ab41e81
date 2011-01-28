@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+      http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+
+	<persistence-unit name="syraway" transaction-type="JTA">
+<!--		<provider>org.hibernate.ejb.HibernatePersistence</provider>-->
+		<jta-data-source>java:/SyrawayDB</jta-data-source>
+
+<!--		<mapping-file>jpa/persistence-mapping.xml</mapping-file>-->
+<!--		<class>com.assaassociates.syraway.model.Collaborator</class>-->
+		<class>com.assaassociates.syraway.model.BusinessUnit</class>
+		<class>com.assaassociates.syraway.model.BusinessUnitEx</class>
+		<class>com.assaassociates.syraway.model.BusinessUnitPc</class>
+		<class>com.assaassociates.syraway.model.Currency</class>
+		<class>com.assaassociates.syraway.model.Department</class>
+		<class>com.assaassociates.syraway.model.Oprid</class>
+		<class>com.assaassociates.syraway.model.Project</class>
+		<class>com.assaassociates.syraway.model.Setid</class>
+		<class>com.assaassociates.syraway.model.Team</class>
+		<class>com.assaassociates.syraway.model.Time</class>
+		<class>com.assaassociates.syraway.model.Employee</class>
+		<class>com.assaassociates.syraway.model.Role</class>
+		<class>com.assaassociates.syraway.model.Task</class>
+		<class>com.assaassociates.syraway.model.UserRole</class>
+		<exclude-unlisted-classes />
+
+		<properties>
+<!--			<property name="hibernate.transaction.manager_lookup_class" value="org.hibernate.transaction.JBossTransactionManagerLookup" />-->
+			<property name="jboss.entity.manager.jndi.name" value="java:/syraway" />
+			<property name="jboss.entity.manager.factory.jndi.name"	value="java:/syrawayFactory" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+			<property name="hibernate.show_sql" value="true" />
+			 <property name="hibernate.hbm2ddl.auto" value="Validate"/> 
+		</properties>
+
+	</persistence-unit>
+</persistence>

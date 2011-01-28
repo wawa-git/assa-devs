@@ -1,0 +1,11 @@
+package com.assaassociates.syraway.exts.convertes;
+
+import javax.faces.convert.Converter;
+/**
+ * @author waheb
+ *
+ */
+
+public class Converter implements Converter {
+
+}

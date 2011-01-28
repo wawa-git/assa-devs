@@ -1,0 +1,84 @@
+/**
+ * 
+ */
+package com.assaasoociates.syraway.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import com.assaassociates.syraway.dao.IBusinessUnitExDAO;
+import com.assaassociates.syraway.dao.IDepartmentDAO;
+import com.assaassociates.syraway.dao.IEmployeeDAO;
+import com.assaassociates.syraway.dao.ITimeDAO;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.Department;
+import com.assaassociates.syraway.model.Employee;
+import com.assaassociates.syraway.model.Time;
+
+/**
+ * @author waheb
+ *
+ */
+
+@Component("emplController")
+public class TimeControllerImpl implements ITimeController {
+
+	@Autowired
+	private ITimeDAO timeDAO;
+	
+	public ITimeDAO getTimeDAO() {
+		return timeDAO;
+	}
+
+	public void setTimeDAO(ITimeDAO pTimeDAO) {
+		this.timeDAO = pTimeDAO;
+	}
+
+	public void addTime(Time pTime) {
+		if(timeDAO != null){
+			timeDAO.addTime(pTime);
+		}
+	}
+
+	public void updateEmployee(Employee pEmpl) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Employee getEmployee(String pEmplId) {
+		Employee result = null;
+		if(emplDAO != null){
+			result = emplDAO.getEmployeeById(pEmplId);
+		}
+		return result;
+	}
+
+	public List<Department> getAllDepts() {
+		List<Department> result = new ArrayList<Department>();
+		if(deptDAO != null)
+			result = deptDAO.getAllDepts();
+		return result;
+	}
+
+	public List<Employee> getAllEmpls() {
+		if(emplDAO != null){
+			return emplDAO.getAllEmployee();
+		}
+		return new ArrayList<Employee>();
+	}
+
+	public List<BusinessUnitEx> getAllBuEx() {
+		if(businessUnitExDAO != null){
+			return businessUnitExDAO.getAllBusinessUnitEx();
+		}
+		return new ArrayList<BusinessUnitEx>();
+	}
+
+	public void addDepartment(Department pDept) {
+		if(deptDAO != null){
+			deptDAO.addDepartment(pDept);
+		}
+		
+	}
+}

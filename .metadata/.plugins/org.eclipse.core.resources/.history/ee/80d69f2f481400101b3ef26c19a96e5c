@@ -1,0 +1,83 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaasoociates.syraway.controller.IBusinessUnitExController;
+import com.assaasoociates.syraway.controller.IBusinessUnitPcController;
+import com.assaasoociates.syraway.controller.IDepartmentController;
+import com.assaasoociates.syraway.controller.IProjectController;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.Department;
+import com.assaassociates.syraway.model.Project;
+
+@ManagedBean(name="department")
+@SessionScoped
+public class ProjectServiceImpl implements IProjectService {
+
+private static final long serialVersionUID = 6726658729223350876L;
+	
+
+	private IProjectController oProjectController;
+	private IBusinessUnitPcController oBuPcController;
+	private Project value;
+	private List<Project> projectList;
+	private String buPc;
+	private String managerId;
+	private String projectId;
+	
+	public ProjectServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oProjectController = appContext.getBean("projectController", IProjectController.class);
+		this.oBuPcController = appContext.getBean("buPcController", IBusinessUnitPcController.class);
+		this.value = new Project();
+		this.projectList = new ArrayList<Project>();
+	}
+	
+
+
+	public void setProjectId(String pProjectId) {
+		this.projectId = pProjectId;
+		if(this.deptId != null){
+			if(() != null){
+				value = getDepartmentController().getDepartment(this.deptId);
+				if(value != null){
+					setBuEx(String.valueOf(value.getSwBuEx().getBuExId()));
+				}
+			}
+		}
+	}
+
+	public void addDepartment(){
+		if(this.oDepartmentController != null){
+			if(getBuEx() != null){
+				getBuExController().getBuEx(Integer.parseInt(getBuEx()));
+				value.setSwBuEx(getBuExController().getBuEx(Integer.parseInt(getBuEx())));
+				this.oDepartmentController.addDepartment(value);
+			}
+		}
+	}
+
+	@Override
+	public void listDepartmentListener(AjaxBehaviorEvent event) {
+		if(oDepartmentController != null){
+			departmentList = oDepartmentController.getAllDepts();
+		}
+	}
+
+	@Override
+	public List<BusinessUnitEx> getAllBuEx() {
+		if(oDepartmentController != null){
+			return oDepartmentController.getAllBuEx();
+		}
+		return new ArrayList<BusinessUnitEx>();
+	}
+
+	
+}

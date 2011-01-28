@@ -1,0 +1,23 @@
+#page {
+width:1024px;
+margin:0 auto;
+}
+#header {
+text-align:center;
+background-color: #6495ED;
+height: 100px;
+}
+#footer {
+text-align:center;
+background-color: #32CD32;
+}
+#menu  {
+/*float:left;*/
+position: absolute;
+width: 170px;
+height:390px
+background-color: #778899;
+}
+#content {
+margin-left:170px;
+}

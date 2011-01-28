@@ -1,0 +1,46 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaassociates.syraway.dao.IEmployeeDAO;
+import com.assaassociates.syraway.model.Employee;
+
+@ManagedBean(name="employee")
+public class EmployeeServiceImpl implements ICollaboratorService {
+
+	private static final long serialVersionUID = 6726658729223350876L;
+
+	private IEmployeeDAO oEmployeeDAO;
+	
+	private Employee oEmployee;
+	
+	public EmployeeServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oEmployeeDAO = appContext.getBean("EmployeeDAO", IEmployeeDAO.class);
+		this.oEmployee = new Employee();
+	}
+	
+	public IEmployeeDAO getEmployeeDAO() {
+		return oEmployeeDAO;
+	}
+	
+	public void setEmployeeDAO(IEmployeeDAO pEmployeeDao) {
+		this.oEmployeeDAO = pEmployeeDao;
+	}
+
+	public Employee getEmployee() {
+		return oEmployee;
+	}
+
+	public void setEmployee(Employee pEmployee) {
+		this.oEmployee = pEmployee;
+	}
+
+	public void addEmployee(){
+		if(this.oEmployeeDAO != null)
+			;
+	}
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="/templates/template.xhtml" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+  	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+  	
+  	<f:metadata>
+		<f:viewParam name="userRoleId" value="#{userRole.userRoleId}"/> 	
+	</f:metadata>
+  	
+	<ui:define name="title">
+		<h:outputText value="Syraway's manage User Role" />
+	</ui:define>
+	<ui:define name="content">
+		<h1>Manage User Role</h1>
+		<h:form id="addUserRoleForm" >
+			<h:outputText value="DESCR : " />
+			<h:inputText value="#{userRole.value.description}" id="descr"/>
+			<br/>
+			<h:outputText value="NAME : " />
+			<h:inputText value="#{userRole.value.name}" id="name"/>
+			<br/>
+			<h:outputText value="ROLE_ID : " />
+				<h:selectOneMenu id="roleId" value="#{userRole.roleId}">
+					<f:selectItem itemValue="" itemLabel=""/>
+  					<f:selectItems value="#{userRole.allRole}" />
+<!--  					<f:converter converterId="BuExConverter"/>-->
+				</h:selectOneMenu>
+			<br/>
+			<h:outputText value="EMPLOYEE_ID: " />
+				<h:selectOneMenu id="emplId" value="#{userRole.emplId}">
+					<f:selectItem itemValue="" itemLabel=""/>
+  					<f:selectItems value="#{userRole.allEmployee}" />
+<!--  					<f:converter converterId="BuExConverter"/>-->
+				</h:selectOneMenu>
+			<br/>
+			<h:outputText value="BU_ID: " />
+				<h:selectOneMenu id="buId" value="#{userRole.buId}">
+					<f:selectItem itemValue="" itemLabel=""/>
+  					<f:selectItems value="#{userRole.allBu}" />
+<!--  					<f:converter converterId="BuExConverter"/>-->
+				</h:selectOneMenu>
+			<br/>
+			<h:commandButton action="#{userRole.addUserRole}" value="Add User Role" />
+		</h:form>
+		<br/>
+		<h:form id="UserRoleList">
+			<h:commandButton value="list all userRole">
+				<f:ajax render="listOfUserRole" listener="#{userRole.listUserRoleListener}" />
+			</h:commandButton>
+			<br/>
+			<h:dataTable id="listOfUserRole" border="1" value="#{userRole.userRoleList}" var="item">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="USER_ROLE_ID" />
+					</f:facet>
+					<h:link outcome="manageUserRole" value="#{item.userRoleId}" >
+						<f:param name="userRoleId" value="#{item.userRoleId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="DESCR" />
+					</f:facet>
+					<h:outputText value="#{item.description}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="NAME" />
+					</f:facet>
+					<h:outputText value="#{item.name}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="ROLE_ID" />
+					</f:facet>
+					<h:link outcome="manageRole" value="#{item.swRole}" >
+						<f:param name="roleId" value="#{item.swRole}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="EMPLOYEE_ID" />
+					</f:facet>
+					<h:link outcome="manageEmployee" value="#{item.swEmployee}" >
+						<f:param name="emplId" value="#{item.swEmployee}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU_ID" />
+					</f:facet>
+					<h:link outcome="manageBu" value="#{item.swBus}" >
+						<f:param name="buId" value="#{item.swBus}"/>
+					</h:link>
+				</h:column>
+			</h:dataTable>
+		</h:form>
+		</ui:define>
+		</ui:composition>

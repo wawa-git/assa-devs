@@ -1,0 +1,7 @@
+package com.assaassosiates.syraway.security;
+
+@ManagedBean("loginBean")
+@Scope("request")
+public class LoginBean {
+
+}

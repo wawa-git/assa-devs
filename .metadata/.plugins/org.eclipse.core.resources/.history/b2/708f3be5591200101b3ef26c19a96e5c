@@ -1,0 +1,23 @@
+package com.assaasoociates.syraway.controller;
+
+import java.util.List;
+
+import com.assaassociates.syraway.model.BusinessUnit;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.BusinessUnitPc;
+import com.assaassociates.syraway.model.Department;
+
+public interface IDepartmentController {
+
+	public void addDepartment(String pDeptId);
+	
+	public void updateDepartment(Department pDept);
+	
+	public BusinessUnit getDepartment(String pDeptId); 
+	
+	public List<BusinessUnit> getAllBu();
+	
+	public List<BusinessUnitEx> getAllBuEx();
+
+	public List<BusinessUnitPc> getAllBuPc();
+}

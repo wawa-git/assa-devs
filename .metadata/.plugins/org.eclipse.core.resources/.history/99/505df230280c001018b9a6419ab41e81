@@ -1,0 +1,6 @@
+package com.assaasoociates.syraway.controller;
+
+public interface IBusinessUnitController {
+
+	public void addBusinessUnit(String pBuExId, String pBuPcId);
+}

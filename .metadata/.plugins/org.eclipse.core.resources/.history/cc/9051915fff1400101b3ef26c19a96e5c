@@ -1,0 +1,14 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.io.Serializable;
+import java.util.List;
+import javax.faces.event.AjaxBehaviorEvent;
+import com.assaassociates.syraway.model.BusinessUnitPc;
+import com.assaassociates.syraway.model.Employee;
+
+public interface IRoleService extends Serializable{
+
+	public void addRole();
+	public void listRoleListener(AjaxBehaviorEvent event);
+	 
+}

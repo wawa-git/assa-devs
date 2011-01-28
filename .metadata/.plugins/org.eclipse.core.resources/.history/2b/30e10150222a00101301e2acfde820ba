@@ -1,0 +1,75 @@
+package com.assaassosiates.syraway.security.access.vote;
+
+import java.util.Collection;
+import java.util.HashSet;
+import org.springframework.context.ApplicationContext;
+import org.springframework.security.access.AccessDecisionVoter;
+import org.springframework.security.access.ConfigAttribute;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.web.FilterInvocation;
+import com.assaasoociates.syraway.controller.IPageController;
+import com.assaassociates.syraway.model.Page;
+import com.assaassociates.syraway.model.PageRole;
+import com.assaassosiates.syraway.security.SywApplicationContext;
+import com.assaassosiates.syraway.security.authentication.UserProfile;
+
+public class SywRoleVoter implements AccessDecisionVoter {
+
+	public boolean supports(ConfigAttribute attribute) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	public boolean supports(Class<?> clazz) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	public int vote(Authentication authentication, Object object,
+			Collection<ConfigAttribute> attributes) {
+		int result = ACCESS_ABSTAIN;
+		if(object instanceof FilterInvocation){
+			ApplicationContext ctx = SywApplicationContext.getCtx();
+			UserProfile profile = ctx.getBean("userProfile", UserProfile.class);
+            if(ctx != null && profile!=null){
+            	String pageUri = ((FilterInvocation) object).getRequestUrl();
+            	if(pageUri.equals("/managePage.xhtml")){
+            		result = ACCESS_GRANTED;
+            	}else{
+	    			Collection<String> oList = getAuthoritiesForPage(pageUri);
+	    			result = ACCESS_DENIED;
+	    			for (String authority : oList) {
+	    				if (profile.isAuthorized(authority)) {
+	                    	System.out.println("========================== ATTRIBUT : " + authority);
+	                        result = ACCESS_GRANTED;
+	                    }
+	    			}
+    			}
+            }
+		}
+            
+        return result;
+    }
+	
+	private Page getPageFromUri(String pPageUri){
+		Page result = null;
+		ApplicationContext ctx = SywApplicationContext.getCtx();
+		IPageController oPageController = ctx.getBean("pageController", IPageController.class);
+		if(oPageController != null){
+			result = oPageController.getPageByUri(pPageUri);
+		}
+		return result;
+	}
+	
+	private Collection<String> getAuthoritiesForPage(String pPageUri){
+		Collection<String> result = new HashSet<String>();
+		Page oPage = getPageFromUri(pPageUri);
+		if(oPage != null){
+			Collection<PageRole> oPageRoles = oPage.getSwPages();
+			for (PageRole oPageRole : oPageRoles) {
+				result.add(oPageRole.getName());
+			}
+		}
+		return result;
+	}
+}

@@ -1,0 +1,54 @@
+package test.test;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the COLLABORATOR database table.
+ * 
+ */
+@Entity
+@Table(name="COLLABORATOR")
+public class Collaborator implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="COLLABORATOR_ID", unique=true, nullable=false)
+	private int collaboratorId;
+
+	@Column(name="FIRST_NAME", nullable=false, length=50)
+	private String firstName;
+
+	@Column(name="LAST_NAME", nullable=false, length=50)
+	private String lastName;
+
+    public Collaborator() {
+    }
+
+	public int getCollaboratorId() {
+		return this.collaboratorId;
+	}
+
+	public void setCollaboratorId(int collaboratorId) {
+		this.collaboratorId = collaboratorId;
+	}
+
+	public String getFirstName() {
+		return this.firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return this.lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+}

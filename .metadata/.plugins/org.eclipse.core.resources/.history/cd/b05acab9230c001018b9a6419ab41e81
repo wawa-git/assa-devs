@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package com.assaasoociates.syraway.controller;
+
+import com.assaassociates.syraway.model.BusinessUnit;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+
+/**
+ * @author waheb
+ *
+ */
+public class BusinessUnitControllerImpl implements IBusinessUnitController {
+
+	public void addBusinessUnit(String pBuExId, String pBuPcId) {
+		if(getBuEx(pBuExId) != null)
+		
+	}
+
+	private BusinessUnitEx getBuEx(String pBuExId){
+		if(pBuExId != null){
+			
+		}
+		return null;
+	}
+}

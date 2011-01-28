@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:a4j="http://richfaces.org/a4j"
+	  xmlns:rich="http://richfaces.org/rich">
+<h:head>
+		<title>Manage Business Unit</title>
+	</h:head>
+	<h:body>
+		<h:form id="addEmployeeForm" >
+			<h:outputText value="BU EX ID : " />
+			<h:inputText value="#{employee.empPk.buExId}" id="buExId" />
+			<br/>
+			<h:outputText value="EMPLOYEE ID : " />
+			<h:inputText value="#{employee.empPk.emplId}" id="emplId" />
+			
+
+			<br/>
+			<h:outputText value="OPR ID : " />
+			<h:inputText value="#{employee.oprId}" id="oprId" />
+			<br/>
+			<h:outputText value="NAME : " />
+			<h:inputText value="#{employee.name}" id="name" />
+			<br/>
+			<h:outputText value="SURNAME : " />
+			<h:inputText value="#{employee.surname}" id="surname" />
+			<br/>
+			<h:outputText value="ENTRY DATE : " />
+			<h:inputText value="#{employee.entryDate}" id="entryDate" />
+			<br/>
+			<h:outputText value="EXIT DATE : " />
+			<h:inputText value="#{employee.exitDate}" id="exitDate" />
+			<br/>
+			<h:outputText value="EMPLOYEE ID : " />
+			<h:inputText value="#{employee.empPk.emplId}" id="emplId" />
+			<br/>
+			<h:outputText value="EMPLOYEE ID : " />
+			<h:inputText value="#{employee.empPk.emplId}" id="emplId" />
+			
+			
+			
+			
+			<br />
+			<h:commandButton action="#{businessUnit.addBusinessUnit}" value="save" />
+		</h:form>
+		<h:form id="BUList">
+			<h:commandButton value="list all business unit">
+				<f:ajax render="listOfBu" listener="#{businessUnit.listBusinessUnitListener}" />
+			</h:commandButton>
+			<h:dataTable id="listOfBu" border="1" value="#{businessUnit.businessUnitList}" var="bu">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU_ID" />
+					</f:facet>
+					<h:outputText value="#{bu.buId}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU EX ID" />
+					</f:facet>
+					<h:outputText value="#{bu.buExId}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU PC ID" />
+					</f:facet>
+					<h:outputText value="#{bu.buPcId}" />
+				</h:column>
+			</h:dataTable>
+		</h:form>
+	</h:body>
+</html>

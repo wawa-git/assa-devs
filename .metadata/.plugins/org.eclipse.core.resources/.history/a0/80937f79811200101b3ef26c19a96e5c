@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.exts.convertes;
+
+import java.io.Serializable;
+import java.util.Map;
+
+/**
+ * @author waheb
+ *
+ */
+public class converterMapper implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4037316466573157844L;
+	
+	Map<String, >
+
+}

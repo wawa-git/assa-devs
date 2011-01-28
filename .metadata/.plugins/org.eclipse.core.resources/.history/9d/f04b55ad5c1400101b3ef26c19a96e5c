@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import com.assaassociates.syraway.model.Oprid;
+import com.assaassociates.syraway.model.Role;
+
+/**
+ * @author waheb
+ *
+ */
+public interface IRoleDAO {
+	public Role getRoleById(String pRoleId);
+	public void addRole(Role pRole);
+	public void updateRole(Role pRole);
+	public void removeRole(Role pRole);
+	public void removeRole(String pRoleId);
+}

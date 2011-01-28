@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="312" key="DIALOG_WIDTH"/>
+		<item value="1" key="DIALOG_Y_ORIGIN"/>
+		<item value="438" key="DIALOG_HEIGHT"/>
+		<item value="886" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="buId" key="selection"/>
+		<list key="findhistory">
+			<item value="buId"/>
+			<item value="businessUnitPc."/>
+			<item value="businessUnitEx."/>
+			<item value="bseCur"/>
+			<item value="Ex"/>
+			<item value="BusinessUnitExDAO"/>
+			<item value="businessUnitExDAO"/>
+			<item value="businessUnit.addBusinessUnitExListener"/>
+		</list>
+		<list key="replacehistory">
+			<item value="businessUnitPc.businessUnitPc."/>
+			<item value="businessUnitEx.businessUnitEx."/>
+			<item value="Pc"/>
+			<item value="BusinessUnitEx"/>
+			<item value="FOREIGN KEY"/>
+			<item value="ADD CONSTRAINT"/>
+			<item value="PRIMARY KEY"/>
+			<item value=""/>
+		</list>
+	</section>
+</section>

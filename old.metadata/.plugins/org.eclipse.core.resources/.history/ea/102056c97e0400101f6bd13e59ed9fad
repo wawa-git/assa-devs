@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config version="1.2" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd">
+
+	<managed-bean>
+		<description>collaborator</description>
+		<managed-bean-name>collaborator</managed-bean-name>
+		<managed-bean-class>
+			com.assaasoociates.syraway.controller.CollaboratorController
+		</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+		<managed-property>
+			<property-name>customerDao</property-name>
+			<value>#{customerDao}</value>
+		</managed-property>
+	</managed-bean>
+
+	<application>
+		<locale-config>
+            <default-locale>en</default-locale>
+        </locale-config>
+
+		<message-bundle>messages</message-bundle>
+
+		<el-resolver>org.springframework.web.jsf.el.SpringBeanFacesELResolver</el-resolver>
+	</application>
+</faces-config>

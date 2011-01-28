@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;pPageName&apos; in &apos;com.assaassociates.syraway.persistence.jpa.PageDAOImpl.getPageByName(...)&apos; to &apos;pPageUri&apos;&#x0A;- Original project: &apos;persistence&apos;&#x0A;- Original element: &apos;com.assaassociates.syraway.persistence.jpa.PageDAOImpl.getPageByName(String).pPageName&apos;&#x0A;- Renamed element: &apos;pPageName&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;pPageName&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;com.assaassociates.syraway.persistence.jpa{PageDAOImpl.java[PageDAOImpl~getPageByName~QString;@pPageName!2673!2688!2680!2688!QString;" name="pPageUri" references="true" stamp="1296138497462" version="1.0"/>
+</session>

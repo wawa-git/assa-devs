@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="data-model">
+		<class>com.assaassociates.syraway.model.Collaborator</class>
+		<class>com.assaassociates.syraway.model.BusinessUnit</class>
+		<class>com.assaassociates.syraway.model.BusinessUnitEx</class>
+		<class>com.assaassociates.syraway.model.BusinessUnitPc</class>
+		<class>com.assaassociates.syraway.model.Currency</class>
+		<class>com.assaassociates.syraway.model.Department</class>
+		<class>com.assaassociates.syraway.model.DepartmentPK</class>
+		<class>com.assaassociates.syraway.model.Oprid</class>
+		<class>com.assaassociates.syraway.model.Project</class>
+		<class>com.assaassociates.syraway.model.ProjectPK</class>
+		<class>com.assaassociates.syraway.model.Setid</class>
+		<class>com.assaassociates.syraway.model.Team</class>
+		<class>com.assaassociates.syraway.model.Time</class>
+		<class>com.assaassociates.syraway.model.TimePK</class>
+		<class>com.assaassociates.syraway.model.Employee</class>
+		<class>com.assaassociates.syraway.model.Role</class>
+		<class>com.assaassociates.syraway.model.Task</class>
+		<class>com.assaassociates.syraway.model.UserRole</class>
+	</persistence-unit>
+</persistence>

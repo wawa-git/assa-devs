@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="/templates/template.xhtml" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+  	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+  	
+  	<f:metadata>
+		<f:viewParam name="emplId" value="#{employee.emplId}"/> 	
+	</f:metadata>
+  	
+	<ui:define name="title">
+		<h:outputText value="Syraway's manage Employee" />
+	</ui:define>
+	<ui:define name="content">
+		<h1>Manage Employee</h1>
+		<h:form id="addEmployeeForm" >
+			<h:outputText value="ACTIVE : " />
+			<h:inputText value="#{employee.value.active}" id="active"/>
+			<br/>
+			<h:outputText value="ADRESS1 : " />
+			<h:inputText value="#{employee.value.address1}" id="address1"/>
+			<br/>
+			<h:outputText value="ADRESS2 : " />
+			<h:inputText value="#{employee.value.address2}" id="address2"/>
+			<br/>
+			<h:outputText value="BIRTHDAY : " />
+			<h:inputText value="#{employee.value.birthday}" id="birthday">
+				<f:convertDateTime type="date" dateStyle="medium"/>
+			</h:inputText>
+			<br/>
+			<h:outputText value="CITY : " />
+			<h:inputText value="#{employee.value.city}" id="city"/>
+			<br/>
+			<h:outputText value="CITY_CD : " />
+			<h:inputText value="#{employee.value.cityCd}" id="cityCd"/>
+			<br/>
+			<h:outputText value="COSTRATE : " />
+			<h:inputText value="#{employee.value.costrate}" id="costrate"/>
+			<br/>
+			<h:outputText value="COUNTRY : " />
+			<h:inputText value="#{employee.value.country}" id="country"/>
+			<br/>
+			<h:outputText value="EMAIL : " />
+			<h:inputText value="#{employee.value.email}" id="email"/>
+			<br/>
+			<h:outputText value="ENTRY_DT : " />
+			<h:inputText value="#{employee.value.entryDt}" id="entryDt">
+				<f:convertDateTime type="date" dateStyle="medium"/>
+			</h:inputText>
+			<br/>
+			<h:outputText value="EXIT_DT : " />
+			<h:inputText value="#{employee.value.exitDt}" id="exitDt">
+				<f:convertDateTime type="date" dateStyle="medium"/>
+			</h:inputText>
+			
+			<br/>
+			<h:outputText value="NAME : " />
+			<h:inputText value="#{employee.value.name}" id="name"/>
+			<br/>
+			<h:outputText value="PHONENUMBER : " />
+			<h:inputText value="#{employee.value.phonenumber}" id="phonenumber"/>
+			<br/>
+			<h:outputText value="RATE : " />
+			<h:inputText value="#{employee.value.rate}" id="rate"/>
+			<br/>
+			<h:outputText value="SURNAME : " />
+			<h:inputText value="#{employee.value.surname}" id="surname"/>
+			<br/>
+			<h:outputText value="PASSWORD : " />
+			<h:inputText value="#{employee.valuePwd.password}" id="pwd"/>
+			<br/>
+			<h:outputText value="CONFIRM PASSWORD : " />
+			<h:inputText value="#{employee.confirmPwd}" id="confirmPwd"/>
+			<br/>
+<!--			<h:outputText value="DEPT_ID : " />-->
+<!--			<h:inputText value="" id="deptId"/>-->
+<!--			<br/>-->
+<!--			<h:outputText value="BU_EX_ID : " />-->
+<!--			<h:inputText value="" id="buExId"/>-->
+<!--			<br/>-->
+<!--			<h:outputText value="OPR_ID : " />-->
+<!--			<h:inputText value="" id="oprId"/>-->
+<!--			<br/>-->
+<!--			<h:outputText value="MANAGER_ID : " />-->
+<!--			<h:inputText value="" id="managerId"/>-->
+<!--			<br/>-->
+			
+			<h:commandButton action="#{employee.addEmployee}" value="Add Employee" />
+		</h:form>
+		<br/>
+		<h:form id="EmplList">
+			<h:commandButton value="list all employee">
+				<f:ajax render="listOfEmpl" listener="#{employee.listEmployeeListener}" />
+			</h:commandButton>
+			<br/>
+			<h:dataTable id="listOfEmpl" border="1" value="#{employee.employeeList}" var="empl">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="EMPL_ID" />
+					</f:facet>
+					<h:link outcome="manageEmployee" value="#{empl.emplId}" >
+						<f:param name="emplId" value="#{empl.emplId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="ACTIVE" />
+					</f:facet>
+					<h:outputText value="#{empl.active}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="ADDRESS1" />
+					</f:facet>
+					<h:outputText value="#{empl.address1}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="ADDRESS2" />
+					</f:facet>
+					<h:outputText value="#{empl.address2}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BIRTHDAY" />
+					</f:facet>
+					<h:outputText value="#{empl.birthday}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="CITY" />
+					</f:facet>
+					<h:outputText value="#{empl.city}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="CITY_CD" />
+					</f:facet>
+					<h:outputText value="#{empl.cityCd}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="COSTRATE" />
+					</f:facet>
+					<h:outputText value="#{empl.costrate}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="COUNTRY" />
+					</f:facet>
+					<h:outputText value="#{empl.country}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="EMAIL" />
+					</f:facet>
+					<h:outputText value="#{empl.email}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="ENTRY_DT" />
+					</f:facet>
+					<h:outputText value="#{empl.entryDt}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="EXIT_DT" />
+					</f:facet>
+					<h:outputText value="#{empl.exitDt}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="NAME" />
+					</f:facet>
+					<h:outputText value="#{empl.name}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="PHONENUMBER" />
+					</f:facet>
+					<h:outputText value="#{empl.phonenumber}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="RATE" />
+					</f:facet>
+					<h:outputText value="#{empl.rate}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="SURNAME" />
+					</f:facet>
+					<h:outputText value="#{empl.surname}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="DEPT_ID" />
+					</f:facet>
+					<h:link outcome="manageDept" value="#{empl.swDept.deptId}" >
+						<f:param name="deptId" value="#{empl.swDept.deptId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="BU_EX_ID" />
+					</f:facet>
+					<h:link outcome="manageBuEx" value="#{empl.swBuEx.buExId}" >
+						<f:param name="buExId" value="#{empl.swBuEx.buExId}"/>
+					</h:link>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="MANAGER_ID" />
+					</f:facet>
+					<h:link outcome="manageEmployee" value="#{empl.swEmployee.emplId}" >
+<!--						<f:converter converterId="DeptConverter"/>-->
+						<f:param name="emplId" value="#{empl.swEmployee.emplId}"/>
+					</h:link>
+				</h:column>
+			</h:dataTable>
+		</h:form>
+		</ui:define>
+		</ui:composition>

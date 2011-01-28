@@ -1,0 +1,14 @@
+#header {
+text-align:center;
+background-color:#b3c4fe;
+}
+#footer {
+text-align:center;
+background-color:#bfc4de;
+}
+#menu  {
+float:left;
+}
+#content {
+margin-left:155px;
+}

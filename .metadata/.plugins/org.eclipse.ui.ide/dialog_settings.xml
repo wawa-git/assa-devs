@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="WORKBENCH_SETTINGS">
-		<list key="ENABLED_TRANSFERS">
-		</list>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="false" key="ShowDerived"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/exts/src/main/webapp/addEmployee.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/exts/src/main/webapp/addBusinessUnit.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/EmployeeServiceImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitDAOImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/BusinessUnitServiceImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/IEmployeeService.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/model/src/main/java/com/assaassociates/syraway/model/Employee.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/model/src/main/sql/tables/SW_ACTIVITY.sql&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/model/src/main/java/com/assaassociates/syraway/model/BusinessUnit.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/exts/src/main/java/com/assaassociates/syraway/proto/TestServlet.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/persistence/conf/META-INF/persistence.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/model/src/main/java/com/assaassociates/syraway/model/UserRole.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/model/src/main/java/com/assaassociates/syraway/model/Role.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/exts/src/main/webapp/WEB-INF/spring-conf.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/exts/pom.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/persistence/pom.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/DepartmentDAOImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/EmployeeDAOImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/model/src/main/java/com/assaassociates/syraway/model/BusinessUnitPc.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/exts/src/main/webapp/addBusinessUnitEx.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/exts/src/main/webapp/addBusinessUnitPc.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/model/src/main/java/com/assaassociates/syraway/model/BusinessUnitEx.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/controller/src/main/java/com/assaasoociates/syraway/controller/BusinessUnitExControllerImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/controller/src/main/java/com/assaasoociates/syraway/controller/BusinessUnitControllerImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/persistence/src/main/java/com/assaassociates/syraway/persistence/jpa/BusinessUnitExDAOImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/BusinessUnitPcServiceImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/exts/src/main/java/com/assaassociates/syraway/exts/mbeans/BusinessUnitExServiceImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/controller/src/main/java/com/assaasoociates/syraway/controller/BusinessUnitPcControllerImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="252" key="DIALOG_Y_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="564" key="DIALOG_X_ORIGIN"/>
+			<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		</section>
 	</section>
-	<section name="ChooseWorkspaceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="328"/>
-		<item key="DIALOG_Y_ORIGIN" value="164"/>
+	<section name="ResourceNavigator">
+		<item value="" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
 	</section>
 </section>

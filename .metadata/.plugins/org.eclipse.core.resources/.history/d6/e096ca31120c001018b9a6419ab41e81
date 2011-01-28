@@ -1,0 +1,211 @@
+-- -----------------------------------------------------
+-- Table `SW_SETID`
+-- -----------------------------------------------------
+ALTER TABLE `SW_SETID`  CONSTRAINT `PK_SETID` ADD  PRIMARY KEY (`SETID_ID`);
+
+-- -----------------------------------------------------
+-- Table `SW_BU_EX`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_BU_EX`  CONSTRAINT `PK_BU_EX` ADD PRIMARY KEY (`BU_EX_ID`);
+
+-- -----------------------------------------------------
+-- Table `SW_DEPT`
+-- -----------------------------------------------------
+ALTER  TABLE  `SW_DEPT` CONSTRAINT `PK_DEPARTMENT` ADD PRIMARY KEY (`DEPT_ID`);
+
+ALTER TABLE `SW_DEPT` CONSTRAINT `FK_DEFAULT_BU_EX` ADD FOREIGN KEY (`DEFAULT_BU_EX_ID` )
+    REFERENCES `SW_BU_EX` (`BU_EX_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_CURRENCY_CD`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_CURRENCY_CD` CONSTRAINT `PK_CURRENCY` ADD PRIMARY KEY (`CURRENCY_ID`) ;
+
+-- -----------------------------------------------------
+-- Table `SW_OPRID`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_OPRID` CONSTRAINT `PK_OPRID` ADD PRIMARY KEY (`OPRID_ID`);
+
+-- -----------------------------------------------------
+-- Table `SW_EMPLOYEES`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_EMPLOYEES` CONSTRAINT `PK_EMPLOYEES` ADD PRIMARY KEY (`EMPL_ID`);
+
+ALTER  TABLE `SW_EMPLOYEES`  CONSTRAINT `FK_DEPARTMENT` ADD FOREIGN KEY (`DEPTID` )
+    REFERENCES `SW_DEPT` (`DEPT_ID` );
+
+ALTER  TABLE `SW_EMPLOYEES`  CONSTRAINT `FK_BU_EX` ADD FOREIGN KEY (`BU_EX_ID` )
+    REFERENCES `SW_BU_EX` (`BU_EX_ID` );
+
+ALTER  TABLE `SW_EMPLOYEES`  CONSTRAINT `FK_MANAGER` ADD FOREIGN KEY (`MANAGER_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+
+ALTER  TABLE `SW_EMPLOYEES`  CONSTRAINT `FK_OPRID` ADD FOREIGN KEY (`OPRID_ID` )
+    REFERENCES `SW_OPRID` (`OPRID_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_BU_PC`
+-- -----------------------------------------------------
+ALTER TABLE `SW_BU_PC` CONSTRAINT `PK_BU_PC` ADD PRIMARY KEY (`BU_PC_ID`);
+
+-- -----------------------------------------------------
+-- Table `SW_PROJECT`
+-- -----------------------------------------------------
+ALTER TABLE `SW_PROJECT` CONSTRAINT `PK_PROJECT` ADD  PRIMARY KEY (`PROJECT_ID`);
+
+ALTER TABLE `SW_PROJECT` CONSTRAINT `FK_BU_PC` ADD FOREIGN KEY (`BU_PC_ID` )
+    REFERENCES `SW_BU_PC` (`BU_PC_ID` );
+
+ALTER TABLE `SW_PROJECT`  CONSTRAINT `FK_MANAGER` ADD FOREIGN KEY (`MANAGER_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_TASK`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_TASK` CONSTRAINT `PK_TASK` ADD PRIMARY KEY (`TASK_ID`);
+
+ALTER  TABLE `SW_TASK` CONSTRAINT `FK_PROJECT` ADD FOREIGN KEY (`PROJECT_ID` )
+    REFERENCES `SW_PROJECT` (`PROJECT_ID` );
+
+ALTER  TABLE `SW_TASK`  CONSTRAINT `FK_EMPLOYEE` ADD FOREIGN KEY (`EMPL_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_TEAM`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_TEAM` CONSTRAINT `PK_TEAM` ADD PRIMARY KEY (`TEAM_ID`);
+
+ALTER  TABLE `SW_TEAM` CONSTRAINT `FK_MANAGER` ADD FOREIGN KEY (`MANAGER_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_TIME`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_TIME` CONSTRAINT `PK_TIME` ADD PRIMARY KEY (`TIME_ID`);
+
+ALTER  TABLE `SW_TIME`  CONSTRAINT `FK_EMPLOYEE` ADD FOREIGN KEY (`EMPL_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` );
+
+ALTER  TABLE `SW_TIME`  CONSTRAINT `FK_TASK` ADD FOREIGN KEY (`TASK_ID` )
+    REFERENCES `SW_TASK` (`TASK_ID` );
+
+ALTER  TABLE `SW_TIME`  CONSTRAINT `FK_TEAM` ADD FOREIGN KEY (`TEAM_ID` )
+    REFERENCES `SW_TEAM` (`TEAM_ID` );
+
+
+-- -----------------------------------------------------
+-- Table `SW_BU`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_BU`  CONSTRAINT `PK_BU` ADD PRIMARY KEY (`BU_ID`);
+
+ALTER  TABLE `SW_BU`  CONSTRAINT `FK_BU_EX` ADD FOREIGN KEY (`BU_EX_ID` )
+    REFERENCES `SW_BU_EX` (`BU_EX_ID` );
+
+ALTER  TABLE `SW_BU`  CONSTRAINT `FK_BU_PC` ADD FOREIGN KEY (`BU_PC_ID` )
+    REFERENCES `SW_BU_PC` (`BU_PC_ID` );
+
+
+-- -----------------------------------------------------
+-- Table `SW_BU_DEPT`
+-- -----------------------------------------------------
+ALTER  TABLE `SW_BU_DEPT` CONSTRAINT `PK_BU_DEPT` ADD PRIMARY KEY (`BU_ID`, `DEPT_ID`);
+
+ALTER  TABLE `SW_BU_DEPT` CONSTRAINT `fk_SW_BU_has_SW_DEPT_SW_BU1`
+    FOREIGN KEY (`BU_ID` )
+    REFERENCES `SW_BU` (`BU_ID` );
+    
+ALTER  TABLE `SW_BU_DEPT` CONSTRAINT `fk_SW_BU_has_SW_DEPT_SW_DEPT1`
+    FOREIGN KEY (`DEPT_ID` )
+    REFERENCES `SW_DEPT` (`DEPT_ID` );
+
+-- -----------------------------------------------------
+-- Table `SW_SETID_BU`
+-- -----------------------------------------------------
+CREATE  TABLE IF NOT EXISTS `SW_SETID_BU` (
+  `SETID_ID` TINYINT(6) UNSIGNED ZEROFILL NOT NULL ,
+  `BU_ID` TINYINT(6) UNSIGNED ZEROFILL NOT NULL ,
+  PRIMARY KEY (`SETID_ID`, `BU_ID`) ,
+  INDEX `fk_SW_SETID_has_SW_BU_SW_BU1` (`BU_ID` ASC) ,
+  CONSTRAINT `fk_SW_SETID_has_SW_BU_SW_SETID1`
+    FOREIGN KEY (`SETID_ID` )
+    REFERENCES `SW_SETID` (`SETID_ID` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_SW_SETID_has_SW_BU_SW_BU1`
+    FOREIGN KEY (`BU_ID` )
+    REFERENCES `SW_BU` (`BU_ID` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `SW_TEAM_EMPLOYEES`
+-- -----------------------------------------------------
+CREATE  TABLE IF NOT EXISTS `SW_TEAM_EMPLOYEES` (
+  `TEAM_ID` TINYINT(6) UNSIGNED ZEROFILL NOT NULL ,
+  `EMPL_ID` TINYINT(6) UNSIGNED ZEROFILL NOT NULL ,
+  PRIMARY KEY (`TEAM_ID`, `EMPL_ID`) ,
+  INDEX `fk_SW_TEAM_has_SW_EMPLOYEES_SW_EMPLOYEES1` (`EMPL_ID` ASC) ,
+  CONSTRAINT `fk_SW_TEAM_has_SW_EMPLOYEES_SW_TEAM1`
+    FOREIGN KEY (`TEAM_ID` )
+    REFERENCES `SW_TEAM` (`TEAM_ID` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_SW_TEAM_has_SW_EMPLOYEES_SW_EMPLOYEES1`
+    FOREIGN KEY (`EMPL_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `SW_ROLE`
+-- -----------------------------------------------------
+CREATE  TABLE IF NOT EXISTS `SW_ROLE` (
+  `ROLE_ID` TINYINT(3) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT ,
+  `NAME` VARCHAR(100) NULL ,
+  `DESCRIPTION` VARCHAR(100) NULL ,
+  PRIMARY KEY (`ROLE_ID`) )
+ENGINE = MyISAM
+COMMENT = 'Table des devises ISO3';
+
+
+-- -----------------------------------------------------
+-- Table `SW_USER_ROLE`
+-- -----------------------------------------------------
+CREATE  TABLE IF NOT EXISTS `SW_USER_ROLE` (
+  `USER_ROLE_ID` TINYINT(3) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT ,
+  `NAME` VARCHAR(100) NULL ,
+  `DESCRIPTION` VARCHAR(100) NULL ,
+  `ROLE_ID` TINYINT(3) UNSIGNED ZEROFILL NOT NULL ,
+  `EMPL_ID` TINYINT(6) UNSIGNED ZEROFILL NOT NULL ,
+  `BU_ID` TINYINT(6) UNSIGNED ZEROFILL NULL ,
+  PRIMARY KEY (`USER_ROLE_ID`) ,
+  INDEX `fk_SW_USER_ROLE_SW_ROLE1` (`ROLE_ID` ASC) ,
+  INDEX `fk_SW_USER_ROLE_SW_EMPLOYEES1` (`EMPL_ID` ASC) ,
+  INDEX `fk_SW_USER_ROLE_SW_BU1` (`BU_ID` ASC) ,
+  CONSTRAINT `fk_SW_USER_ROLE_SW_ROLE1`
+    FOREIGN KEY (`ROLE_ID` )
+    REFERENCES `SW_ROLE` (`ROLE_ID` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_SW_USER_ROLE_SW_EMPLOYEES1`
+    FOREIGN KEY (`EMPL_ID` )
+    REFERENCES `SW_EMPLOYEES` (`EMPL_ID` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_SW_USER_ROLE_SW_BU1`
+    FOREIGN KEY (`BU_ID` )
+    REFERENCES `SW_BU` (`BU_ID` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = MyISAM
+COMMENT = 'Table des devises ISO3';
+
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

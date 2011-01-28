@@ -1,0 +1,11 @@
+package com.assaasoociates.syraway.controller;
+
+import com.assaassociates.syraway.model.Oprid;
+
+public interface ITaskController {
+
+	public void addTask(Oprid oOprid);
+	public void updateTask(Task oTask);
+	public Task getTask(String pTaskId); 
+	
+}

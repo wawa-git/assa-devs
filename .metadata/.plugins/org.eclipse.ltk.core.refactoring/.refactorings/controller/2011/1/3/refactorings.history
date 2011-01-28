@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;result&apos; in &apos;com.assaasoociates.syraway.controller.UserRoleControllerImpl.getAllUserRoles()&apos; to &apos;oResult&apos;&#x0A;- Original project: &apos;controller&apos;&#x0A;- Original element: &apos;com.assaasoociates.syraway.controller.UserRoleControllerImpl.getAllUserRoles().result&apos;&#x0A;- Renamed element: &apos;result&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;result&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;com.assaasoociates.syraway.controller{UserRoleControllerImpl.java[UserRoleControllerImpl~getAllUserRoles@result!1144!1193!1159!1164!QList\&lt;QUserRole;&gt;;" name="oResult" references="true" stamp="1295222441323" version="1.0"/>
+</session>

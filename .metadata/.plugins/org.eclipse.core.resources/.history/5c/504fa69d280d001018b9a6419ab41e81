@@ -1,0 +1,133 @@
+package com.assaassociates.syraway.exts.mbeans;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.jsf.FacesContextUtils;
+import com.assaasoociates.syraway.controller.IBusinessUnitController;
+import com.assaassociates.syraway.model.BusinessUnit;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.BusinessUnitPc;
+
+@ManagedBean(name="businessUnit")
+public class BusinessUnitServiceImpl implements IBusinessUnitService {
+
+private static final long serialVersionUID = 6726658729223350876L;
+	
+
+	private IBusinessUnitController oBusinessUnitController;
+	
+	private BusinessUnit oBusinessUnit;
+	
+	private String buExId;
+	private String buPcId;
+
+	private String strTestAjax = "init value";
+	//private ICollaboratorDAO oCollaboratorDAO;
+	//private List<Collaborator> oCollaboratorList;
+	private List<BusinessUnit> oBusinessUnitList;
+	
+	public BusinessUnitServiceImpl(){
+		super(); 
+		ApplicationContext appContext = FacesContextUtils.getWebApplicationContext(FacesContext.getCurrentInstance());
+		this.oBusinessUnitController = appContext.getBean("buController", IBusinessUnitController.class);
+//		this.oCollaboratorDAO = appContext.getBean("CollaboratorDAO", ICollaboratorDAO.class);
+		this.oBusinessUnitList = new ArrayList<BusinessUnit>();
+	}
+	
+	public IBusinessUnitController getBusinessUnitController() {
+		return oBusinessUnitController;
+	}
+
+	public void setBusinessUnitController(IBusinessUnitController oBuController) {
+		this.oBusinessUnitController = oBuController;
+	}
+
+	public BusinessUnit getBusinessUnit() {
+		return oBusinessUnit;
+	}
+
+	public void setBusinessUnit(BusinessUnit oBusinessUnit) {
+		this.oBusinessUnit = oBusinessUnit;
+	}
+
+	public void addBusinessUnit(){
+		if(this.oBusinessUnitController != null){
+			this.oBusinessUnitController.addBusinessUnit(buExId, buPcId);
+		}
+	}
+	
+//	public void listCollaboratorsListener(AjaxBehaviorEvent event){
+//		strTestAjax = "Getting collaborator list ...";
+//		oCollaboratorList = oCollaboratorDAO.getAllCollaborators();
+//		strTestAjax = "Collaborator list has : " + oCollaboratorList.size();
+//	}
+	
+	public void listBusinessUnitListener(AjaxBehaviorEvent event){
+		strTestAjax = "Getting Business Unit list ...";
+		oBusinessUnitList = oBusinessUnitController.getAllBu();
+		strTestAjax = "Business Unit list has : " + oBusinessUnitList.size();
+	}
+	
+	public List<BusinessUnitPc> getAllBuPc(){
+		List<BusinessUnitPc> result = new ArrayList<BusinessUnitPc>();
+		return result;
+	}
+	
+	public List<BusinessUnitEx> getAllBuEx(){
+		List<BusinessUnitEx> result = new ArrayList<BusinessUnitEx>();
+		return result;
+	}
+
+	public String getTestAjax() {
+		return strTestAjax;
+	}
+
+	public void setTestAjax(String strTestAjax) {
+		this.strTestAjax  = strTestAjax;
+	}
+
+//	public ICollaboratorDAO getCollaboratorDAO() {
+//		return oCollaboratorDAO;
+//	}
+//
+//	public void setCollaboratorDAO(ICollaboratorDAO pCollaboratorDAO) {
+//		this.oCollaboratorDAO = pCollaboratorDAO;
+//	}
+//
+//	public List<Collaborator> getCollaboratorList() {
+//		return oCollaboratorList;
+//	}
+//
+//	public void setCollaboratorList(List<Collaborator> oCollaboratorList) {
+//		this.oCollaboratorList = oCollaboratorList;
+//	}
+
+	public List<BusinessUnit> getBusinessUnitList() {
+		return oBusinessUnitList;
+	}
+
+	public void setBusinessUnitList(List<BusinessUnit> pBusinessUnitList) {
+		this.oBusinessUnitList = pBusinessUnitList;
+	}
+
+	public String getBuExId() {
+		return buExId;
+	}
+
+	public void setBuExId(String buExId) {
+		this.buExId = buExId;
+	}
+
+	public String getBuPcId() {
+		return buPcId;
+	}
+
+	public void setBuPcId(String pBuPcId) {
+		this.buPcId = pBuPcId;
+	}
+	
+}

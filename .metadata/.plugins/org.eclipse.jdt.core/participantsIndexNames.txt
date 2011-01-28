@@ -1,8 +1,8 @@
 INDEX VERSION 1.126
-/home/waheb/devs/workspace.git/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1962399336.index
-/syraway
 /home/waheb/devs/workspace.git/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2669143190.index
 /exts
+/home/waheb/devs/workspace.git/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1962399336.index
+/syraway
 /home/waheb/devs/workspace.git/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/259729269.index
 /exts
 /home/waheb/devs/workspace.git/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/363618483.index

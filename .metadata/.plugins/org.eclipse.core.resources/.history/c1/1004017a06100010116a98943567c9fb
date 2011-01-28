@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>syraway</artifactId>
+		<groupId>com.assaasoociates.syraway</groupId>
+		<version>0.0.1</version>
+	</parent>
+	<groupId>com.assaasoociates.syraway</groupId>
+	<artifactId>exts</artifactId>
+	<version>0.0.1</version>
+	<packaging>war</packaging>
+	<name>exts Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<richfaces.version>3.3.3.Final</richfaces.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.assaasoociates.syraway</groupId>
+			<artifactId>persistence</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.assaasoociates.syraway</groupId>
+			<artifactId>controller</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>6.0</version>
+			<scope>provided</scope>
+		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.richfaces.ui</groupId>-->
+<!--			<artifactId>richfaces-ui</artifactId>-->
+<!--			<version>${richfaces.version}</version>-->
+<!--		</dependency>-->
+<!---->
+<!--		<dependency>-->
+<!--			<groupId>org.richfaces.framework</groupId>-->
+<!--			<artifactId>richfaces-api</artifactId>-->
+<!--			<version>${richfaces.version}</version>-->
+<!--		</dependency>-->
+
+		<!-- <dependency> -->
+		<!-- <groupId>org.richfaces.framework</groupId> -->
+		<!-- <artifactId>richfaces-impl</artifactId> -->
+		<!-- <version>${richfaces.version}</version> -->
+		<!-- </dependency> -->
+<!--		<dependency>-->
+<!--			<groupId>org.richfaces.framework</groupId>-->
+<!--			<artifactId>richfaces-impl-jsf2</artifactId>-->
+<!--			<version>3.3.3.Final</version>-->
+<!--		</dependency>-->
+		<!-- <dependency> -->
+		<!-- <groupId>com.uwyn</groupId> -->
+		<!-- <artifactId>jhighlight</artifactId> -->
+		<!-- <version>1.0</version> -->
+		<!-- </dependency> -->
+<!--		<dependency>-->
+<!--			<groupId>org.richfaces.samples</groupId>-->
+<!--			<artifactId>laguna</artifactId>-->
+<!--			<version>${richfaces.version}</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.richfaces.samples</groupId>-->
+<!--			<artifactId>glassX</artifactId>-->
+<!--			<version>${richfaces.version}</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.richfaces.samples</groupId>-->
+<!--			<artifactId>darkX</artifactId>-->
+<!--			<version>${richfaces.version}</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.richfaces.samples</groupId>-->
+<!--			<artifactId>themes</artifactId>-->
+<!--			<version>${richfaces.version}</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.richfaces.samples</groupId>-->
+<!--			<artifactId>violetRays</artifactId>-->
+<!--			<version>${richfaces.version}</version>-->
+<!--		</dependency>-->
+
+	<dependency>
+      <groupId>javax.faces</groupId>
+      <artifactId>jsf-api</artifactId>
+      <version>2.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+
+	</dependencies>
+	<repositories>
+		<repository>
+			<id>JBoss Repo</id>
+			<url>https://repository.jboss.org/nexus/content/groups/public</url>
+		</repository>
+	</repositories>
+	<build>
+		<finalName>exts</finalName>
+	</build>
+
+</project>

@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.assaassociates.syraway.dao;
+
+import java.util.List;
+import com.assaassociates.syraway.model.Oprid;
+import com.assaassociates.syraway.model.Task;
+
+/**
+ * @author waheb
+ *
+ */
+public interface ITaskDAO {
+	public Task getTaskById(String pTaskId);
+	public List<Task> getTaskOfProject(String pProjectId);
+	public List<Task> getTaskOfEmployee(String pEmployeeId);
+	public void addTask(Task pTask);
+	public void updateTask(Task pTask);
+	public void removeTask(Task pTask);
+	public void removeTask(String pTaskId);
+}

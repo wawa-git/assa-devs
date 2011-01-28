@@ -1,0 +1,3 @@
+# robots.txt generated for watchmyperf.appspot.com
+User-agent: *
+Disallow: /

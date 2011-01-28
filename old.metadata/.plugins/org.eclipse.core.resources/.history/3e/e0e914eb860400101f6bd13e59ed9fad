@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich">
+
+<ui:composition template="./template/template.xhtml">
+
+	<ui:define name="body">
+
+		<f:view>
+
+			<a4j:form>
+				<rich:panel>
+					<f:facet name="header">
+						<h:outputText value="Add Collaborator" />
+					</f:facet>
+					<h:panelGrid columns="3" title="Collaborator" rowClasses="s1row"
+						columnClasses="wfcol1,wfcol2,wfcol3">
+						<h:outputText value="First Name : " />
+						<h:inputText value="#{collaborator.firstName}" id="firstName"
+							required="true">
+							<f:validateLongRange minimum="0" maximum="20" />
+						</h:inputText>
+						<rich:message for="firstName" />
+
+						<h:outputText value="Last Name : " />
+						<h:inputText value="#{collaborator.lastName}" id="lastName"
+							required="true">
+							<f:validateLongRange minimum="0" maximum="20" />
+						</h:inputText>
+						<rich:message for="lastName" />
+
+						<f:facet name="footer">
+							<a4j:commandButton action="#{collaborator.addCollaborator}"
+								value="save" />
+						</f:facet>
+					</h:panelGrid>
+				</rich:panel>
+
+			</a4j:form>
+
+		</f:view>
+
+	</ui:define>
+</ui:composition>
+
+</html>

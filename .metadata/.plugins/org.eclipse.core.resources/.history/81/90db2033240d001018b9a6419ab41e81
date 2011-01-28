@@ -1,0 +1,11 @@
+package com.assaasoociates.syraway.controller;
+
+import java.util.List;
+import com.assaassociates.syraway.model.BusinessUnitPc;
+
+public interface IBusinessUnitPcController {
+
+	public void addBusinessUnitPc();
+	
+	public List<BusinessUnitPc> getAllBuPc();
+}

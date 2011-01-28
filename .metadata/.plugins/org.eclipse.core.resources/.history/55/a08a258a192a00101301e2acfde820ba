@@ -1,0 +1,15 @@
+package com.assaasoociates.syraway.controller;
+
+import java.util.List;
+
+import com.assaassociates.syraway.model.Page;
+
+public interface IPageController {
+
+	public void addPage(Page oPage);
+	public void updatePage(Page oPage);
+	public Page getPage(Integer pPageId);
+	public Page getPageFromName(String pPageName);
+	public List<Page> getAllPages();
+	public List<Page> getAllVisibleMenus();
+}

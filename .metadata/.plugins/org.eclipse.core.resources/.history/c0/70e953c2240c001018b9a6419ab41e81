@@ -1,0 +1,63 @@
+/**
+ * 
+ */
+package com.assaasoociates.syraway.controller;
+
+import javax.faces.context.FacesContext;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.stereotype.Component;
+import org.springframework.web.jsf.FacesContextUtils;
+
+import com.assaassociates.syraway.dao.IBusinessUnitDAO;
+import com.assaassociates.syraway.model.BusinessUnit;
+import com.assaassociates.syraway.model.BusinessUnitEx;
+import com.assaassociates.syraway.model.BusinessUnitPc;
+
+/**
+ * @author waheb
+ *
+ */
+
+@Component
+public class BusinessUnitControllerImpl implements IBusinessUnitController {
+
+	@Autowired
+	private IBusinessUnitDAO businessUnitDAO;
+	
+	public void addBusinessUnit(String pBuExId, String pBuPcId) {
+		
+		BusinessUnit oBu = new BusinessUnit();
+		
+		if(getBuEx(pBuExId) != null){
+			
+		}
+		if(getBuPc(pBuPcId) != null){
+			
+		}
+		
+	}
+
+	private BusinessUnitPc getBuPc(String pBuPcId){
+		if(pBuPcId != null){
+			
+		}
+		return null;
+	}
+	
+	private BusinessUnitEx getBuEx(String pBuExId){
+		if(pBuExId != null){
+			
+		}
+		return null;
+	}
+
+	public IBusinessUnitDAO getBusinessUnitDAO() {
+		return businessUnitDAO;
+	}
+
+	public void setBusinessUnitDAO(IBusinessUnitDAO pBusinessUnitDAO) {
+		businessUnitDAO = pBusinessUnitDAO;
+	}
+}
